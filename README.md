@@ -23,3 +23,9 @@ solution, you check here first.
 ```bash
 python3 scripts/build_index.py
 ```
+
+## The `ai-uptodate` skill
+A Claude skill that searches this catalog (and live Slack/Sana) to answer "is there already an AI solution for X?".
+Regenerated on every sync by `scripts/build_skill.py`:
+- `dist/ai-uptodate.skill`: upload in claude.ai → Customize → Skills (personal use)
+- `plugin/ai-uptodate/`: plugin folder that can be published to the Superside org library
