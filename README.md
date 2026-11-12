@@ -4,7 +4,7 @@ A searchable catalog of what the whole company has made with AI — so when you 
 solution, you check here first.
 
 - **[CATALOG.md](CATALOG.md)** — every item by type, newest first, plus a "find by problem" tag index
-- **[sources/](sources/)** — per-channel / per-meeting digests with context, install notes, known issues, open asks
+- **[sources/](sources/)** — per-channel / per-meeting / Sana digests with context, install notes, known issues, open asks
 - **[data/](data/)** — structured JSON (one file per source; `catalog.json` is the merged view)
 - **[sources.json](sources.json)** — tracked sources and sync checkpoints
 - **[CHANGELOG.md](CHANGELOG.md)** — what each sync added
@@ -17,7 +17,7 @@ solution, you check here first.
 | #motion_dna_mcp_testing | Slack `C0CAJ42DDS8` |
 | #make-it-awesome | Slack `C0CGDPJA0S3` |
 | AI Briefly (weekly meeting) | Calendar / Drive / Slack announcements |
-| Sana Learn | _pending — no connector yet_ |
+| Sana Learn | AI courses + AI Briefly recordings (Sana connector) |
 
 ## Rebuild the catalog
 ```bash

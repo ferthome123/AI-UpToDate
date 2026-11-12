@@ -17,7 +17,9 @@ Sources and the last synced message ts per channel live in `sources.json`.
 2. Add/merge items in that source's `data/*.json` following `data/SCHEMA.md`
    (one item per tool; updates bump `updated`, they don't create duplicates).
 3. Append new entries to the digest in `sources/` and update its "newest ts" header.
-4. AI Briefly: check Calendar/Drive/Slack for the latest session's notes and add to `sources/meetings/ai-briefly.md`.
+4. AI Briefly: find the newest numbered "<N> / AI, Briefly - ..." course in Sana (search_courses), read it, and add to
+   `sources/meetings/ai-briefly.md` + `data/meetings-ai-briefly.json`. Slack/Calendar are fallbacks.
+4b. Sana: search for AI-related courses updated since `sana.last_sync`; add to `data/sana-courses.json` / `sources/sana/courses.md`.
 5. Update `last_ts` in `sources.json`, run `python3 scripts/build_index.py`, add a line to `CHANGELOG.md`, commit, push.
 
-Never post to Slack or edit other people's docs from a sync. No tokens/secrets in the repo.
+Never post to Slack, edit other people's docs, or use any Sana write tool (create/edit/update/delete) from a sync. No tokens/secrets in the repo.

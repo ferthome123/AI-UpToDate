@@ -35,13 +35,15 @@
       "name": "AI Briefly (weekly)",
       "data": "data/meetings-ai-briefly.json",
       "digest": "sources/meetings/ai-briefly.md",
-      "where": "Announced in #tribe-generative-ai; notes/recordings via Google Calendar + Drive"
+      "where": "Sana 'AI, Briefly' recordings (numbered courses) + #tribe-generative-ai announcements + Calendar"
     }
   ],
-  "pending_sources": [
-    {
-      "name": "Sana Learn (superside.sana.ai)",
-      "status": "no connector available \u2014 needs export or an API/MCP connection"
-    }
-  ]
+  "sana": {
+    "name": "Sana Learn (superside.sana.ai)",
+    "via": "Sana MCP connector (read-only use)",
+    "data": "data/sana-courses.json",
+    "digest": "sources/sana/courses.md",
+    "sync": "search_courses for new 'AI, Briefly' numbers and AI-related courses updated since last_sync",
+    "last_sync": "2026-11-12"
+  }
 }
