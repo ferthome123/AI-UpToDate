@@ -1,0 +1,3683 @@
+[
+  {
+    "id": "cylinder-packaging-wrap-artifact",
+    "name": "Cylindrical packaging shape-wrap artifact",
+    "type": "artifact",
+    "summary": "Claude artifact that wraps shapes/graphics correctly around cylindrical packaging with accurate perspective (built after the Q shapes on a pack kept looking wrong).",
+    "how_to_use": "Open the artifact link (Superside Claude team access may be required).",
+    "owners": [
+      "Emmanuel Cantón"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "packaging",
+      "mockup",
+      "cylinder",
+      "perspective",
+      "label wrap"
+    ],
+    "status": "shipped",
+    "date": "2026-11-06",
+    "updated": null,
+    "links": [
+      {
+        "label": "Artifact",
+        "url": "https://claude.ai/artifact/6Xxo9UnjLJgWixBxZpLoiL?sk=ZeIYpEPKe0zXhbtg8g6HZQ"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1793973678115459"
+    }
+  },
+  {
+    "id": "creative-superskills-plugin",
+    "name": "Creative Superskills (Claude plugin)",
+    "type": "plugin",
+    "summary": "Claude plugin from Product/Creative Factories with First Draft (brief to 3 on-brand Figma proposals), AdGen (finished static ads from an approved concept), Ad Resizer (rebuilds a master ad per platform spec, no stretching), Transcreation (localize ads/storyboards in Figma) and deck builders (Figma Slides, Google Slides, PowerPoint).",
+    "how_to_use": "Claude > Customize > Plugins > Browse > 'Your organisation' tab > Creative Superskills > Install. Feedback via Notion form. Enablement sessions Wed 18 Nov (EMEA) and Wed 25 Nov (LATAM).",
+    "owners": [
+      "Júlio Aymoré"
+    ],
+    "teams": [
+      "Creative",
+      "Product"
+    ],
+    "tools": [
+      "Claude",
+      "Figma",
+      "Figma Slides",
+      "Google Slides",
+      "PowerPoint"
+    ],
+    "tags": [
+      "resizing",
+      "ad resizes",
+      "first draft",
+      "static ads",
+      "transcreation",
+      "localization",
+      "decks",
+      "presentations",
+      "brief to concepts"
+    ],
+    "status": "shipped",
+    "date": "2026-11-04",
+    "updated": "2026-11-11",
+    "links": [
+      {
+        "label": "Install (plugin)",
+        "url": "https://claude.ai/customize/plugins/id/plugin_01QGxLBftbcLLmVCmFWsZnjk"
+      },
+      {
+        "label": "Feedback form (Notion)",
+        "url": "https://app.notion.com/p/fd431b6a118c44aa8c1c4c053d43d351?pvs=106"
+      },
+      {
+        "label": "Earlier superskill-ad-resizer post (2026-10-20)",
+        "url": "https://konsus.slack.com/archives/C04CC8FSDHP/p1792489215398309"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1793812221821989"
+    }
+  },
+  {
+    "id": "loopy-labs",
+    "name": "Loopy Labs (Figma loop-animation templates)",
+    "type": "workflow",
+    "summary": "Quest team's motion playground: a library of ready-to-animate loop templates powered by Claude Skills that turns a static design into an on-brand motion ad inside Figma; loops stay fully editable.",
+    "how_to_use": "Duplicate the Figma file, start with the 'Step by step: READ FIRST!!' page, pick a template, drop in copy and assets, hit play.",
+    "owners": [
+      "Bianca Beltran",
+      "Elena Castillo"
+    ],
+    "teams": [
+      "Creative",
+      "Motion"
+    ],
+    "tools": [
+      "Claude",
+      "Figma"
+    ],
+    "tags": [
+      "motion ads",
+      "loops",
+      "animation templates",
+      "static to motion",
+      "social"
+    ],
+    "status": "beta",
+    "date": "2026-11-02",
+    "updated": null,
+    "links": [
+      {
+        "label": "Figma file",
+        "url": "https://www.figma.com/design/AthoBjwtdOwSXYQ26BDjPS/EXT---LOOPY-LAB---By-Bian---Ele--Copy-?node-id=722-2692&t=40GFq7KlQxtSoSgr-1"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1793637976612649"
+    }
+  },
+  {
+    "id": "fancy-board",
+    "name": "Fancy Board (PM/AM task board artifact)",
+    "type": "dashboard",
+    "summary": "Claude artifact board for Project/Account Managers that keeps tasks organized and automates the calendar so deadlines and priorities are clear without manual updates; works best for accounts with dedicated team members. Felicia also has a skill to build your own board.",
+    "how_to_use": "Open the link and request viewer access (Felicia Meyer admits you). DM Felicia for the build-your-own skill.",
+    "owners": [
+      "Felicia Meyer",
+      "Pablo Canda"
+    ],
+    "teams": [
+      "PM",
+      "AM"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "task tracking",
+      "deadlines",
+      "calendar",
+      "project management",
+      "dedicated team",
+      "priorities"
+    ],
+    "status": "beta",
+    "date": "2026-11-02",
+    "updated": null,
+    "links": [
+      {
+        "label": "Artifact",
+        "url": "https://claude.ai/artifact/SZ1xZwht97iDbyiR2B43YU?sk=wmHx_ooGiPtlt6_3Q3NUXA"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1793637976612649"
+    }
+  },
+  {
+    "id": "reddit-account-no-claude",
+    "name": "Client restriction: Reddit work must not use Claude",
+    "type": "guide",
+    "summary": "Reddit (a client with a lawsuit against Anthropic) forbids Claude on its work; ChatGPT/Codex are allowed. Skills are portable (SKILL.md / AGENTS.md); for 300+ motion assets build a generator (templates + CSV + render script, e.g. Remotion) with Codex.",
+    "how_to_use": "Use Codex/ChatGPT; ask Axel Torres or Bianca Beltran for the model-agnostic approach.",
+    "owners": [
+      "Maria Rojas",
+      "Bianca Beltran",
+      "Axel Torres"
+    ],
+    "teams": [
+      "Creative",
+      "Motion",
+      "AM"
+    ],
+    "tools": [
+      "Codex",
+      "ChatGPT",
+      "Remotion"
+    ],
+    "tags": [
+      "client restriction",
+      "no claude",
+      "codex",
+      "motion at scale",
+      "policy"
+    ],
+    "status": "shipped",
+    "date": "2026-10-29",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1793298234102329"
+    }
+  },
+  {
+    "id": "clio-brand-models-and-report-skill",
+    "name": "Clio: rebrand brand models + research-report Claude skill",
+    "type": "workflow",
+    "summary": "Sky BU's Clio team retrained 4 more custom image models (10 total) in the Superside Brand Models Figma plugin for the new 'World of Law' art direction (~50% less time), and put Claude end-to-end into big research reports (drafts, revisions, self-QC, hyperlinking, type/kerning/page numbers) via a reusable skill holding Clio's InDesign best practices (~20 h saved per revision cycle, 60% less budget, 3-day turnaround).",
+    "how_to_use": "Ask the Clio team (Natasha Prinsloo, Bernardo Abreu, Vivianna Ramirez) for the report skill/process.",
+    "owners": [
+      "Natasha Prinsloo",
+      "Bernardo Abreu",
+      "Vivianna Ramirez",
+      "Carmen Zita",
+      "Naza Antuña"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Superside Brand Models",
+      "Figma",
+      "InDesign"
+    ],
+    "tags": [
+      "brand models",
+      "research reports",
+      "indesign",
+      "long-form documents",
+      "rebrand",
+      "case study"
+    ],
+    "status": "shipped",
+    "date": "2026-10-27",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1793106752047579"
+    }
+  },
+  {
+    "id": "motion-mcp-live-animation-workflow",
+    "name": "Claude MCP live animation workflow (Lottie)",
+    "type": "workflow",
+    "summary": "Axel Torres' model-agnostic MCP workflow where Claude builds on-brand, Lottie-compatible animations live (~12 min to a working draft, minor tweaks after). Plans to build a tool around it, focusing on Cavalry for the Superside x Canva partnership.",
+    "how_to_use": "Reach out to Axel Torres; the agent follows explicit instructions so any MCP-capable model works.",
+    "owners": [
+      "Axel Torres"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "Claude",
+      "MCP",
+      "Lottie",
+      "Cavalry"
+    ],
+    "tags": [
+      "motion",
+      "lottie",
+      "animation automation",
+      "mcp",
+      "canva"
+    ],
+    "status": "wip",
+    "date": "2026-10-26",
+    "updated": "2026-10-29",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1793045707745009"
+    }
+  },
+  {
+    "id": "motion-maxxing",
+    "name": "MotionMaxxing (Claude skill + After Effects plugin)",
+    "type": "plugin",
+    "summary": "Skill + plugin that lets Claude build motion directly in After Effects, merging two AE MCPs and baking in a creative process: references, Figma storyboard first, voice/music/SFX, 3D objects, then the build in your timeline to review and render. Used for a Monday.com rebrand pitch animation.",
+    "how_to_use": "Download the PDF + zip from the post (Windows installer in thread); shout to Igor for setup help.",
+    "owners": [
+      "Igor Nascimento"
+    ],
+    "teams": [
+      "Motion",
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "After Effects",
+      "MCP",
+      "Figma"
+    ],
+    "tags": [
+      "motion",
+      "after effects",
+      "animation",
+      "storyboard",
+      "sfx",
+      "voiceover"
+    ],
+    "status": "beta",
+    "date": "2026-10-26",
+    "updated": "2026-11-04",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1793042797262759"
+    }
+  },
+  {
+    "id": "motion-shelf",
+    "name": "Motion Shelf (looping showcase video artifact)",
+    "type": "artifact",
+    "summary": "Jitter-like Claude artifact to present stills or video clips in motion: 47 templates (carousels, spotlight, bentos, walls, depth, mockups), easing/timing/layout controls, backgrounds, headlines, all formats at once (1:1, 4:5, 9:16, 16:9), 2x/4K, transparent PNG frames, batch export to seamless-loop MP4.",
+    "how_to_use": "Open the artifact (limited to the 'Claude Superside - 2' team account). If export fails, make a copy of the artifact and export from the copy.",
+    "owners": [
+      "Javier Lopez"
+    ],
+    "teams": [
+      "Creative",
+      "Motion"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "client presentation",
+      "showreel",
+      "mockups",
+      "loop video",
+      "carousel",
+      "jitter alternative",
+      "social"
+    ],
+    "status": "shipped",
+    "date": "2026-10-26",
+    "updated": "2026-11-09",
+    "links": [
+      {
+        "label": "Artifact",
+        "url": "https://claude.ai/artifact/BUaatt1eVV6vpuXW21fiqM?sk=_X3Qko38OSniZgzsrA99MQ#carousel-01"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1793009489426069"
+    }
+  },
+  {
+    "id": "quest-account-automation-case-study",
+    "name": "Quest account automation case study (deck)",
+    "type": "guide",
+    "summary": "Case study of how the Quest account team automated repetitive work (image management/tracking, templates and day-to-day assets, tracking 200+ projects) with Claude skills and artifacts; client quote: 'I love it so much I wanna cry'.",
+    "how_to_use": "Read the deck; contact Elena Castillo or Bianca Beltran to adapt ideas to your account.",
+    "owners": [
+      "Igor Nascimento",
+      "Elena Castillo",
+      "Bianca Beltran",
+      "Felicia Meyer",
+      "Pablo Canda"
+    ],
+    "teams": [
+      "Creative",
+      "PM",
+      "AM"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "case study",
+      "account automation",
+      "asset tracking",
+      "templates",
+      "quest"
+    ],
+    "status": "shipped",
+    "date": "2026-10-23",
+    "updated": null,
+    "links": [
+      {
+        "label": "Deck",
+        "url": "https://docs.google.com/presentation/d/1MlQPv8w_JI0jaCn4f8HRcop7_O6Pe1tk9cxvZ0c2kks/edit?usp=sharing"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1792770625693439"
+    }
+  },
+  {
+    "id": "marketing-creative-automations",
+    "name": "Superside marketing creative automations (headshots, blog headers, Connect & Dinners app)",
+    "type": "workflow",
+    "summary": "Superside's in-house marketing creative team automated recurring work: a Figma brand model that removes backgrounds, applies pine-green and upscales staff headshots (88% less time), an SEO blog header Claude skill connected to Krea (72% less), and a Claude-built self-serve app for Connect & Dinners event assets (pick colours/photos, change city/date once, export 1x/2x; 95% less time).",
+    "how_to_use": "Contact Iliada Karamintziou, Manuel Bueno or Andrea Paz y Miño.",
+    "owners": [
+      "Iliada Karamintziou",
+      "Manuel Bueno",
+      "Andrea Paz y Miño"
+    ],
+    "teams": [
+      "Marketing",
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Superside Brand Models",
+      "Figma",
+      "Krea",
+      "Canva"
+    ],
+    "tags": [
+      "headshots",
+      "blog headers",
+      "event assets",
+      "self-serve",
+      "marketing",
+      "template app"
+    ],
+    "status": "shipped",
+    "date": "2026-10-22",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1792659745611979"
+    }
+  },
+  {
+    "id": "folio-mac-app",
+    "name": "Folio (local infinite-canvas Mac app)",
+    "type": "tool",
+    "summary": "Mac app built by Craig Wright that collects images, videos, notes and prompts on an infinite canvas; copy links/media straight into Claude chats. Local-only, no account. Looking for testers.",
+    "how_to_use": "Ask Craig Wright for the build.",
+    "owners": [
+      "Craig Wright"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "moodboard",
+      "references",
+      "prompt library",
+      "canvas"
+    ],
+    "status": "beta",
+    "date": "2026-10-20",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1792500099625389"
+    }
+  },
+  {
+    "id": "motion-dna",
+    "name": "Motion DNA (After Effects plugin via MCP)",
+    "type": "mcp",
+    "summary": "AE plugin connected to Claude through MCP: brand motion profiles so projects follow brand rules, import Figma storyboards and animate them in the AE timeline with a predefined style, plus agent help (sound, brand-alignment checks, colour correction, transitions, easing).",
+    "how_to_use": "DM Gian Orsi for the beta; testing channel #motion_dna_mcp_testing. AI Briefly demo 2026-10-28 (recording on Sana).",
+    "owners": [
+      "Gian Orsi",
+      "Aaron Amortegui"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "Claude",
+      "MCP",
+      "After Effects",
+      "Figma"
+    ],
+    "tags": [
+      "motion",
+      "after effects",
+      "brand motion profile",
+      "storyboard to animation",
+      "easing"
+    ],
+    "status": "beta",
+    "date": "2026-10-19",
+    "updated": "2026-10-28",
+    "links": [
+      {
+        "label": "AI Briefly recording (Sana)",
+        "url": "https://superside.sana.ai/create/s/VqQ8rhDqnuN7/file%3As4Pf6GhpH3qw"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1792421092535119"
+    }
+  },
+  {
+    "id": "claude-threejs-motion-film",
+    "name": "56-second motion film made entirely in Claude",
+    "type": "experiment",
+    "summary": "Júlio Aymoré's experiment: moodboard to 24-frame Figma storyboard via Figma MCP, VO + music via Krea MCP, then Claude wrote a WebGL/three.js engine and rendered the film frame-by-frame to 1080p MP4; no After Effects/C4D.",
+    "how_to_use": null,
+    "owners": [
+      "Júlio Aymoré"
+    ],
+    "teams": [
+      "Motion",
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Figma MCP",
+      "Krea MCP",
+      "three.js"
+    ],
+    "tags": [
+      "motion film",
+      "storyboard",
+      "3d",
+      "voiceover",
+      "music"
+    ],
+    "status": "shipped",
+    "date": "2026-10-16",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1792167673535809"
+    }
+  },
+  {
+    "id": "seo-blog-header-skill",
+    "name": "SEO blog header Claude skill",
+    "type": "skill",
+    "summary": "Claude skill that reads the brief, blogs and creative direction for Superside's recurring SEO headers, generates on-brand drafts via Krea and resizes without quality loss. Image database + UI planned.",
+    "how_to_use": "Watch the Loom; ask Manuel Bueno for a walkthrough.",
+    "owners": [
+      "Manuel Bueno"
+    ],
+    "teams": [
+      "Marketing",
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Krea"
+    ],
+    "tags": [
+      "blog headers",
+      "seo",
+      "brief understanding",
+      "image generation",
+      "resizing"
+    ],
+    "status": "shipped",
+    "date": "2026-10-07",
+    "updated": "2026-10-22",
+    "links": [
+      {
+        "label": "Loom demo",
+        "url": "https://www.loom.com/share/74d4c7998d154100975afe6ba455f39f"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1791374147666789"
+    }
+  },
+  {
+    "id": "inpainting-system",
+    "name": "Inpainting System (QC fixes to Frame.io)",
+    "type": "automation",
+    "summary": "Scale Projects pilot: drop a QC sheet (Excel of comments) to run batch fixes on renders and push to Frame.io, or use Slack '/inpaint' + SKU + note for one-offs; before/after in thread, retoucher sign-off required. Works for apparel, labels, packaging by adjusting prompts/inputs.",
+    "how_to_use": "Pilot runs locally on Aaron's machine; contact Aaron Amortegui.",
+    "owners": [
+      "Aaron Amortegui"
+    ],
+    "teams": [
+      "Creative",
+      "AI Native Studio"
+    ],
+    "tools": [
+      "Slack",
+      "Frame.io"
+    ],
+    "tags": [
+      "qc fixes",
+      "retouching",
+      "inpainting",
+      "batch edits",
+      "frame.io",
+      "renders"
+    ],
+    "status": "beta",
+    "date": "2026-10-06",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1791304086877289"
+    }
+  },
+  {
+    "id": "ai-briefly-sessions",
+    "name": "AI Briefly (weekly AI session) recordings on Sana",
+    "type": "guide",
+    "summary": "Weekly Wednesday AI knowledge-sharing session (hosted/announced by Julia Calabrese; reminder posted 1 hour before). All recordings are collected on Sana. See the AI Briefly table in the digest for dates/topics/hosts.",
+    "how_to_use": "Join the weekly Meet link (currently meet.google.com/mph-eceb-oyg); browse recordings on Sana.",
+    "owners": [
+      "Julia Calabrese"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Sana"
+    ],
+    "tags": [
+      "ai briefly",
+      "training",
+      "recordings",
+      "knowledge sharing",
+      "weekly session"
+    ],
+    "status": "shipped",
+    "date": "2026-09-28",
+    "updated": "2026-11-11",
+    "links": [
+      {
+        "label": "Sana recordings library",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1790603307462249"
+    }
+  },
+  {
+    "id": "qwen-local-setup",
+    "name": "Qwen 2.1 local model setup",
+    "type": "experiment",
+    "summary": "Open-source setup to run Qwen 2.1 locally with sample use cases; zero credit costs.",
+    "how_to_use": "Install the shared app from the post.",
+    "owners": [
+      "Aaron Amortegui"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Qwen"
+    ],
+    "tags": [
+      "local models",
+      "open source",
+      "no credits"
+    ],
+    "status": "beta",
+    "date": "2026-09-25",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1790375290195669"
+    }
+  },
+  {
+    "id": "scaled-production-asset-pipelines",
+    "name": "Scaled Production automated asset pipelines (Lutron, PDP generation)",
+    "type": "automation",
+    "summary": "Scaled Production team's automated systems for on-brand product imagery at scale: won back churning client Lutron with 1,200+ assets in 3.5 weeks (scalable to 7K SKUs, auto templates with copy), Essilor Luxottica (~7.5K generations), and an Automated PDP Asset Generation Pipeline (20x faster, 3x cheaper per asset, guideline-consistent, reusable for retail).",
+    "how_to_use": "For new business/boosters, contact Nare Tarlamazyan or post in #s-brief-generative-ai-and-automation; scaled-production deck linked.",
+    "owners": [
+      "Nare Tarlamazyan",
+      "Aaron Amortegui",
+      "Miguel Marino",
+      "Laia Acuna",
+      "Icaro Barros",
+      "Vahram Tadevosyan",
+      "Gustavo Riobranco"
+    ],
+    "teams": [
+      "Creative",
+      "AI Native Studio"
+    ],
+    "tools": [
+      "Nano Banana",
+      "custom pipelines"
+    ],
+    "tags": [
+      "scale",
+      "sku",
+      "product imagery",
+      "pdp",
+      "ecommerce",
+      "retail",
+      "automation",
+      "case study"
+    ],
+    "status": "shipped",
+    "date": "2026-09-24",
+    "updated": "2026-10-07",
+    "links": [
+      {
+        "label": "Scaled production deck",
+        "url": "https://docs.google.com/presentation/d/11iDRH-2Y4W3yq68QVkTT258Vz8tACrEiEwXxrnRaaP8/edit?slide=id.g3e81e0e3297_0_7230#slide=id.g3e81e0e3297_0_7230"
+      },
+      {
+        "label": "PDP pipeline demo post",
+        "url": "https://konsus.slack.com/archives/C04CC8FSDHP/p1791395701462299"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1790271963003459"
+    }
+  },
+  {
+    "id": "superweavy-extension",
+    "name": "SuperWeavy Chrome extension (adopted)",
+    "type": "tool",
+    "summary": "Third-party Chrome extension tested and used by the team to speed up Figma Weave: resize/minimize/colour/bypass nodes, smooth drag/pan, math in numeric fields.",
+    "how_to_use": "Install from the Chrome Web Store.",
+    "owners": [
+      "Andres Mariño"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Figma Weave",
+      "Chrome"
+    ],
+    "tags": [
+      "weavy",
+      "productivity",
+      "node editor"
+    ],
+    "status": "shipped",
+    "date": "2026-09-18",
+    "updated": null,
+    "links": [
+      {
+        "label": "Chrome Web Store",
+        "url": "https://chromewebstore.google.com/detail/superweavy/kpljedajkobkinjeckgkmfdglpbkcpgl"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1789738379068569"
+    }
+  },
+  {
+    "id": "blender-blockout-to-seedance",
+    "name": "Claude + Blender blockouts as Seedance motion references",
+    "type": "experiment",
+    "summary": "Workflow using Claude + Blender (via Higgsfield's MCP bridge) to build 3D blockouts from natural language in ~30 min, then feeding the playblast to Seedance 2.5 for camera/blocking control.",
+    "how_to_use": null,
+    "owners": [
+      "Gian Orsi"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "Claude",
+      "Blender",
+      "Higgsfield MCP",
+      "Seedance"
+    ],
+    "tags": [
+      "camera control",
+      "3d blockout",
+      "video generation",
+      "previs"
+    ],
+    "status": "shipped",
+    "date": "2026-09-11",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1789144232767459"
+    }
+  },
+  {
+    "id": "figma-weave-company-access",
+    "name": "Figma Weave (Weavy) company access",
+    "type": "tool",
+    "summary": "Node-based AI workflow platform used company-wide (Weavy, acquired by Figma in Oct 2025). Credits are managed by Creative Ops; when Weave credits ran out (2026-09-09) people were pointed to Krea and Flora as alternatives until restored the same day. Early access to the Weave API was offered via Ross McKegney (2026-07).",
+    "how_to_use": "Ask Creative Ops for access/credit issues; Weave API early access via Ross McKegney.",
+    "owners": [
+      "Alejandra Mendoza",
+      "Ross McKegney"
+    ],
+    "teams": [
+      "Creative Ops",
+      "Creative"
+    ],
+    "tools": [
+      "Figma Weave",
+      "Krea",
+      "Flora"
+    ],
+    "tags": [
+      "node workflows",
+      "credits",
+      "image generation",
+      "video generation",
+      "tool access"
+    ],
+    "status": "shipped",
+    "date": "2026-09-09",
+    "updated": "2026-09-09",
+    "links": [
+      {
+        "label": "Credits restored post",
+        "url": "https://konsus.slack.com/archives/C04CC8FSDHP/p1788971633164419"
+      },
+      {
+        "label": "Weave API / Krea agent early access (2026-07-17)",
+        "url": "https://konsus.slack.com/archives/C04CC8FSDHP/p1784295951469369"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1788965395825289"
+    }
+  },
+  {
+    "id": "minimax-local-skill",
+    "name": "MiniMax H3 local video skill",
+    "type": "skill",
+    "summary": "Skill documenting how to run MiniMax H3 locally (and have Claude drive it) for character recasting in live-action scenes: segmentation vs full recreation, lip-sync pitfalls, frame limits, seed tips, GPU timings and renting options.",
+    "how_to_use": "Follow the install guide in the GitHub repo.",
+    "owners": [
+      "Aaron Amortegui"
+    ],
+    "teams": [
+      "Creative",
+      "Motion"
+    ],
+    "tools": [
+      "Claude",
+      "MiniMax"
+    ],
+    "tags": [
+      "video",
+      "character replacement",
+      "lip sync",
+      "local gpu"
+    ],
+    "status": "beta",
+    "date": "2026-09-04",
+    "updated": null,
+    "links": [
+      {
+        "label": "Repo",
+        "url": "https://github.com/aaronamortegui-glitch/minimax_skill"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1788541722052449"
+    }
+  },
+  {
+    "id": "concept-ai-case-studies",
+    "name": "Concept AI case studies ('Harrier' & 'Wren')",
+    "type": "guide",
+    "summary": "Sky/Horizon built showcase AI workflows/campaigns for two fictional retail/fashion/beauty brands (Harrier, Wren) to demonstrate AI capabilities without NDA'd client work; feeding marketing, sales materials and the website.",
+    "how_to_use": null,
+    "owners": [
+      "Kae Neskovic",
+      "Devin Terrey",
+      "Franco Caffaro",
+      "Hris Mancheva",
+      "Kyra Beth"
+    ],
+    "teams": [
+      "Creative",
+      "Marketing"
+    ],
+    "tools": [
+      "Seedance"
+    ],
+    "tags": [
+      "case study",
+      "fashion",
+      "beauty",
+      "retail",
+      "sales material",
+      "showcase"
+    ],
+    "status": "shipped",
+    "date": "2026-09-02",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1788376996505449"
+    }
+  },
+  {
+    "id": "daily-planning",
+    "name": "/daily-planning Claude skill",
+    "type": "skill",
+    "summary": "Claude skill giving one view of what needs you today, pulled from Slack, Gmail, Asana, Superspace and Calendar: priorities, missed items, project status, hours, meetings, deadlines and next steps. Presented at AI Briefly.",
+    "how_to_use": "Run /daily-planning in Claude (creative-admin-pack).",
+    "owners": [
+      "Careth Colmenarez",
+      "Matteo Rostagno"
+    ],
+    "teams": [
+      "Creative",
+      "PM"
+    ],
+    "tools": [
+      "Claude",
+      "Slack",
+      "Gmail",
+      "Asana",
+      "Superspace MCP",
+      "Google Calendar"
+    ],
+    "tags": [
+      "daily planning",
+      "priorities",
+      "hours",
+      "deadlines",
+      "productivity"
+    ],
+    "status": "shipped",
+    "date": "2026-09-02",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1788357601668869"
+    }
+  },
+  {
+    "id": "color-drift-fix-toolkit",
+    "name": "Colour-drift fix toolkit (Color Match node + colour script)",
+    "type": "workflow",
+    "summary": "Built after Nano Banana changes caused colour drift and skin artifacts in image pipelines: a Claude-built node library on a modular API with a reference-based Color Match node and an Enhancor-style re-skin node, plus a colour script and measured per-generation colour variation (AI Briefly #56 'Keeping Color True').",
+    "how_to_use": "Get the script from the Drive folder; recording on Sana.",
+    "owners": [
+      "Aaron Amortegui"
+    ],
+    "teams": [
+      "Creative",
+      "AI Native Studio"
+    ],
+    "tools": [
+      "Claude",
+      "Nano Banana"
+    ],
+    "tags": [
+      "color correction",
+      "colour drift",
+      "skin retouch",
+      "pipelines",
+      "product imagery"
+    ],
+    "status": "shipped",
+    "date": "2026-08-13",
+    "updated": null,
+    "links": [
+      {
+        "label": "Color_script (Drive)",
+        "url": "https://drive.google.com/drive/u/3/folders/1I8EucdUAfBuMTUQPJUhvezyZ19hQdUQh"
+      },
+      {
+        "label": "AI Briefly #56 recording",
+        "url": "https://superside.sana.ai/s/6JjUYAAgC4T5"
+      },
+      {
+        "label": "Hackathon post (original channel)",
+        "url": "https://konsus.slack.com/archives/C0AJR9TPN30/p1785280998972759"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1786627801849119"
+    }
+  },
+  {
+    "id": "krea-company-account",
+    "name": "Krea company account & partnership",
+    "type": "tool",
+    "summary": "Krea is a core company image/video tool: Superside got early access to Krea 1 (2025-06-12), team credits managed by Creative Ops (outages/credit issues announced in-channel, Flora offered as fallback), node workflows beta, Krea Agent access for everyone with 100K credits from Krea (2026-08), and Krea 3 beta (2026-10). Creative Ops ran a Krea feedback survey (2026-05).",
+    "how_to_use": "Use the team account; report issues to Creative Ops (celeste.booth / alejandra.mendoza). Give Krea Agent feedback in the agent chat.",
+    "owners": [
+      "Ross McKegney",
+      "Celeste Booth",
+      "Alejandra Mendoza",
+      "Phillip Maggs"
+    ],
+    "teams": [
+      "Creative Ops",
+      "Creative"
+    ],
+    "tools": [
+      "Krea"
+    ],
+    "tags": [
+      "image generation",
+      "video generation",
+      "credits",
+      "lora",
+      "upscale",
+      "agent"
+    ],
+    "status": "shipped",
+    "date": "2026-08-06",
+    "updated": "2026-10-12",
+    "links": [
+      {
+        "label": "Krea 3 beta announcement",
+        "url": "https://konsus.slack.com/archives/C04CC8FSDHP/p1791826446428139"
+      },
+      {
+        "label": "Krea feedback survey",
+        "url": "https://www.notion.so/bf4b7c36acb14eaba3c26df4bf027474?pvs=106"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1786035019738259"
+    }
+  },
+  {
+    "id": "lucy-realtime-sandbox",
+    "name": "Lucy 2.5 real-time video-to-video sandbox",
+    "type": "experiment",
+    "summary": "Quick sandbox testing Lucy 2.5 real-time v2v (restyle, character swap/try-on, background swap) for live-event audience experiences.",
+    "how_to_use": null,
+    "owners": [
+      "Miguel Marino"
+    ],
+    "teams": [
+      "AI Native Studio"
+    ],
+    "tools": [
+      "Lucy 2.5"
+    ],
+    "tags": [
+      "live events",
+      "real-time video",
+      "try-on"
+    ],
+    "status": "wip",
+    "date": "2026-08-03",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1785780470670969"
+    }
+  },
+  {
+    "id": "nano-banana-seedance-blender-plugin",
+    "name": "Nano Banana + Seedance Blender plugin",
+    "type": "plugin",
+    "summary": "Vibe-coded Blender plugin plugging Nano Banana and Seedance into the 3D pipeline: sketch camera moves, move the camera live in Seedance, control subject position over time, skeleton animation transfer, LoRA calls, Hunyuan3D; Fal.ai backend.",
+    "how_to_use": "Not broadly released; send a ticket via #s-brief-generative-ai-and-automation if a project fits.",
+    "owners": [
+      "Miguel Marino",
+      "Aaron Amortegui"
+    ],
+    "teams": [
+      "AI Native Studio",
+      "Motion"
+    ],
+    "tools": [
+      "Blender",
+      "Nano Banana",
+      "Seedance",
+      "Fal.ai"
+    ],
+    "tags": [
+      "3d",
+      "camera control",
+      "video generation",
+      "blender"
+    ],
+    "status": "beta",
+    "date": "2026-07-23",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1784820637869329"
+    }
+  },
+  {
+    "id": "custom-models-claude-skill",
+    "name": "custom-models Claude skill + DesignAgent",
+    "type": "skill",
+    "summary": "Manuel Berbin's scrappy Claude skill to use Superside Brand Models inside Claude, plus a 'DesignAgent' letting Claude drive Figma; shown at AI Briefly 'Brand Model Updates and Skillpilled'.",
+    "how_to_use": "Ask Manuel Berbin directly (not published).",
+    "owners": [
+      "Manuel Berbin"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Superside Brand Models",
+      "Figma"
+    ],
+    "tags": [
+      "brand models",
+      "figma agent",
+      "image generation in claude"
+    ],
+    "status": "wip",
+    "date": "2026-07-15",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1784124008118789"
+    }
+  },
+  {
+    "id": "ai-bootcamp",
+    "name": "Internal AI Bootcamp (2-week)",
+    "type": "announcement",
+    "summary": "Intensive internal AI bootcamp run by Ariel Ibanez and Julia Calabrese (June 2026); participants shipped final projects, e.g. Figma Make apps (gradient generator, 'Ditter Studio' pixel portraits) and client-pitch decks. Alumni act as POD AI experts.",
+    "how_to_use": "Ask Ariel Ibanez / Julia Calabrese about the next cohort.",
+    "owners": [
+      "Ariel Ibanez",
+      "Julia Calabrese"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Figma Make"
+    ],
+    "tags": [
+      "training",
+      "bootcamp",
+      "upskilling",
+      "figma make"
+    ],
+    "status": "shipped",
+    "date": "2026-06-12",
+    "updated": "2026-06-17",
+    "links": [
+      {
+        "label": "Ditter Studio app",
+        "url": "https://cage-from-23933137.figma.site/"
+      },
+      {
+        "label": "Gradient app",
+        "url": "https://growth-moon-56959225.figma.site/"
+      },
+      {
+        "label": "Luisa Andrade deck",
+        "url": "https://www.figma.com/deck/L0bMnRmTgCn8XVDBGA6aan"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1781291225361979"
+    }
+  },
+  {
+    "id": "superflow-figma-plugin",
+    "name": "Superflow v2 Figma plugin (built for Vail)",
+    "type": "plugin",
+    "summary": "Figma plugin: export frames/content to CSV, edit and re-import at scale (text and image variants), AI-rewrite selected text components, and generate cross-brand variants by bulk-selecting collection and mode.",
+    "how_to_use": "Load the plugin; read the best-practices doc; questions to Robert Larson.",
+    "owners": [
+      "Robert Larson",
+      "Icaro Barros",
+      "Nicholas Cabral",
+      "Ghulam Khan"
+    ],
+    "teams": [
+      "Creative",
+      "Product"
+    ],
+    "tools": [
+      "Figma"
+    ],
+    "tags": [
+      "bulk edits",
+      "csv",
+      "variants",
+      "copy rewrite",
+      "multi-brand",
+      "templates"
+    ],
+    "status": "shipped",
+    "date": "2026-06-09",
+    "updated": null,
+    "links": [
+      {
+        "label": "Figma plugin",
+        "url": "https://www.figma.com/community/plugin/1643733298115175057/superflow-v2-internal"
+      },
+      {
+        "label": "Best practices doc",
+        "url": "https://docs.google.com/document/d/1N8FNC7r5gEqb-9W6VyZvXqriGuNcC4b4CAUsF1CEFAE/edit?usp=sharing"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1781035360436809"
+    }
+  },
+  {
+    "id": "ai-native-studio",
+    "name": "AI Native Studio (formerly AI Team / AI Experts Support)",
+    "type": "announcement",
+    "summary": "Superside's specialist AI team for high-complexity briefs: AI video and product imagery at scale, custom automation pipelines, R&D tooling. Evolved from the Generative AI Creative Team (hiring 2023-09), 'Creative AI Team' case-study deck (2023-10), AI Experts Support for CLs/creatives/CPMs incl. pre-sales and quoting (2025-02) and the 'If it looks impossible, hand it to us' AI Team (2025-10). Studio AI teams remain first stop; AI Native Studio is the escalation.",
+    "how_to_use": "Post in #s-brief-generative-ai-and-automation or submit a ticket via '/native ai support' (no DMs). Earlier: #support-ai-powered / #s-brief-ai-powered.",
+    "owners": [
+      "Júlio Aymoré",
+      "Phillip Maggs",
+      "Tamara Dalhuijsen"
+    ],
+    "teams": [
+      "AI Native Studio",
+      "Creative",
+      "PM",
+      "Sales"
+    ],
+    "tools": [],
+    "tags": [
+      "ai support",
+      "escalation",
+      "complex briefs",
+      "quoting",
+      "pre-sales",
+      "case studies",
+      "automation"
+    ],
+    "status": "shipped",
+    "date": "2026-06-02",
+    "updated": "2026-06-29",
+    "links": [
+      {
+        "label": "Ticket shortcut",
+        "url": "https://slack.com/shortcuts/Ft0B1PM05HB4/fef85fe5c68a7355d2b4123fa090b0d8"
+      },
+      {
+        "label": "Ways of working",
+        "url": "https://konsus.slack.com/archives/C0B6NSTABN2/p1779981270156839"
+      },
+      {
+        "label": "GTM deck",
+        "url": "https://docs.google.com/presentation/d/1S2HDuc6bOBQOvT_2TMS8kwWJX26bqoR6Pf4AdqgOISI/edit?usp=sharing"
+      },
+      {
+        "label": "AI Native Studio case studies",
+        "url": "https://docs.google.com/presentation/d/1_gpza04fqQhaIlmzw96eAdc8d0DqhxpIP7hdPIkGFj8/edit?usp=sharing"
+      },
+      {
+        "label": "AI Team case studies deck (2025)",
+        "url": "https://docs.google.com/presentation/d/1CBieMLPglLkripL42Uj5XlAyz9dmvPYv5KuCmIMZpjs/edit?slide=id.g37c8a3a4ace_0_35#slide=id.g37c8a3a4ace_0_35"
+      },
+      {
+        "label": "AI Team launch (2025-10-02)",
+        "url": "https://konsus.slack.com/archives/C04CC8FSDHP/p1759409798972769"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1780409692180039"
+    }
+  },
+  {
+    "id": "ask-superside-claude-project",
+    "name": "'Ask Superside' Claude project",
+    "type": "tool",
+    "summary": "Claude Team-plan project connected to Google + Notion (set up via Tor's connectors) that answers questions from trusted internal data; used e.g. to scrape Slack for updates with links.",
+    "how_to_use": "Open the 'Ask Superside' project in Claude.",
+    "owners": [
+      "Tor Egil Fusdahl"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Claude",
+      "Notion",
+      "Google Drive"
+    ],
+    "tags": [
+      "internal knowledge",
+      "search",
+      "company info"
+    ],
+    "status": "shipped",
+    "date": "2026-05-27",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1779888704124469"
+    }
+  },
+  {
+    "id": "claude-access-guidance",
+    "name": "Claude access, credits and plan guidance",
+    "type": "guide",
+    "summary": "Claude requests/credit top-ups go to Celeste Booth (Creative Ops). Enterprise seats require large volume; a high-usage Max plan is the usual answer. Some artifacts are limited to a specific Claude team account (e.g. 'Claude Superside - 2'). Tip: switch to lighter models to save limits.",
+    "how_to_use": "DM Celeste Booth for Claude requests.",
+    "owners": [
+      "Celeste Booth",
+      "Phillip Maggs"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "claude credits",
+      "license",
+      "max plan",
+      "usage limits"
+    ],
+    "status": "shipped",
+    "date": "2026-05-19",
+    "updated": null,
+    "links": [
+      {
+        "label": "Enterprise vs Max thread",
+        "url": "https://konsus.slack.com/archives/C04CC8FSDHP/p1770915697707029"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1779231264936429"
+    }
+  },
+  {
+    "id": "gemini-proofreader-prompt",
+    "name": "Strict proofreader prompt (Gemini)",
+    "type": "guide",
+    "summary": "Prompt for typo/grammar/spacing checks on long PDFs without rewriting style; outputs location, original and correction.",
+    "how_to_use": null,
+    "owners": [
+      "Bernard Moussa"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Gemini"
+    ],
+    "tags": [
+      "proofreading",
+      "qa",
+      "copy check",
+      "prompt"
+    ],
+    "status": "shipped",
+    "date": "2026-05-19",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1779199467731099"
+    }
+  },
+  {
+    "id": "blender-to-houdini-addon",
+    "name": "Blender-to-Houdini add-on (vibe-coded)",
+    "type": "tool",
+    "summary": "Add-on that moves scenes from Blender to Houdini in order, accounting for differences; zip with README.",
+    "how_to_use": "Download the zip from the post and follow the README.",
+    "owners": [
+      "Andres Mariño"
+    ],
+    "teams": [
+      "Motion",
+      "3D"
+    ],
+    "tools": [
+      "Blender",
+      "Houdini"
+    ],
+    "tags": [
+      "3d",
+      "pipeline",
+      "scene transfer"
+    ],
+    "status": "shipped",
+    "date": "2026-05-05",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1778005218528219"
+    }
+  },
+  {
+    "id": "ai-writing-isms-guide",
+    "name": "'Signs of AI writing' as a how-not-to-write knowledge doc",
+    "type": "guide",
+    "summary": "Use Wikipedia's 'Signs of AI writing' article (as PDF) as a knowledge file for a GPT/Gem or copy skill to avoid AI-isms.",
+    "how_to_use": null,
+    "owners": [
+      "Bianca Pieterse"
+    ],
+    "teams": [
+      "Copy",
+      "Creative"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "copywriting",
+      "ai-isms",
+      "tone of voice"
+    ],
+    "status": "shipped",
+    "date": "2026-04-13",
+    "updated": null,
+    "links": [
+      {
+        "label": "Wikipedia article",
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Elegant_variation"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1776084016403249"
+    }
+  },
+  {
+    "id": "beginner-advanced-approach-prompt",
+    "name": "Beginner/intermediate/advanced approach prompting hack",
+    "type": "guide",
+    "summary": "Ask the LLM how beginner, intermediate and advanced AI users would approach a task to benchmark and improve your own approach (found while building a skills-assessment dashboard).",
+    "how_to_use": null,
+    "owners": [
+      "Bianca Pieterse"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "tags": [
+      "prompting",
+      "learning",
+      "self-assessment"
+    ],
+    "status": "shipped",
+    "date": "2026-04-08",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1775647955111329"
+    }
+  },
+  {
+    "id": "julian-garcia-weavy-workflows",
+    "name": "Weavy storyboard & scene-layout workflows (Julian Garcia)",
+    "type": "workflow",
+    "summary": "Weavy workflow that breaks a script into a 45-frame storyboard with style lock and previous/next-frame context (Prompt Concatenator), and a Flux 2 workflow for character consistency and object-by-object scene layout/art direction.",
+    "how_to_use": "Copy the workflows; huddle with Julian to adapt.",
+    "owners": [
+      "Julian Garcia"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Figma Weave",
+      "Flux 2"
+    ],
+    "tags": [
+      "storyboard",
+      "character consistency",
+      "scene layout",
+      "art direction"
+    ],
+    "status": "shipped",
+    "date": "2026-04-07",
+    "updated": null,
+    "links": [
+      {
+        "label": "Storyboard workflow",
+        "url": "https://app.weavy.ai/flow/F3oMK75tk5SJ7soovi41iV"
+      },
+      {
+        "label": "Flux 2 layout workflow (2025-11-28)",
+        "url": "https://app.weavy.ai/flow/8N9lpJrS0IiccvG4bipXuR"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1775559959577259"
+    }
+  },
+  {
+    "id": "workflow-studio-weavy-extension",
+    "name": "Workflow Studio (Chrome extension for Weavy)",
+    "type": "tool",
+    "summary": "Chrome extension that generates whole Weavy node graphs from plain English (with prompt enhancer), saves workflows as tagged Blueprints, swaps models before pasting, strips heavy image data for big copies, and exports/imports libraries for team sharing.",
+    "how_to_use": "DM Andres Mariño to try (2-min install).",
+    "owners": [
+      "Andres Mariño"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Figma Weave",
+      "Chrome"
+    ],
+    "tags": [
+      "weavy",
+      "workflow builder",
+      "blueprints",
+      "templates",
+      "node graph"
+    ],
+    "status": "beta",
+    "date": "2026-04-02",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1775157037614469"
+    }
+  },
+  {
+    "id": "weavy-public-workflows-collection",
+    "name": "Weavy public workflows collection & free post-processing flows",
+    "type": "guide",
+    "summary": "Spreadsheet of ~120 community Weavy workflows with categories and descriptions, plus no-credit post-processing mini-workflows (chromatic aberration, edge blur, sharpening, grading, glow, vignette) and a Gen Effect node workflow.",
+    "how_to_use": "Open the sheet and copy workflows into Weavy.",
+    "owners": [
+      "Anthony Higgins",
+      "Andres Mariño",
+      "Craig Wright"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Figma Weave"
+    ],
+    "tags": [
+      "weavy",
+      "workflow templates",
+      "post-processing",
+      "effects"
+    ],
+    "status": "shipped",
+    "date": "2026-03-30",
+    "updated": "2026-07-29",
+    "links": [
+      {
+        "label": "Workflows collection",
+        "url": "https://docs.google.com/spreadsheets/d/1e160YbVI8kRWlxTojUv1kUBvW6YKpqUt9HPwaEfzSVk/edit?gid=1841478933#gid=1841478933"
+      },
+      {
+        "label": "Post-processing flow",
+        "url": "https://app.weavy.ai/flow/hSTceGegBewnLQyXf4GWRw"
+      },
+      {
+        "label": "Gen Effect workflow",
+        "url": "https://app.weavy.ai/flow/7HrmxAb3z9yJfE0iY7Iy2J?ref=craig69"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1774871917236779"
+    }
+  },
+  {
+    "id": "superads-ai",
+    "name": "Superads AI (ad-performance analyst & ad generation)",
+    "type": "tool",
+    "summary": "Superads (Superside's ad analytics product) with an AI layer that reasons over ad data with subagents (e.g. why CPAs spike, creative fatigue). Earlier: AI content clustering of ad accounts (2024-09), ProductHunt launch (2024-12); later: ad generation incl. local-language ads powered by performance data (2026-08). Next: AI tagging for creative strategy in Superside briefing.",
+    "how_to_use": "See #product-team-superads.",
+    "owners": [
+      "Jing Venås Kjeldsen",
+      "Daniel Zagidullin"
+    ],
+    "teams": [
+      "Product"
+    ],
+    "tools": [
+      "Superads"
+    ],
+    "tags": [
+      "ad performance",
+      "analytics",
+      "creative fatigue",
+      "ad generation",
+      "localization",
+      "multilingual ads"
+    ],
+    "status": "shipped",
+    "date": "2026-02-13",
+    "updated": "2026-08-28",
+    "links": [
+      {
+        "label": "ProductHunt (2024)",
+        "url": "https://www.producthunt.com/posts/superads-2"
+      },
+      {
+        "label": "Ad generation update (2026-08-28)",
+        "url": "https://konsus.slack.com/archives/C04CC8FSDHP/p1787923843325639"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1770976282471679"
+    }
+  },
+  {
+    "id": "ai-academy-essentials-workshops",
+    "name": "Superside Consulting AI Academy (Essentials & Pro workshops for clients)",
+    "type": "announcement",
+    "summary": "Customer-facing AI workshops run by the AI Academy (Raga/rafael.costa, Bianca Pieterse): monthly Essential Workshops (e.g. Ideation with AI, AI Implementation 101, AI Nodal Tools, AI Generation Essentials; 'Summer of Claude' Claude workshops at $250/seat) and tailored Pro Workshops. Paused Nov–Dec 2026, resuming Jan 2027.",
+    "how_to_use": "Share the landing page/Luma link with subscription customers.",
+    "owners": [
+      "Rafael Costa",
+      "Bianca Pieterse"
+    ],
+    "teams": [
+      "AM",
+      "Consulting"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "client training",
+      "workshops",
+      "upsell",
+      "ai academy",
+      "claude training"
+    ],
+    "status": "shipped",
+    "date": "2026-01-28",
+    "updated": "2026-06-17",
+    "links": [
+      {
+        "label": "Landing page (Superspace)",
+        "url": "https://app.superside.com/explore/mlp/ai-consulting-workshop"
+      },
+      {
+        "label": "Essentials sign-up (Luma)",
+        "url": "https://luma.com/supersideessentials"
+      },
+      {
+        "label": "Summer of Claude post",
+        "url": "https://konsus.slack.com/archives/C04CC8FSDHP/p1781706752421539"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1769618770607759"
+    }
+  },
+  {
+    "id": "nanobanana-chatgpt-prompt-template",
+    "name": "NanoBanana + ChatGPT modular prompt template",
+    "type": "guide",
+    "summary": "Workflow and editable prompt template used for the 'Superside Colors of the Year' carousel: ChatGPT rewrites a modular base prompt (subject, background, outfit, pose) and Nano Banana renders consistent Pantone-style frames.",
+    "how_to_use": null,
+    "owners": [
+      "Stela Kruger"
+    ],
+    "teams": [
+      "Marketing",
+      "Creative"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Nano Banana"
+    ],
+    "tags": [
+      "prompt template",
+      "consistency",
+      "carousel",
+      "social"
+    ],
+    "status": "shipped",
+    "date": "2025-12-12",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1765549772672359"
+    }
+  },
+  {
+    "id": "cinematic-contact-sheet-prompt",
+    "name": "Cinematic Contact Sheet prompt (Nano Banana Pro)",
+    "type": "guide",
+    "summary": "Prompt that turns one image into a 3×3 cinematic contact sheet (ELS to ECU, low/high angles) with strict subject/lighting continuity.",
+    "how_to_use": null,
+    "owners": [
+      "Gian Orsi"
+    ],
+    "teams": [
+      "Creative",
+      "Motion"
+    ],
+    "tools": [
+      "Nano Banana Pro"
+    ],
+    "tags": [
+      "storyboard",
+      "shot list",
+      "prompt",
+      "camera angles"
+    ],
+    "status": "shipped",
+    "date": "2025-12-11",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1765464467198459"
+    }
+  },
+  {
+    "id": "craig-wright-weavy-workflows",
+    "name": "Shareable Weavy workflows & campaign-kit automation (Craig Wright)",
+    "type": "workflow",
+    "summary": "Series of copyable Weavy workflows: single product image + font to a full campaign kit (5 static + 5 video ads across formats, ~362 credits), mood board extraction from one image, one-click character sheet app, vintage collage posters, a Weavy basics demo, and a Pletor one-click auto-editing image workflow.",
+    "how_to_use": "Open/copy the flows from the links.",
+    "owners": [
+      "Craig Wright"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Figma Weave",
+      "Pletor",
+      "Kling",
+      "Flux",
+      "Nano Banana"
+    ],
+    "tags": [
+      "campaign kit",
+      "ad variations",
+      "mood board",
+      "character sheet",
+      "batch editing"
+    ],
+    "status": "shipped",
+    "date": "2025-12-04",
+    "updated": "2025-12-10",
+    "links": [
+      {
+        "label": "Campaign kit (LinkedIn)",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7402026680652959745/"
+      },
+      {
+        "label": "Mood board extraction",
+        "url": "https://app.weavy.ai/flow/0xkHDAuEBBu0JZC2lBRmCt?ref=craig69"
+      },
+      {
+        "label": "Character sheet app",
+        "url": "https://app.weavy.ai/flow/1uezvdEK7PTOHKPeFdN7X1?ref=craig69"
+      },
+      {
+        "label": "Character sheet walkthrough",
+        "url": "https://www.loom.com/share/9d60d9ec89774d7bbaa00f776816e6e0?sid=d0912a01-4a3a-422a-97be-19f39b595358"
+      },
+      {
+        "label": "Vintage collage",
+        "url": "https://app.weavy.ai/flow/4flhq8X5hFtABupnTserAQ?ref=craig69"
+      },
+      {
+        "label": "Workflow (2025-11)",
+        "url": "https://app.weavy.ai/flow/YzO1rpJnnT2nJmxrwidVEX?ref=craig69"
+      },
+      {
+        "label": "Pletor auto-editing",
+        "url": "https://api.pletor.ai/s/e1608c2c-fe87-4ef7-ae39-9a21477a8581?utm_medium=partner&utm_campaign=craigwright&aff_id=ptn_27"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1764825998252389"
+    }
+  },
+  {
+    "id": "how-our-team-uses-ai-2025",
+    "name": "How the Superside brand team uses AI (Oct 2025)",
+    "type": "guide",
+    "summary": "Internal case study: AI used in 94% of brand team projects (web, copy, voiceovers, video, campaign automation, briefing, concepting) with five team members' daily tips/workflows.",
+    "how_to_use": "Open the Figma prototype.",
+    "owners": [
+      "Kae Neskovic",
+      "Piotr Smietana",
+      "Joshua Roscoe",
+      "Devin Terrey",
+      "Iliada Karamintziou",
+      "Camila Giannini"
+    ],
+    "teams": [
+      "Marketing"
+    ],
+    "tools": [
+      "Figma"
+    ],
+    "tags": [
+      "case study",
+      "ai adoption",
+      "brand team",
+      "workflows"
+    ],
+    "status": "shipped",
+    "date": "2025-11-03",
+    "updated": null,
+    "links": [
+      {
+        "label": "Figma prototype",
+        "url": "https://www.figma.com/proto/QgHEVKWD4iqotjvAxOselD/How-our-team-uses-AI---Oct-2025?page-id=0%3A1&node-id=1-37&viewport=169%2C483%2C0.03&t=YSoSBuJdYKWfPH9Q-1&scaling=contain&content-scaling=fixed"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1762169898319019"
+    }
+  },
+  {
+    "id": "brand-model-dataset-extender",
+    "name": "Brand Model dataset extender app (AI Studio)",
+    "type": "artifact",
+    "summary": "Google AI Studio app (Nano Banana) to expand Brand Model training datasets: 5 camera variations, 5 gestures, 5 expressions of a character, plus a shuffle to mix poses/cameras.",
+    "how_to_use": "Open the app link.",
+    "owners": [
+      "Gian Orsi"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Google AI Studio",
+      "Nano Banana"
+    ],
+    "tags": [
+      "dataset",
+      "brand models",
+      "character variations",
+      "training data"
+    ],
+    "status": "shipped",
+    "date": "2025-10-29",
+    "updated": null,
+    "links": [
+      {
+        "label": "App",
+        "url": "https://ai.studio/apps/drive/1h8zaApcnRx0-ytJ9xC_2G274pvn9Y0fS"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1761709801806599"
+    }
+  },
+  {
+    "id": "ai-qc-reviewer-n8n",
+    "name": "AI QC reviewer feedback loop (n8n + Gemini)",
+    "type": "automation",
+    "summary": "n8n automation that compares a generated lifestyle image to its 3D model reference, scores structure (0–3) and realism (0–2), describes flaws/fix complexity and outputs JSON deciding regenerate / inpaint / upscale with prompts. (Brand-Brain-powered QC for clients was planned by product.)",
+    "how_to_use": "Ask Cristian Rojas for the n8n flow.",
+    "owners": [
+      "Cristian Rojas"
+    ],
+    "teams": [
+      "Creative",
+      "AI Native Studio"
+    ],
+    "tools": [
+      "n8n",
+      "Gemini"
+    ],
+    "tags": [
+      "quality control",
+      "qc",
+      "image review",
+      "automation",
+      "brand compliance"
+    ],
+    "status": "shipped",
+    "date": "2025-10-23",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1761242520819899"
+    }
+  },
+  {
+    "id": "superside-brand-models",
+    "name": "Superside Brand Models (custom image models Figma plugin)",
+    "type": "plugin",
+    "summary": "Superside's AI image plugin in Figma (launched to all Supersiders 2025-01 with Flux/SD, upscaling, variants) that grew into Custom Image Models (CIMs, 2025-02: brand-trained photo/illustration/character/3D models clients can use in Figma; first 50 free) and Superside Brand Models with in-plugin self-training from 10–50 images (2025-10). Includes AI prompt helper; every CL expected to create a model. Access is revoked when a customer churns.",
+    "how_to_use": "Install the Figma plugin; train from 10–50 consistent images or request via #brand-models-support (#cim-support). Process/pricing in the internal Help Center; client deck for pitching. Tip: write descriptions/instructions by having Claude/ChatGPT describe the photo style, test in Krea, then reuse.",
+    "owners": [
+      "Júlio Aymoré",
+      "Nare Tarlamazyan",
+      "Tamara Dalhuijsen",
+      "Pedro Brasil",
+      "Manuel Berbin",
+      "Phillip Maggs"
+    ],
+    "teams": [
+      "Creative",
+      "AM",
+      "PM",
+      "Sales"
+    ],
+    "tools": [
+      "Superside Brand Models",
+      "Figma",
+      "Flux",
+      "Qwen"
+    ],
+    "tags": [
+      "brand models",
+      "custom image models",
+      "cim",
+      "on-brand images",
+      "lora",
+      "training",
+      "figma plugin"
+    ],
+    "status": "shipped",
+    "date": "2025-10-01",
+    "updated": "2026-10-27",
+    "links": [
+      {
+        "label": "Plugin",
+        "url": "https://www.figma.com/community/plugin/1380537717202406130/superside-brand-models-internal"
+      },
+      {
+        "label": "Client overview deck",
+        "url": "https://docs.google.com/presentation/d/18lYQy5Sixa6ijFEkyiFwzVu9aEOIRlDafQLSI8SlDlw/edit"
+      },
+      {
+        "label": "Training video",
+        "url": "https://www.figma.com/design/nKIQyFtD7ES6X24UwNW8AE/AI-Brand%E2%80%A8Model-Repository?node-id=2838-2"
+      },
+      {
+        "label": "Internal Help Center",
+        "url": "https://supersidecom.helpjuice.com/ai-custom-image-models-cims-company-process-resources/version/7?kb_language=en_US"
+      },
+      {
+        "label": "Support channel",
+        "url": "https://konsus.slack.com/archives/C08JTGW3S59"
+      },
+      {
+        "label": "Dataset workflow",
+        "url": "https://www.figma.com/design/6R8ri5fKTmMF6ayby3y7Dl/AI-Powered-Workflows?node-id=11425-347&t=2K7zBz6zMu5asG80-1"
+      },
+      {
+        "label": "Latest customer deck (2026-06)",
+        "url": "https://docs.google.com/presentation/d/1F_yaQpiiB9iDXrxjEyXcIP5chk4UMyX1tk-TN0Nb7nk/edit?usp=sharing"
+      },
+      {
+        "label": "AI Brand Model Repository",
+        "url": "https://www.figma.com/design/nKIQyFtD7ES6X24UwNW8AE/AI-Brand%E2%80%A8Model-Repository?node-id=3298-2&p=f&t=y1lgXwaTwSqr4pCj-0"
+      },
+      {
+        "label": "Workera photographic system example",
+        "url": "https://www.figma.com/slides/LimfkkuRnjw9r29S6PYt9p/EXT-%7C-205277-%7C-Workera-%7C-Photographic-System-Brand-Model?node-id=1-134&t=wNfL48Buyj33DaNm-0"
+      },
+      {
+        "label": "EPIC visual system case study",
+        "url": "https://docs.google.com/presentation/d/1vT4Okgyhr22sCJ2njF94LhIZVtDWkf2ic1dtjnoAiYY/edit?slide=id.g396fc86190c_0_2320#slide=id.g396fc86190c_0_2320"
+      },
+      {
+        "label": "CIM deck/pricing (2025)",
+        "url": "https://docs.google.com/presentation/d/1-MkbRRFgdn8rlRuZmcWD-J0uNvemI5opVauUalJOAEc/edit#slide=id.g2d77f79a97a_0_595"
+      },
+      {
+        "label": "Plugin for all Supersiders (2025-01-30)",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSdDKia38i9MbCtGi_t0ACreJf1Nr9KEPxb4-t-suIqD87DEuw/viewform?usp=sharing"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1759331818357909"
+    }
+  },
+  {
+    "id": "ae-font-replacer-gem",
+    "name": "After Effects Font Replacer script + AE scripting Gem",
+    "type": "skill",
+    "summary": "Custom Gemini Gem specialised in After Effects expressions/scripts, used to build a one-click Font Replacer UI panel; tutorial video + zip.",
+    "how_to_use": "Use the Gem; download Font_Replacer_UI_Panel.zip from the post; AE Dialog Builder for UI.",
+    "owners": [
+      "Gian Orsi"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "Gemini",
+      "After Effects"
+    ],
+    "tags": [
+      "after effects",
+      "scripts",
+      "expressions",
+      "fonts",
+      "automation"
+    ],
+    "status": "shipped",
+    "date": "2025-09-30",
+    "updated": null,
+    "links": [
+      {
+        "label": "Gem",
+        "url": "https://gemini.google.com/gem/1xEVSQwbuFAjn_LPgHqtCGktYQRREgArZ?usp=sharing"
+      },
+      {
+        "label": "AE Dialog Builder",
+        "url": "https://scriptui.joonas.me/"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1759237560610959"
+    }
+  },
+  {
+    "id": "video-model-comparison-2025",
+    "name": "AI video model camera tests (Sept 2025)",
+    "type": "guide",
+    "summary": "Comparison of video models: Seedance 1.0 & PixVerse 5 (source-faithful, multi-shot), Kling 2.5 (cheap/fast), Hailuo 02, Wan 2.5 (sound/VO), Kling 2.1 (first/last frame, camera moves).",
+    "how_to_use": null,
+    "owners": [
+      "Cristian Rojas"
+    ],
+    "teams": [
+      "Motion",
+      "Creative"
+    ],
+    "tools": [
+      "Seedance",
+      "Kling",
+      "PixVerse",
+      "Wan",
+      "Hailuo"
+    ],
+    "tags": [
+      "video models",
+      "comparison",
+      "which model"
+    ],
+    "status": "shipped",
+    "date": "2025-09-29",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1759136404759819"
+    }
+  },
+  {
+    "id": "chatgpt-team-workspace",
+    "name": "Superside ChatGPT Team workspace",
+    "type": "tool",
+    "summary": "Superside's OpenAI workspace (ChatGPT Team / API) is the approved place for company data in OpenAI models. Account questions go to #chatgpt-team-plan-access-management; deactivation banners during renewals (2025-09, 2025-10) needed no action. Note (2025-08): OpenAI retains Team-plan data indefinitely due to litigation (not Enterprise/ZDR).",
+    "how_to_use": "Ask in #chatgpt-team-plan-access-management.",
+    "owners": [
+      "Phillip Maggs",
+      "Oleksandr Sova"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "chatgpt access",
+      "license",
+      "data retention",
+      "account"
+    ],
+    "status": "shipped",
+    "date": "2025-09-26",
+    "updated": "2025-10-28",
+    "links": [
+      {
+        "label": "Procurement note (2025-10-28)",
+        "url": "https://konsus.slack.com/archives/C04CC8FSDHP/p1761652408283739"
+      },
+      {
+        "label": "Data retention notice",
+        "url": "https://konsus.slack.com/archives/C04CC8FSDHP/p1756232691753579"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1758891963340759"
+    }
+  },
+  {
+    "id": "gemini-gems-account-bots",
+    "name": "Gemini Gems for account bots (sharing & editors)",
+    "type": "guide",
+    "summary": "PMs build per-account custom Gemini Gems; Gems can be shared (2025-09) and co-edited (2026-02) so co-PMs can update instructions and knowledge sources, easing PTO handovers. Started from a CPM Gemini session with Phillip Maggs (2025-05) and a Gems working session by Tamara.",
+    "how_to_use": "Gemini > your Gem > three dots > Share > add person > set access to Editor.",
+    "owners": [
+      "Tamara Dalhuijsen",
+      "Amy Toerien"
+    ],
+    "teams": [
+      "PM"
+    ],
+    "tools": [
+      "Gemini"
+    ],
+    "tags": [
+      "account knowledge",
+      "handover",
+      "pto",
+      "custom gpt",
+      "pm assistant"
+    ],
+    "status": "shipped",
+    "date": "2025-09-18",
+    "updated": "2026-02-25",
+    "links": [
+      {
+        "label": "CPM Gemini session recording (2025-05)",
+        "url": "https://drive.google.com/file/d/1kiAyDIG9zl_OEaKhQhWEKVBkZUNNZttv/view?userstoinvite=josefina.santero@superside.com&sharingaction=manageaccess&role=writer&ts=68225a39"
+      },
+      {
+        "label": "Editors update (2026-02-25)",
+        "url": "https://konsus.slack.com/archives/C04CC8FSDHP/p1772034655254869"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1758203807743719"
+    }
+  },
+  {
+    "id": "julio-ai-workflow-demos",
+    "name": "AI production workflow demos (Júlio Aymoré)",
+    "type": "workflow",
+    "summary": "Júlio's documented workflows: Weavy compositor ads system (LLM prompts → Nano Banana → Magnific → copy AI → Seedance → compositor nodes for formats), product images + brand insights to 10–30 social visuals, car photos → Hunyuan 3D → Replicate LoRA → Flux → Kling video, UGC-style boot video (ChatGPT image, Magnific, Kling, ElevenLabs, fal lipsync), and Flora character expression sheets.",
+    "how_to_use": "Copy the Weavy flow; ask Júlio for details.",
+    "owners": [
+      "Júlio Aymoré",
+      "Manuel Berbin"
+    ],
+    "teams": [
+      "Creative",
+      "AI Native Studio"
+    ],
+    "tools": [
+      "Figma Weave",
+      "Flora",
+      "Nano Banana",
+      "Magnific",
+      "Seedance",
+      "Kling",
+      "ElevenLabs"
+    ],
+    "tags": [
+      "ad automation",
+      "formats",
+      "ugc",
+      "product video",
+      "character sheets",
+      "social"
+    ],
+    "status": "shipped",
+    "date": "2025-09-18",
+    "updated": null,
+    "links": [
+      {
+        "label": "Compositor ads workflow",
+        "url": "https://app.weavy.ai/flow/NlXAqPU4XMS2EbtusIwYzh"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1758210760807549"
+    }
+  },
+  {
+    "id": "inclusive-prompting-dove",
+    "name": "Inclusive prompting via Dove 'real women' guide",
+    "type": "guide",
+    "summary": "Tip for generating realistic, diverse people without derogatory words (important when clients ask for prompts): use Dove's real-women prompt guide / 'in the style of Dove campaign' in Krea; remove stray logos in post.",
+    "how_to_use": null,
+    "owners": [
+      "Tamara Dalhuijsen",
+      "Julian Garcia"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Krea"
+    ],
+    "tags": [
+      "inclusive prompts",
+      "diversity",
+      "bias",
+      "prompting"
+    ],
+    "status": "shipped",
+    "date": "2025-09-08",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1757337868080669"
+    }
+  },
+  {
+    "id": "ai-influencer-ads",
+    "name": "AI influencer ads for SuperAds",
+    "type": "experiment",
+    "summary": "R&D built AI influencer ad videos for SuperAds campaigns with Higgsfield visuals, ElevenLabs voices and Seedance + Kling on Replicate for lip sync.",
+    "how_to_use": null,
+    "owners": [
+      "Manuel Berbin",
+      "Jun Okida",
+      "Júlio Aymoré"
+    ],
+    "teams": [
+      "Creative",
+      "Marketing"
+    ],
+    "tools": [
+      "Higgsfield",
+      "ElevenLabs",
+      "Seedance",
+      "Kling",
+      "Replicate"
+    ],
+    "tags": [
+      "ai influencer",
+      "ugc",
+      "lip sync",
+      "ads"
+    ],
+    "status": "shipped",
+    "date": "2025-09-05",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1757060427456799"
+    }
+  },
+  {
+    "id": "nano-banana-kling-tutorial",
+    "name": "Nano Banana + Kling 2.1 first/last-frame tutorial",
+    "type": "guide",
+    "summary": "4-min tutorial: one-shot e-commerce ad with Nano Banana use cases into Kling 2.1 first/last frame. Tip: test Nano Banana in the Superside Gemini account to save Krea credits.",
+    "how_to_use": null,
+    "owners": [
+      "Cristian Rojas"
+    ],
+    "teams": [
+      "Creative",
+      "Motion"
+    ],
+    "tools": [
+      "Nano Banana",
+      "Kling",
+      "Gemini"
+    ],
+    "tags": [
+      "ecommerce ad",
+      "video",
+      "tutorial"
+    ],
+    "status": "shipped",
+    "date": "2025-09-01",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1756694880457899"
+    }
+  },
+  {
+    "id": "superside-gemini-plan",
+    "name": "Superside Gemini PRO plan (free for everyone)",
+    "type": "tool",
+    "summary": "Everyone has a free Superside Gemini PRO plan that includes image generation (Nano Banana, small watermark, no cost) and Veo 3 — recommended for experimenting before spending Krea credits. Gemini is also integrated into Google Workspace.",
+    "how_to_use": "Use gemini.google.com with your Superside Google account.",
+    "owners": [
+      "Tamara Dalhuijsen",
+      "Júlio Aymoré"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Gemini",
+      "Nano Banana",
+      "Veo 3"
+    ],
+    "tags": [
+      "image generation",
+      "video generation",
+      "free",
+      "credits",
+      "experimentation"
+    ],
+    "status": "shipped",
+    "date": "2025-07-31",
+    "updated": "2025-10-02",
+    "links": [
+      {
+        "label": "Gemini",
+        "url": "https://gemini.google.com/app"
+      },
+      {
+        "label": "Nano Banana free in Gemini (thread)",
+        "url": "https://konsus.slack.com/archives/C04CC8FSDHP/p1759446381719279"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1753966585196859"
+    }
+  },
+  {
+    "id": "runway-company-account",
+    "name": "Runway company account",
+    "type": "tool",
+    "summary": "Superside's Runway account with early access to new models: Frames text-to-image (2025-01), Gen-4 (credit costs shared 2025-04), Aleph in chat mode for <5 s input videos (2025-07). Runway partnered on the AI music video (2024).",
+    "how_to_use": "Use chat mode with input videos under 5 seconds for Aleph; see the guides.",
+    "owners": [
+      "Phillip Maggs"
+    ],
+    "teams": [
+      "Creative",
+      "Motion"
+    ],
+    "tools": [
+      "Runway"
+    ],
+    "tags": [
+      "video editing",
+      "vfx",
+      "video generation",
+      "aleph",
+      "frames"
+    ],
+    "status": "shipped",
+    "date": "2025-07-29",
+    "updated": null,
+    "links": [
+      {
+        "label": "Guide to using Aleph",
+        "url": "https://help.runwayml.com/hc/en-us/articles/43176400374419"
+      },
+      {
+        "label": "Aleph Prompting Guide",
+        "url": "https://help.runwayml.com/hc/en-us/articles/43277392678803-Aleph-Prompting-Guide"
+      },
+      {
+        "label": "Frames Prompting Guide",
+        "url": "https://help.runwayml.com/hc/en-us/articles/35694045317139-Frames-Prompting-Guide"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1753771897534699"
+    }
+  },
+  {
+    "id": "superside-ai-blog-articles",
+    "name": "Superside AI blog articles (sales/marketing collateral)",
+    "type": "guide",
+    "summary": "Marketing articles useful with prospects: custom AI image models (train on your brand, scale your brand, launch post), Q2 campaign video made with AI, AI ad creative examples (incl. Boomi, D2L, Unigloves, SmartNews, Amsive), ROI of AI in creative workflows, AI readiness quiz/AI Adoption Guide, Beyond the Brief (photorealistic images, AI illustrations, D2L campaign), AI talent shortage/upskilling, Future of AI in Design.",
+    "how_to_use": "Share the article links with prospects/customers.",
+    "owners": [
+      "Michelle Mire",
+      "Tessa Reid"
+    ],
+    "teams": [
+      "Marketing",
+      "Sales",
+      "AM"
+    ],
+    "tools": [],
+    "tags": [
+      "blog",
+      "case study",
+      "sales collateral",
+      "custom models",
+      "ai adoption"
+    ],
+    "status": "shipped",
+    "date": "2025-05-28",
+    "updated": null,
+    "links": [
+      {
+        "label": "How to train an AI image model on your brand",
+        "url": "https://www.superside.com/blog/how-to-train-an-ai-image-model-on-your-brand"
+      },
+      {
+        "label": "Introducing custom AI image models",
+        "url": "https://www.superside.com/blog/introducing-superside-custom-ai-image-models"
+      },
+      {
+        "label": "How we used AI for our campaign video",
+        "url": "https://www.superside.com/blog/how-we-used-ai-for-our-campaign-video"
+      },
+      {
+        "label": "AI ad creative examples",
+        "url": "https://www.superside.com/blog/ai-ad-creative-examples"
+      },
+      {
+        "label": "ROI of AI in creative workflows",
+        "url": "https://www.superside.com/blog/roi-ai-creative-workflows"
+      },
+      {
+        "label": "AI readiness quiz",
+        "url": "https://www.superside.com/blog/ai-readiness-assessment-test-quiz"
+      },
+      {
+        "label": "AI Adoption Guide",
+        "url": "https://www.superside.com/lp/ai-adoption-guide"
+      },
+      {
+        "label": "AI in design",
+        "url": "https://www.superside.com/blog/ai-in-design"
+      },
+      {
+        "label": "D2L AI ad campaign",
+        "url": "https://www.superside.com/blog/ai-ad-campaign"
+      },
+      {
+        "label": "AI blog category",
+        "url": "https://www.superside.com/blog/category/artificial-intelligence-ai"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1748440296875859"
+    }
+  },
+  {
+    "id": "facebook-ads-industry-benchmark",
+    "name": "Facebook Ads Industry Benchmark (vibe-coded)",
+    "type": "tool",
+    "summary": "Free benchmark (from $2.3B tracked ad spend) showing how a customer's Facebook ads perform vs similar companies in their industry; vibe-coded front end, backend by Superside's first AI researcher.",
+    "how_to_use": null,
+    "owners": [
+      "Jing Venås Kjeldsen",
+      "Andres Levinton",
+      "Daniel Zagidullin",
+      "Sergio Chaves García-Mascaraque"
+    ],
+    "teams": [
+      "Product",
+      "Marketing"
+    ],
+    "tools": [
+      "Superads"
+    ],
+    "tags": [
+      "benchmark",
+      "facebook ads",
+      "cpa",
+      "lead gen tool",
+      "vibe coding"
+    ],
+    "status": "shipped",
+    "date": "2025-05-01",
+    "updated": null,
+    "links": [
+      {
+        "label": "LinkedIn post",
+        "url": "https://www.linkedin.com/posts/superside_are-your-facebook-ads-hitting-industry-benchmarks-activity-7323360291226841088-7Yhg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAXRjJABxCEGppxE03be6ODHcsncMAIZ26g"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1746137160914949"
+    }
+  },
+  {
+    "id": "brief2draft-demo",
+    "name": "brief2draft + custom models + bulk inference demo",
+    "type": "experiment",
+    "summary": "Product/AI demo combining brief-to-draft generation, custom image models and bulk inference, presented externally by Phillip Maggs (April 2025).",
+    "how_to_use": null,
+    "owners": [
+      "Phillip Maggs",
+      "Alexandre Jacinto",
+      "David Pettersson",
+      "Ghulam Khan"
+    ],
+    "teams": [
+      "Product"
+    ],
+    "tools": [
+      "Superside Brand Models"
+    ],
+    "tags": [
+      "brief to draft",
+      "bulk generation",
+      "product demo"
+    ],
+    "status": "wip",
+    "date": "2025-04-23",
+    "updated": "2025-04-24",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1745436665564249"
+    }
+  },
+  {
+    "id": "midjourney-usage-survey",
+    "name": "Midjourney usage survey (mandatory for creatives, 2025)",
+    "type": "announcement",
+    "summary": "Mandatory survey for all creatives on Midjourney usage (last 3 months + lifetime image count via /info) to optimise credits, workflows and support of the company Midjourney seats.",
+    "how_to_use": "Fill in the form.",
+    "owners": [
+      "Júlio Aymoré"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Midjourney"
+    ],
+    "tags": [
+      "license",
+      "credits",
+      "tool audit"
+    ],
+    "status": "deprecated",
+    "date": "2025-04-09",
+    "updated": "2025-04-10",
+    "links": [
+      {
+        "label": "Survey",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSeOSHYDw3JQe7WKQrX9H80DHGtB1PTpfImUOi9d5nqBlyMQtg/viewform?usp=header"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1744190177759279"
+    }
+  },
+  {
+    "id": "superside-ai-image-library",
+    "name": "Superside AI Imagery Library (Figma)",
+    "type": "guide",
+    "summary": "Figma library of AI images created for Superside campaigns, for reuse/reference.",
+    "how_to_use": "Open the Figma file.",
+    "owners": [
+      "Don Borjas"
+    ],
+    "teams": [
+      "Marketing",
+      "Creative"
+    ],
+    "tools": [
+      "Figma"
+    ],
+    "tags": [
+      "image library",
+      "ai imagery",
+      "references",
+      "brand imagery"
+    ],
+    "status": "shipped",
+    "date": "2025-03-17",
+    "updated": null,
+    "links": [
+      {
+        "label": "Image Library",
+        "url": "https://www.figma.com/design/KpSajyV8uYfUwaWnIkzCie/Superside-%7C-Image-Library?node-id=1-2&t=73x4277h1ydsvHxy-1"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1742242032840349"
+    }
+  },
+  {
+    "id": "no-confidential-data-outside-openai-instance",
+    "name": "Policy: no confidential data outside Superside's OpenAI instance",
+    "type": "guide",
+    "summary": "No company, customer, PII or other confidential information may be entered into any model not explicitly within Superside's OpenAI instance (ChatGPT Teams / API) — stated re DeepSeek.",
+    "how_to_use": null,
+    "owners": [
+      "Phillip Maggs"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "policy",
+      "data privacy",
+      "pii",
+      "client data",
+      "llm usage"
+    ],
+    "status": "shipped",
+    "date": "2025-01-28",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1738047926248579"
+    }
+  },
+  {
+    "id": "ai-chronicles",
+    "name": "AI Chronicles weekly roundup",
+    "type": "guide",
+    "summary": "Weekly in-channel roundup of generative-AI news and tools by the AI team (Oct 2024–Jan 2025).",
+    "how_to_use": null,
+    "owners": [
+      "Tamara Dalhuijsen"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [],
+    "tags": [
+      "news",
+      "newsletter",
+      "roundup"
+    ],
+    "status": "deprecated",
+    "date": "2025-01-24",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1737730763450429"
+    }
+  },
+  {
+    "id": "workflow-finder-gpt",
+    "name": "Workflow Finder GPT",
+    "type": "agent",
+    "summary": "Custom GPT that acts as a copilot for navigating the AI-Powered Workflows Figma file and YouTube tutorials.",
+    "how_to_use": "Open the GPT; see walkthrough video.",
+    "owners": [
+      "Rui Ferreira"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "find a workflow",
+      "tutorial search",
+      "custom gpt"
+    ],
+    "status": "shipped",
+    "date": "2025-01-15",
+    "updated": null,
+    "links": [
+      {
+        "label": "GPT",
+        "url": "https://chatgpt.com/g/g-677c25b0b7e081918a2f37eff95f30f8-workflow-finder"
+      },
+      {
+        "label": "Walkthrough",
+        "url": "https://youtu.be/SLJkMdS1ots"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1736963068853619"
+    }
+  },
+  {
+    "id": "capability-pricing-gpt",
+    "name": "ChatGPT trained on capability decks & pricing logic",
+    "type": "agent",
+    "summary": "Custom ChatGPT trained on Superside capability decks, pricing logic and production guides (results shared in another channel).",
+    "how_to_use": null,
+    "owners": [
+      "Sam Mac"
+    ],
+    "teams": [
+      "Sales",
+      "AM"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "pricing",
+      "capabilities",
+      "quoting",
+      "custom gpt"
+    ],
+    "status": "unknown",
+    "date": "2024-12-06",
+    "updated": null,
+    "links": [
+      {
+        "label": "Result thread",
+        "url": "https://konsus.slack.com/archives/C041US6JZU6/p1733490900484219"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1733491371064829"
+    }
+  },
+  {
+    "id": "ai-powered-workflows-hub",
+    "name": "AI-Powered Workflows hub (Figma file + YouTube channel)",
+    "type": "guide",
+    "summary": "Content hub of AI workflow tutorials by level: a Figma 'AI-Powered Workflows' page and the @ai_powered_juice YouTube channel (e.g. Midjourney branding assets, ReCraft icon sets, ReCraft storyboards for animation, chained Krea/Flux/Kling product shot, brand-model dataset creation); training team consolidates on Sana.",
+    "how_to_use": "Browse the Figma file / YouTube channel; use the Workflow Finder GPT to navigate.",
+    "owners": [
+      "Júlio Aymoré",
+      "Ariel Ibanez",
+      "Delisa Govender",
+      "Manuel Berbin",
+      "Lucia Quiroga"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Figma",
+      "Midjourney",
+      "ReCraft",
+      "Krea",
+      "Flux",
+      "Kling"
+    ],
+    "tags": [
+      "tutorials",
+      "workflows",
+      "training",
+      "storyboard",
+      "icons",
+      "branding"
+    ],
+    "status": "shipped",
+    "date": "2024-12-04",
+    "updated": "2025-10-01",
+    "links": [
+      {
+        "label": "YouTube channel",
+        "url": "https://www.youtube.com/@ai_powered_juice"
+      },
+      {
+        "label": "Figma workflows page",
+        "url": "https://www.figma.com/design/6R8ri5fKTmMF6ayby3y7Dl/AI-Powered-Workflows?node-id=0-1&t=q1wYmpptAB1kl6op-1"
+      },
+      {
+        "label": "ReCraft storyboard workflow",
+        "url": "https://www.figma.com/design/6R8ri5fKTmMF6ayby3y7Dl/AI-Powered-Workflows?node-id=3445-200"
+      },
+      {
+        "label": "Chained product-shot workflow",
+        "url": "https://www.figma.com/design/6R8ri5fKTmMF6ayby3y7Dl/AI-Powered-Workflows?node-id=6738-946"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1733317385684779"
+    }
+  },
+  {
+    "id": "python-batch-image-resizer",
+    "name": "Python batch image resizer (built with ChatGPT)",
+    "type": "tool",
+    "summary": "Small Python app made with ChatGPT in under an hour to batch crop/resize folders of images to 1:1 for social.",
+    "how_to_use": "See the Loom.",
+    "owners": [
+      "Craig Wright"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Python"
+    ],
+    "tags": [
+      "resizing",
+      "batch crop",
+      "social formats"
+    ],
+    "status": "shipped",
+    "date": "2024-11-22",
+    "updated": null,
+    "links": [
+      {
+        "label": "Loom",
+        "url": "https://www.loom.com/share/05631e0149e14e518c391a162a715fdc?sid=e1750309-8f2c-439a-8a4d-c421f4b4da73"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1732284900633609"
+    }
+  },
+  {
+    "id": "midjourney-rooms-101",
+    "name": "Midjourney Rooms 101 (project handovers)",
+    "type": "guide",
+    "summary": "How to create shared Midjourney rooms per project (name: account + project ID + project name) so teammates can pick up images, edits and notes; video tutorial and PDF.",
+    "how_to_use": "Midjourney web > Chat > Lobby > Private Room > Create Room; share link + password.",
+    "owners": [
+      "Ariel Ibanez"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Midjourney"
+    ],
+    "tags": [
+      "handover",
+      "midjourney",
+      "collaboration",
+      "project organisation"
+    ],
+    "status": "shipped",
+    "date": "2024-11-05",
+    "updated": null,
+    "links": [
+      {
+        "label": "Video tutorial",
+        "url": "https://www.loom.com/share/137d963e8dce44978af9639b652dfd28?sid=d3eb6713-6d59-4733-acf0-48cdbc53edef"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1730811712464389"
+    }
+  },
+  {
+    "id": "realistic-prompts-midjourney-gpt",
+    "name": "Realistic Prompts Midjourney GPT",
+    "type": "agent",
+    "summary": "Custom GPT that writes photorealistic Midjourney prompts and explains each variable so beginners learn.",
+    "how_to_use": "Open the GPT.",
+    "owners": [
+      "Anita Duhart",
+      "Ariel Ibanez"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Midjourney"
+    ],
+    "tags": [
+      "midjourney prompts",
+      "photorealism",
+      "custom gpt"
+    ],
+    "status": "shipped",
+    "date": "2024-10-03",
+    "updated": null,
+    "links": [
+      {
+        "label": "GPT",
+        "url": "https://chatgpt.com/g/g-r7KWKQQgX-realistic-prompts-mid-journey"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1727972443147879"
+    }
+  },
+  {
+    "id": "sana-ai-microlearnings",
+    "name": "Sana AI courses & micro-learnings",
+    "type": "guide",
+    "summary": "Internal AI learning on Sana: 3×15-min Midjourney micro-learnings (full-body shots, style reference, image selection), AI courses with assessments, and a 'Superside prompt commander' prompting game.",
+    "how_to_use": "Open the Sana path.",
+    "owners": [
+      "Ariel Ibanez",
+      "Aki Friedrich"
+    ],
+    "teams": [
+      "Creative",
+      "All"
+    ],
+    "tools": [
+      "Sana",
+      "Midjourney"
+    ],
+    "tags": [
+      "training",
+      "midjourney",
+      "prompting",
+      "micro-learning",
+      "onboarding"
+    ],
+    "status": "shipped",
+    "date": "2024-09-23",
+    "updated": "2025-04-16",
+    "links": [
+      {
+        "label": "Micro-learnings path",
+        "url": "https://superside.sana.ai/path/PwiM2rHM6h3j"
+      },
+      {
+        "label": "Prompt game",
+        "url": "https://superside.sana.ai/s/Hd9cnohzVPxj"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1727096597157289"
+    }
+  },
+  {
+    "id": "recraft-vector-illustrations-case",
+    "name": "Midjourney + Recraft vectorized illustrations (Verato case)",
+    "type": "workflow",
+    "summary": "Case study creating 100% vectorized, easily editable AI illustrations: Midjourney for style, Recraft for vectors.",
+    "how_to_use": "See the Figma file.",
+    "owners": [
+      "Lucia Quiroga",
+      "Alessio Perez",
+      "Paula Bolivar",
+      "Julian Zapata",
+      "Lourdes Valdovinos"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Midjourney",
+      "Recraft"
+    ],
+    "tags": [
+      "vector illustrations",
+      "svg",
+      "editable illustrations",
+      "case study"
+    ],
+    "status": "shipped",
+    "date": "2024-09-17",
+    "updated": null,
+    "links": [
+      {
+        "label": "Figma file",
+        "url": "https://www.figma.com/design/bNIKcg0qY9limXlNFwGixJ/About-Ilustrations-and-Recraft?node-id=0-1&t=3gevZ3B2guibz16o-1"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1726593090231559"
+    }
+  },
+  {
+    "id": "superside-ai-music-album-video",
+    "name": "Superside AI music album & 'Corporate Blue' AI music video",
+    "type": "experiment",
+    "summary": "Marketing x Generative AI Excellence campaign: an album made entirely with AI plus an AI music video made with Runway Gen-3 (Runway partnership); later written up as a Beyond the Brief blog post.",
+    "how_to_use": null,
+    "owners": [
+      "Júlio Aymoré",
+      "Kyle Weber",
+      "Phillip Maggs",
+      "Piotr Smietana"
+    ],
+    "teams": [
+      "Marketing",
+      "Creative"
+    ],
+    "tools": [
+      "Runway"
+    ],
+    "tags": [
+      "music video",
+      "ai album",
+      "campaign",
+      "case study"
+    ],
+    "status": "shipped",
+    "date": "2024-08-02",
+    "updated": "2024-10-10",
+    "links": [
+      {
+        "label": "Album",
+        "url": "https://www.superside.com/music"
+      },
+      {
+        "label": "Blog: Creating a music video entirely with AI",
+        "url": "https://www.superside.com/blog/creating-an-ai-music-video"
+      },
+      {
+        "label": "Video",
+        "url": "https://www.youtube.com/watch?v=gu8FP8Cngt8"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1722597067343429"
+    }
+  },
+  {
+    "id": "strategy-ai-tools-deck",
+    "name": "AI tools for strategic thinking (competitor/category research)",
+    "type": "guide",
+    "summary": "Deck of tools, blogs and podcasts for competitor analysis and category deep-dives with AI (e.g. Waldo.fyi).",
+    "how_to_use": null,
+    "owners": [
+      "Pablo Pulido Bernal"
+    ],
+    "teams": [
+      "Strategy"
+    ],
+    "tools": [
+      "Waldo.fyi"
+    ],
+    "tags": [
+      "competitor analysis",
+      "research",
+      "strategy"
+    ],
+    "status": "shipped",
+    "date": "2024-05-08",
+    "updated": null,
+    "links": [
+      {
+        "label": "Deck",
+        "url": "https://docs.google.com/presentation/d/1oHvHhhlzY8XrZ3KcWIipPDuFY9pjH-Kz/edit#slide=id.p1"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1715182392050959"
+    }
+  },
+  {
+    "id": "talent-team-gpts",
+    "name": "Talent team GPTs (job descriptions & candidate Q&A)",
+    "type": "agent",
+    "summary": "Two custom GPTs for Talent: one drafts job descriptions from guidelines, kickoff and hiring-strategy form; one answers candidate questions about Superside (interview prep, policies, culture).",
+    "how_to_use": null,
+    "owners": [
+      "Eden Laboda"
+    ],
+    "teams": [
+      "People"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "recruiting",
+      "job descriptions",
+      "candidate faq",
+      "hiring"
+    ],
+    "status": "wip",
+    "date": "2024-05-06",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1714990108989099"
+    }
+  },
+  {
+    "id": "ai-services-launch-campaign",
+    "name": "Superside AI Services launch campaign (2024)",
+    "type": "announcement",
+    "summary": "Marketing's first integrated campaign formally launching Superside's AI Services (live 2024-04-29), with employee LinkedIn advocacy.",
+    "how_to_use": null,
+    "owners": [
+      "Jen Rapp",
+      "Haily Moulton"
+    ],
+    "teams": [
+      "Marketing"
+    ],
+    "tools": [],
+    "tags": [
+      "launch",
+      "ai services",
+      "campaign",
+      "linkedin"
+    ],
+    "status": "shipped",
+    "date": "2024-04-26",
+    "updated": "2024-04-30",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1714147451711699"
+    }
+  },
+  {
+    "id": "ai-challenges-and-social-showcases",
+    "name": "AI challenges & social showcases",
+    "type": "announcement",
+    "summary": "Recurring internal competitions and social showcases: March Madness AI logo tournament on Instagram (2024), cutest-carousel and Olympics logo showcases, AI album covers/remixes, call for AI tutorials for socials, 'Great AI Image Showdown' with the internal Figma plugin (2025, winner dionisis.gotz), and the AI Briefly #50 Challenge ($300 prizes, 2026).",
+    "how_to_use": null,
+    "owners": [
+      "Haily Moulton",
+      "Nare Tarlamazyan",
+      "Júlio Aymoré",
+      "Julia Calabrese"
+    ],
+    "teams": [
+      "Marketing",
+      "Creative"
+    ],
+    "tools": [
+      "Figma"
+    ],
+    "tags": [
+      "competition",
+      "social media",
+      "showcase",
+      "engagement",
+      "challenge"
+    ],
+    "status": "shipped",
+    "date": "2024-02-29",
+    "updated": "2026-07-01",
+    "links": [
+      {
+        "label": "AI Briefly #50 Challenge",
+        "url": "https://www.figma.com/design/bcKrfhb2enyZnV9hXXVRpR/-50---AI--Briefly-Challenge?node-id=5001-241&t=me3oJBDsAcr8qj0e-1"
+      },
+      {
+        "label": "AI Image Showdown board (2025)",
+        "url": "https://www.figma.com/design/1U2e5CHkLrfejBwwxNMVOs/Untitled?t=lnaLx1gDLZ0EjhEj-1"
+      },
+      {
+        "label": "AI tutorials for socials form",
+        "url": "https://forms.gle/pxqAkdzroU6W26rj7"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1709215203000419"
+    }
+  },
+  {
+    "id": "ai-capability-deck",
+    "name": "AI Capability Deck (Enhanced AI & Advanced AI)",
+    "type": "guide",
+    "summary": "Sales/positioning deck for Superside AI services: Enhanced AI (AI-boosted existing services, ~40% average time saving on Creative Production) and Advanced AI (beta, complex Creative Development projects).",
+    "how_to_use": "Contact Phillip Maggs, Tamara Dalhuijsen or Júlio Aymoré.",
+    "owners": [
+      "Júlio Aymoré",
+      "Phillip Maggs",
+      "Tamara Dalhuijsen"
+    ],
+    "teams": [
+      "Sales",
+      "AM"
+    ],
+    "tools": [],
+    "tags": [
+      "sales deck",
+      "ai services",
+      "positioning",
+      "pricing"
+    ],
+    "status": "shipped",
+    "date": "2024-02-21",
+    "updated": null,
+    "links": [
+      {
+        "label": "Deck",
+        "url": "https://docs.google.com/presentation/d/1eojQ6mY6KHtaRKG1_UUFz3ukAy3r5qganfDBIZwcPl0/edit#slide=id.g2b5013d3b71_0_4"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1708528780670399"
+    }
+  },
+  {
+    "id": "chatgpt-use-case-library",
+    "name": "ChatGPT Use Case Library",
+    "type": "guide",
+    "summary": "Library where Superside creatives share how they use ChatGPT to enhance their work (ideation, problem solving, etc.).",
+    "how_to_use": "Open the PDF in Drive.",
+    "owners": [
+      "Indre Lukauskaite"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "use cases",
+      "chatgpt",
+      "inspiration",
+      "training"
+    ],
+    "status": "shipped",
+    "date": "2023-12-15",
+    "updated": null,
+    "links": [
+      {
+        "label": "Library",
+        "url": "https://drive.google.com/file/d/1yAT38dKvByz9emAJredmq9TnkQSJb3L6/view"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1702633001602389"
+    }
+  },
+  {
+    "id": "enhanced-creativity-series",
+    "name": "Enhanced Creativity Series (talks, 2023)",
+    "type": "announcement",
+    "summary": "Talk series on creativity + AI; session #1 'AI Bias' (2023-12-01) with Kenneth Prieto (Creative Services) and Manuel Berbin (Enhanced AI Team). Recording and feedback form shared.",
+    "how_to_use": null,
+    "owners": [
+      "Júlio Aymoré"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "ai bias",
+      "talks",
+      "training",
+      "recording"
+    ],
+    "status": "shipped",
+    "date": "2023-11-24",
+    "updated": "2023-12-04",
+    "links": [
+      {
+        "label": "AI Bias recording",
+        "url": "https://drive.google.com/file/d/1lDDrF5hCcn1GMDBBAScFLrqR3KpviQNm/view?usp=drivesdk"
+      },
+      {
+        "label": "Feedback form",
+        "url": "https://forms.gle/bvtSb5qT3VPyik7N6"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1700817995508629"
+    }
+  },
+  {
+    "id": "superbot-gpt",
+    "name": "SuperBot custom GPT",
+    "type": "agent",
+    "summary": "Custom GPT about Superside built in under 4 minutes as an early demo of GPTs.",
+    "how_to_use": "Open the GPT link.",
+    "owners": [
+      "Phillip Maggs"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "custom gpt",
+      "superside knowledge"
+    ],
+    "status": "shipped",
+    "date": "2023-11-09",
+    "updated": null,
+    "links": [
+      {
+        "label": "GPT",
+        "url": "https://chat.openai.com/g/g-24LIu6nA0-superbot"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1699557392110829"
+    }
+  },
+  {
+    "id": "text-prompting-cheat-sheet",
+    "name": "Text prompting cheat sheet & Text Prompting for Creatives",
+    "type": "guide",
+    "summary": "Learning Experience team's cheat sheet of common text-prompting techniques/best practices, the 7taps 'Text Prompting for Creatives' micro-learning journey, and a Text Prompting Challenge collecting practical ChatGPT use cases.",
+    "how_to_use": "Bookmark the sheet; take the 7taps journey.",
+    "owners": [
+      "Indre Lukauskaite"
+    ],
+    "teams": [
+      "Creative",
+      "All"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "prompting",
+      "chatgpt",
+      "training",
+      "cheat sheet"
+    ],
+    "status": "shipped",
+    "date": "2023-10-25",
+    "updated": null,
+    "links": [
+      {
+        "label": "Cheat sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1RVlJIGC51AAE33f7o-rc-SiPqAeb3xoRKVAp71nLMpA/edit?usp=sharing"
+      },
+      {
+        "label": "7taps journey",
+        "url": "https://app.7taps.com/folder/RBkH76Bt4Q"
+      },
+      {
+        "label": "Text Prompting Challenge brief",
+        "url": "https://docs.google.com/document/d/1IPllG2IFqXTDGEQLhS6OQxoS4QTwmr-s2yNaPs7H-b0/edit"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1698233965647169"
+    }
+  },
+  {
+    "id": "brand-team-ai-explorations",
+    "name": "Brand team AI explorations (supersided profile pictures, illustration ideas)",
+    "type": "experiment",
+    "summary": "Brand team explored AI to automate repetitive tasks: producing 'supersided' profile pictures and generating on-brand ideas for illustration compositions; learnings deck.",
+    "how_to_use": null,
+    "owners": [
+      "Ines Almeida"
+    ],
+    "teams": [
+      "Marketing",
+      "Creative"
+    ],
+    "tools": [
+      "Stable Diffusion",
+      "Midjourney"
+    ],
+    "tags": [
+      "profile pictures",
+      "illustration",
+      "brand",
+      "automation"
+    ],
+    "status": "shipped",
+    "date": "2023-03-17",
+    "updated": null,
+    "links": [
+      {
+        "label": "Learnings deck",
+        "url": "https://docs.google.com/presentation/d/1PEZSKTxEhbEK9ye_RzoRqOge2O2laqzh5Z-aefDxLYw/edit#slide=id.g18f271df271_0_842"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1679070689065029"
+    }
+  },
+  {
+    "id": "toqan-prosus-assistant",
+    "name": "Toqan / PlusOne (Prosus AI assistant)",
+    "type": "tool",
+    "summary": "Prosus' AI assistant available to Superside (PlusOne, later Toqan): used in Slack (bot added to this channel to summarise posts), by CPMs to research briefs, by CSMs for customer research/emails, and for Midjourney prompt ideas.",
+    "how_to_use": "Mention @Toqan in Slack.",
+    "owners": [
+      "Tamara Dalhuijsen",
+      "Phillip Maggs",
+      "Dominik Hofer"
+    ],
+    "teams": [
+      "PM",
+      "AM",
+      "All"
+    ],
+    "tools": [
+      "Toqan",
+      "PlusOne"
+    ],
+    "tags": [
+      "assistant",
+      "research",
+      "summaries",
+      "emails",
+      "brief research"
+    ],
+    "status": "shipped",
+    "date": "2023-01-27",
+    "updated": "2024-08-05",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1674834552306269"
+    }
+  },
+  {
+    "id": "superside-style-sd-finetune",
+    "name": "Superside green-lines style Stable Diffusion fine-tune",
+    "type": "experiment",
+    "summary": "Early experiment fine-tuning Stable Diffusion on ~30 career-page images to replicate Superside's green-lines illustration style (text2img worked; img2img did not yet).",
+    "how_to_use": null,
+    "owners": [
+      "Albert Franzi"
+    ],
+    "teams": [
+      "Data",
+      "Marketing"
+    ],
+    "tools": [
+      "Stable Diffusion"
+    ],
+    "tags": [
+      "brand style",
+      "fine-tuning",
+      "illustration"
+    ],
+    "status": "shipped",
+    "date": "2023-01-05",
+    "updated": null,
+    "links": [
+      {
+        "label": "Results (Drive)",
+        "url": "https://drive.google.com/drive/folders/1wZohsFTlsaVkSAHoqxfit-ssVLgVtQgm?usp=share_link"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1672944158907369"
+    }
+  },
+  {
+    "id": "inspiration-inbox",
+    "name": "Inspiration Inbox / New Horizons monthly AI round-up (Notion)",
+    "type": "guide",
+    "summary": "Searchable, filterable Notion database of AR, 3D and creative-AI finds, published monthly by Phillip Maggs, Alexandre Jacinto and Anneke King (Dec 2022–Apr 2023), followed by AI Chronicles.",
+    "how_to_use": "Open the Notion database.",
+    "owners": [
+      "Phillip Maggs",
+      "Alexandre Jacinto",
+      "Anneke King"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Notion"
+    ],
+    "tags": [
+      "inspiration",
+      "news",
+      "tools directory",
+      "3d",
+      "ar"
+    ],
+    "status": "deprecated",
+    "date": "2022-12-07",
+    "updated": "2023-04-03",
+    "links": [
+      {
+        "label": "Inspiration Inbox",
+        "url": "https://www.notion.so/77a5bebc08b448cb8b59070e8e899025?v=75b81b4aa9004dc7a3036f40214a0316"
+      },
+      {
+        "label": "Feb 2023 round-up",
+        "url": "https://www.notion.so/991aa82bf7cf4f108ef3d99d3ac01fc1?v=ba72f3fd71c04c31904b3d81132a24a9&pvs=4"
+      },
+      {
+        "label": "Mar 2023 round-up",
+        "url": "https://www.notion.so/ba183d2206ad43b2b080b3817086f61b?v=f486e905bebe43c19af2e45747c7be12&pvs=4"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1670395602039129"
+    }
+  },
+  {
+    "id": "genai-general-guidelines",
+    "name": "Generative AI – General Guidelines (Legal)",
+    "type": "guide",
+    "summary": "Legal guidelines for using AI in creative work: follow tool ToS; prompts may become public so don't copy prompts or include client names/products/brands/people; no images of public figures; check originality (reverse image search); raw AI output isn't copyrightable so never deliver raw output — create a derivative work. If followed, AI may be used without informing the customer.",
+    "how_to_use": "Questions: tag the Legal group in Slack.",
+    "owners": [
+      "David Grenville"
+    ],
+    "teams": [
+      "Legal",
+      "All"
+    ],
+    "tools": [],
+    "tags": [
+      "policy",
+      "copyright",
+      "client data",
+      "prompts",
+      "public figures",
+      "legal"
+    ],
+    "status": "shipped",
+    "date": "2022-11-30",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1669811090315289"
+    }
+  },
+  {
+    "id": "recommended-genai-tools-2022",
+    "name": "Recommended GenAI tools for early-stage work (2022)",
+    "type": "guide",
+    "summary": "Initial recommendations when the channel opened: Midjourney (detailed/costlier) and DALL-E 2 (cheaper) for storyboards/concepts, Copy.ai for placeholder copy, Mubert for animatic music, Typecast for VO, thispersondoesnotexist for placeholder avatars.",
+    "how_to_use": null,
+    "owners": [
+      "Haakon Heir"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Midjourney",
+      "DALL-E",
+      "Copy.ai",
+      "Mubert",
+      "Typecast"
+    ],
+    "tags": [
+      "storyboards",
+      "placeholder copy",
+      "music",
+      "voiceover"
+    ],
+    "status": "deprecated",
+    "date": "2022-11-22",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#tribe-generative-ai",
+      "permalink": "https://konsus.slack.com/archives/C04CC8FSDHP/p1669107173463149"
+    }
+  }
+]

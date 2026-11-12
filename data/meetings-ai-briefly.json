@@ -318,7 +318,7 @@
     }
   },
   {
-    "id": "daily-planning-skill",
+    "id": "daily-planning",
     "name": "/daily-planning skill",
     "type": "skill",
     "summary": "Claude skill giving one view of what needs you today from Slack, Gmail, Asana, Superspace and Calendar: top-5 priorities, missed threads, project status, hours vs target, meetings and action buttons. Demoed at AI Briefly 2026-09-02 ('Daily Habit').",
