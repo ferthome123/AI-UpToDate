@@ -1,0 +1,1926 @@
+[
+ {
+  "id": "sana-claude-cowork-101",
+  "name": "Claude Cowork 101 (Sana course)",
+  "type": "guide",
+  "summary": "Company-wide onboarding to Claude Enterprise: why Superside moved to Claude, Chat vs Cowork vs Code, Projects/Files/Memory/Skills/Connectors/models, Cowork folder setup with About Me files, prompting & context, building Skills with /skill-creator, role-based use cases, responsible use and token hygiene.",
+  "how_to_use": "Open the course in Sana. Key setup: install the Claude desktop app; create a 'Claude Cowork' folder with ABOUT ME / OUTPUTS / TEMPLATES; have Claude interview you to write about-me.md, my-company.md, avoid-ai-writing.md; add global instructions in Settings > General > Instructions for Claude; connect the parent folder in Cowork and star it; turn Memory on in Settings > Capabilities; default to Sonnet (low/medium effort).",
+  "owners": [],
+  "teams": [
+   "All"
+  ],
+  "tools": [
+   "Claude",
+   "Cowork",
+   "Claude Code"
+  ],
+  "tags": [
+   "claude",
+   "cowork",
+   "onboarding",
+   "setup",
+   "about me",
+   "skills",
+   "skill-creator",
+   "connectors",
+   "memory",
+   "projects",
+   "prompting",
+   "context",
+   "tokens",
+   "credits",
+   "responsible ai",
+   "training"
+  ],
+  "status": "shipped",
+  "date": "2026-08-06",
+  "updated": "2026-08-06",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/CK6LYT2APkKg"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/CK6LYT2APkKg"
+  }
+ },
+ {
+  "id": "sana-claude-plugin-for-pms",
+  "name": "The Claude Plugin for PMs (Sana course)",
+  "type": "guide",
+  "summary": "Training for Project Managers on the Claude Project Management plugin + Superside Internal MCP: setup, the 9 skills (morning briefing, project status, client replies, quoting, project creation, hours, brief triage, plan publishing, closing), asking freely across ~80 tools, three recorded live sessions and a sandbox Superspace account.",
+  "how_to_use": "Open the course; follow 'Getting set up' (install Superside Internal MCP connector + PM plugin from Customize > Plugins > Your Org; connect Asana, Slack, Notion); watch the three recorded sessions (Claude Basics, Meet the Skills, Full PM Lifecycle simulation); practise in the '104597 - INTERNAL - 4.3 ANNUAL' Superspace account.",
+  "owners": [],
+  "teams": [
+   "PM"
+  ],
+  "tools": [
+   "Claude",
+   "Cowork",
+   "Superside Internal MCP",
+   "Superspace",
+   "Asana",
+   "Slack",
+   "Notion"
+  ],
+  "tags": [
+   "pm plugin",
+   "project management",
+   "claude plugin",
+   "superspace",
+   "mcp",
+   "quoting",
+   "morning briefing",
+   "project status",
+   "client chat",
+   "hours",
+   "close project",
+   "training",
+   "sandbox"
+  ],
+  "status": "shipped",
+  "date": "2026-09-14",
+  "updated": "2026-09-14",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/fJxAbSndvGpf"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/fJxAbSndvGpf"
+  }
+ },
+ {
+  "id": "sana-how-to-build-claude-artifacts",
+  "name": "How to Build Claude Artifacts (Sana workshop)",
+  "type": "guide",
+  "summary": "Beginner workshop (tool requirement: Claude) on building Claude artifacts - working tools, mini apps and interactive docs in the chat window - and when an artifact beats a regular chat answer. Built live in the session; course holds the slide deck.",
+  "how_to_use": "Open the course and follow the embedded Google Slides deck; build one artifact yourself.",
+  "owners": [],
+  "teams": [
+   "All"
+  ],
+  "tools": [
+   "Claude",
+   "Artifacts"
+  ],
+  "tags": [
+   "artifacts",
+   "claude",
+   "mini app",
+   "interactive doc",
+   "workshop",
+   "beginner",
+   "ai academy"
+  ],
+  "status": "shipped",
+  "date": "2026-10-07",
+  "updated": "2026-10-07",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/hraZQNkq6VBy"
+   },
+   {
+    "label": "Workshop slides",
+    "url": "https://docs.google.com/presentation/d/1z96G8Qjb-XaDHwjzU2V2CN-tR85jrQkqqkzi8Csrev8/edit?slide=id.g3d4ff55c84a_0_0#slide=id.g3d4ff55c84a_0_0"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/hraZQNkq6VBy"
+  }
+ },
+ {
+  "id": "sana-creative-tools-at-superside",
+  "name": "Creative tools at Superside (new-joiner Sana course)",
+  "type": "guide",
+  "summary": "New-joiner course on how tools work: individual vs centrally managed tools (AI tools, Figma, Canva, Claude, stock), what you get on day one (Claude, stock via SSO, Figma view), what's available on request (Figma edit, Krea, Flora, Canva, Bannerify, Weave), what you buy yourself, how to request, and the four guardrails incl. tools not approved by Legal (Kling, ByteDance tools, CapCut used directly).",
+  "how_to_use": "Open the course; request seats/credits in #s-creative-tool-licensing-credit-requests (Creative Ops, ~12h response; in-tool access buttons are not monitored). Live source of truth: Notion 'Creative Tooling at Superside'.",
+  "owners": [
+   "Creative Ops"
+  ],
+  "teams": [
+   "Creative",
+   "PM",
+   "Ops"
+  ],
+  "tools": [
+   "Claude",
+   "Krea",
+   "Flora",
+   "Figma",
+   "Canva",
+   "Bannerify",
+   "Weave"
+  ],
+  "tags": [
+   "approved tools",
+   "tool access",
+   "licenses",
+   "seats",
+   "credits",
+   "onboarding",
+   "new joiner",
+   "compliance",
+   "not approved",
+   "kling",
+   "capcut",
+   "bytedance",
+   "creative ops"
+  ],
+  "status": "shipped",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/pzwai1YXhrFj"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/pzwai1YXhrFj"
+  }
+ },
+ {
+  "id": "sana-intro-to-krea",
+  "name": "Introduction to Krea (Sana course)",
+  "type": "guide",
+  "summary": "Fast-track course for all creatives on Krea, Superside's primary generative AI tool: access, overview video, multi-model image and video generation (Kling 2.0 as go-to video model at the time), custom model training (Flux), dataset curation, image editing, enhancing/upscaling (incl. Topaz up to 16K/22K), and where to get support.",
+  "how_to_use": "All creatives are invited automatically - accept the email invite and log in with Superside Google SSO (check spam; else ask in #-s-support-ai-enhanced). Support: #-s-support-ai-powered, AI workflows Figma board, AI-Powered Juice YouTube channel, Creative Workflow Finder GPT.",
+  "owners": [],
+  "teams": [
+   "Creative"
+  ],
+  "tools": [
+   "Krea",
+   "Flux",
+   "Kling",
+   "Topaz",
+   "Ideogram",
+   "ChatGPT Image"
+  ],
+  "tags": [
+   "krea",
+   "image generation",
+   "video generation",
+   "custom model",
+   "lora",
+   "dataset",
+   "upscaling",
+   "inpainting",
+   "outpainting",
+   "generative ai",
+   "onboarding"
+  ],
+  "status": "shipped",
+  "date": "2026-01-22",
+  "updated": "2026-01-22",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/JVcbsjNBDHKo"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/JVcbsjNBDHKo"
+  }
+ },
+ {
+  "id": "sana-brand-models-for-creatives",
+  "name": "Creative Superside Brand Models (Sana course)",
+  "type": "guide",
+  "summary": "Creative tutorial for Superside Brand Models (Superspace + Figma plugin): what a Brand Model is (5-50 images + description, no training, contextual), creating/editing models, combining up to 3 models, choosing base models (Nano Banana Pro/2, GPT Image 2) and 3K/4K output, publishing a model to a customer account, plus six use-case tutorials (setup, editing, product photography, style transformation, sketch-guided, vector).",
+  "how_to_use": "In Figma: right-click > Manage plugins > search the Superside Brand Models plugin and use the INTERNAL version; log in with your Superside account. Create a model under Models > New model. Publish to a customer by assigning the model to an account, then toggle Published on the account's Brand Models tab in internal.superside.com. Support: #brand-models-support.",
+  "owners": [],
+  "teams": [
+   "Creative"
+  ],
+  "tools": [
+   "Superside Brand Models",
+   "Figma",
+   "Superspace",
+   "Brand Brain",
+   "Nano Banana"
+  ],
+  "tags": [
+   "brand models",
+   "brand consistency",
+   "image generation",
+   "figma plugin",
+   "on-brand",
+   "product photography",
+   "style transfer",
+   "vector",
+   "publish to customer",
+   "brand brain"
+  ],
+  "status": "shipped",
+  "date": "2026-05-25",
+  "updated": "2026-05-25",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/ewy1GcEdXsCy"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/ewy1GcEdXsCy"
+  }
+ },
+ {
+  "id": "sana-brand-models-for-am-pms",
+  "name": "Superside Brand Models for AM/PMs (Sana course)",
+  "type": "guide",
+  "summary": "AM/PM version of the Brand Models course: what Brand Models are, why to build them proactively for daily work and upsell, how they work in Superspace (Omnibox 'context' > use brand models / refer past projects), positioning (image layer of client context intelligence, not a standalone magic product), playground demo account and selling materials.",
+  "how_to_use": "Request the Brand Model / Brand Brain playground demo account via the access sheet linked in 'Playground Access' (read the 'Read First' tab). Use the Superspace Omnibox > Context > Use brand models. Selling materials: Sales Pitch Guide, Brand Models client deck, Brand Brain client deck.",
+  "owners": [],
+  "teams": [
+   "AM",
+   "PM"
+  ],
+  "tools": [
+   "Superside Brand Models",
+   "Superspace",
+   "Brand Brain",
+   "Figma"
+  ],
+  "tags": [
+   "brand models",
+   "brand brain",
+   "upsell",
+   "demo",
+   "sales",
+   "playground",
+   "superspace omnibox",
+   "client pitch"
+  ],
+  "status": "shipped",
+  "date": "2026-05-25",
+  "updated": "2026-05-25",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/JPanUigTssCh"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/JPanUigTssCh"
+  }
+ },
+ {
+  "id": "sana-ai-video-ads-from-scratch-part-1",
+  "name": "Creating AI Video Ads from Scratch: Part 1 (Brainstorm, script, storyboard) (Sana workshop)",
+  "type": "guide",
+  "summary": "AI Academy Essentials workshop (October 2026) recording + slides covering brainstorming the concept with AI, writing the script and building the storyboard. Delivered by Superside's AI Consulting team (Part 1 was run for a client cohort); tools discussed include ChatGPT, Gemini/Google Flow, Adobe Firefly, Midjourney and Runway.",
+  "how_to_use": "Open the course: watch the recording and follow the slides. Do the parts in order (1-4).",
+  "owners": [
+   "Bianca Piertse"
+  ],
+  "teams": [
+   "Creative",
+   "AI Consulting"
+  ],
+  "tools": [
+   "ChatGPT",
+   "Gemini",
+   "Google Flow",
+   "Adobe Firefly",
+   "Midjourney",
+   "Runway"
+  ],
+  "tags": [
+   "ai video",
+   "video ads",
+   "storyboard",
+   "script",
+   "image generation",
+   "video generation",
+   "voice over",
+   "sfx",
+   "music",
+   "workshop",
+   "ai academy"
+  ],
+  "status": "shipped",
+  "date": "2026-10-27",
+  "updated": "2026-10-27",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/zXG6E45CnWAv"
+   },
+   {
+    "label": "Workshop slides",
+    "url": "https://docs.google.com/presentation/d/1YDEIHbSEhU0JDSJNaoXGJ43azTnNZ3H5dyEfhqn5qNM/edit?slide=id.g3e52c9ec6d4_0_3#slide=id.g3e52c9ec6d4_0_3"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/zXG6E45CnWAv"
+  }
+ },
+ {
+  "id": "sana-ai-video-ads-from-scratch-part-2",
+  "name": "Creating AI Video Ads from Scratch: Part 2 (Sana workshop)",
+  "type": "guide",
+  "summary": "AI Academy Essentials workshop (October 2026) recording + slides covering consistent art direction, character development and image generation for each scene. Delivered by Superside's AI Consulting team (Part 1 was run for a client cohort); tools discussed include ChatGPT, Gemini/Google Flow, Adobe Firefly, Midjourney and Runway.",
+  "how_to_use": "Open the course: watch the recording and follow the slides. Do the parts in order (1-4).",
+  "owners": [],
+  "teams": [
+   "Creative",
+   "AI Consulting"
+  ],
+  "tools": [
+   "ChatGPT",
+   "Gemini",
+   "Google Flow",
+   "Adobe Firefly",
+   "Midjourney",
+   "Runway"
+  ],
+  "tags": [
+   "ai video",
+   "video ads",
+   "storyboard",
+   "script",
+   "image generation",
+   "video generation",
+   "voice over",
+   "sfx",
+   "music",
+   "workshop",
+   "ai academy"
+  ],
+  "status": "shipped",
+  "date": "2026-10-27",
+  "updated": "2026-10-27",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/xKgadu4ay5tP"
+   },
+   {
+    "label": "Workshop slides",
+    "url": "https://docs.google.com/presentation/d/1Py_bbXSk82wzPoQcXAFY5CoERhO1jzg4cEbv-p74280/edit?usp=sharing"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/xKgadu4ay5tP"
+  }
+ },
+ {
+  "id": "sana-ai-video-ads-from-scratch-part-3",
+  "name": "Creating AI Video Ads from Scratch: Part 3 (video generation) (Sana workshop)",
+  "type": "guide",
+  "summary": "AI Academy Essentials workshop (October 2026) recording + slides covering turning the static images into video clips. Delivered by Superside's AI Consulting team (Part 1 was run for a client cohort); tools discussed include ChatGPT, Gemini/Google Flow, Adobe Firefly, Midjourney and Runway.",
+  "how_to_use": "Open the course: watch the recording and follow the slides. Do the parts in order (1-4).",
+  "owners": [],
+  "teams": [
+   "Creative",
+   "AI Consulting"
+  ],
+  "tools": [
+   "ChatGPT",
+   "Gemini",
+   "Google Flow",
+   "Adobe Firefly",
+   "Midjourney",
+   "Runway"
+  ],
+  "tags": [
+   "ai video",
+   "video ads",
+   "storyboard",
+   "script",
+   "image generation",
+   "video generation",
+   "voice over",
+   "sfx",
+   "music",
+   "workshop",
+   "ai academy"
+  ],
+  "status": "shipped",
+  "date": "2026-10-27",
+  "updated": "2026-10-27",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/rqfp22jd99wM"
+   },
+   {
+    "label": "Workshop slides",
+    "url": "https://docs.google.com/presentation/d/1PP3WjokKAAZuhYgBfzu0zDoSi2aHfL1SqCXwMi4RijU/edit?slide=id.w3_s01#slide=id.w3_s01"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/rqfp22jd99wM"
+  }
+ },
+ {
+  "id": "sana-ai-video-ads-from-scratch-part-4",
+  "name": "Creating AI Video Ads from Scratch: Part 4 (AI VO, SFX and music) (Sana workshop)",
+  "type": "guide",
+  "summary": "AI Academy Essentials workshop (October 2026) recording + slides covering editing clips together and generating AI voice-over, SFX and music. Delivered by Superside's AI Consulting team (Part 1 was run for a client cohort); tools discussed include ChatGPT, Gemini/Google Flow, Adobe Firefly, Midjourney and Runway.",
+  "how_to_use": "Open the course: watch the recording and follow the slides. Do the parts in order (1-4).",
+  "owners": [],
+  "teams": [
+   "Creative",
+   "AI Consulting"
+  ],
+  "tools": [
+   "ChatGPT",
+   "Gemini",
+   "Google Flow",
+   "Adobe Firefly",
+   "Midjourney",
+   "Runway"
+  ],
+  "tags": [
+   "ai video",
+   "video ads",
+   "storyboard",
+   "script",
+   "image generation",
+   "video generation",
+   "voice over",
+   "sfx",
+   "music",
+   "workshop",
+   "ai academy"
+  ],
+  "status": "shipped",
+  "date": "2026-10-27",
+  "updated": "2026-10-27",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/BENzew84rNe6"
+   },
+   {
+    "label": "Workshop slides",
+    "url": "https://docs.google.com/presentation/d/1ReaKESu_uPH5r2w4GMTDutV0uDyXXgyjTYbjmR7EY3c/edit?slide=id.w3_s01#slide=id.w3_s01"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/BENzew84rNe6"
+  }
+ },
+ {
+  "id": "sana-canva-ai-2-ads",
+  "name": "Creating Ads with Canva AI 2.0 (Sana workshop)",
+  "type": "guide",
+  "summary": "Beginner workshop (tool requirement: Canva Pro) on Canva AI 2.0 features for social workflows - going from idea to finished post through conversation instead of clicking around.",
+  "how_to_use": "Open the course and follow the embedded slide deck.",
+  "owners": [],
+  "teams": [
+   "Creative",
+   "Marketing"
+  ],
+  "tools": [
+   "Canva AI"
+  ],
+  "tags": [
+   "canva",
+   "social ads",
+   "social posts",
+   "workshop",
+   "beginner",
+   "ai academy"
+  ],
+  "status": "shipped",
+  "date": "2026-10-07",
+  "updated": "2026-10-07",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/H3A9bz8xNowC"
+   },
+   {
+    "label": "Workshop slides",
+    "url": "https://docs.google.com/presentation/d/1x6iDKDKaKKKFj3tXGVfUf6FF_RxudfwQlkNyhDr2epE/edit?slide=id.g3d4ff55c84a_0_0#slide=id.g3d4ff55c84a_0_0"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/H3A9bz8xNowC"
+  }
+ },
+ {
+  "id": "sana-geo-vs-seo",
+  "name": "Get to Know GEO vs SEO (Sana workshop)",
+  "type": "guide",
+  "summary": "Beginner workshop on Generative Engine Optimization: search now means ChatGPT, Perplexity and AI Overviews, which play by different rules than classic SEO.",
+  "how_to_use": "Open the course and follow the embedded slide deck.",
+  "owners": [],
+  "teams": [
+   "Marketing",
+   "Creative"
+  ],
+  "tools": [
+   "ChatGPT",
+   "Perplexity",
+   "Google AI Overviews"
+  ],
+  "tags": [
+   "geo",
+   "seo",
+   "ai search",
+   "aeo",
+   "perplexity",
+   "workshop",
+   "ai academy"
+  ],
+  "status": "shipped",
+  "date": "2026-10-07",
+  "updated": "2026-10-07",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/cPpsK2v4ga7C"
+   },
+   {
+    "label": "Workshop slides",
+    "url": "https://docs.google.com/presentation/d/1U-d6YWPgot4Fq61qHL0U-A5z0M56vFcQsVa7-fRDwPM/edit?slide=id.g3f9ebbfc93e_1_16878#slide=id.g3f9ebbfc93e_1_16878"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/cPpsK2v4ga7C"
+  }
+ },
+ {
+  "id": "sana-product-photography-102",
+  "name": "Product Photography 102 (Sana workshop)",
+  "type": "guide",
+  "summary": "Workshop taking you 0-to-100 on AI product imagery: brainstorming scenarios, writing prompts, power prompt keywords and upscaling.",
+  "how_to_use": "Open the course and follow the embedded slide deck.",
+  "owners": [],
+  "teams": [
+   "Creative"
+  ],
+  "tools": [
+   "AI image generation"
+  ],
+  "tags": [
+   "product photography",
+   "prompting",
+   "image generation",
+   "upscaling",
+   "workshop",
+   "ai academy"
+  ],
+  "status": "shipped",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/wGLJ9kficZjc"
+   },
+   {
+    "label": "Workshop slides",
+    "url": "https://docs.google.com/presentation/d/1w0_s6TNse2kN-1I-l2au7hZh_vKRmkP8eFuEa6vaNek/edit?slide=id.photo102_01#slide=id.photo102_01"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/wGLJ9kficZjc"
+  }
+ },
+ {
+  "id": "sana-intro-to-ai-consulting",
+  "name": "Intro to AI Consulting (Sana course)",
+  "type": "guide",
+  "summary": "Sales enablement on Superside's AI Consulting department (Strategy, AI Academy upskilling, custom AI Solutions): case studies, where to look for AI opportunities, discovery/qualification questions, and the hand-off process when a prospect is interested.",
+  "how_to_use": "If a prospect is interested: book a follow-up with an AE (Jack Newton's team) + an AI Consultant (Bianca Piertse, Javier Mena, Jan Emmanuele) via Chili Piper; create a Stage 0 SF opportunity tagged 'AI Consulting'; post the call recording in #s-AI-Consulting-BDR tagging the consultant.",
+  "owners": [
+   "Bianca Piertse",
+   "Javier Mena",
+   "Jan Emmanuele"
+  ],
+  "teams": [
+   "Sales",
+   "AI Consulting"
+  ],
+  "tools": [
+   "Salesforce",
+   "Chili Piper"
+  ],
+  "tags": [
+   "ai consulting",
+   "sales",
+   "bdr",
+   "ae",
+   "upskilling",
+   "ai academy",
+   "ai solutions",
+   "lead qualification",
+   "opportunities"
+  ],
+  "status": "shipped",
+  "date": "2026-01-08",
+  "updated": "2026-01-08",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/KXUwwAbyq7F4"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/KXUwwAbyq7F4"
+  }
+ },
+ {
+  "id": "sana-creative-ai-pm-identifying-opportunities",
+  "name": "Creative AI Project Management: Identifying Opportunities (Sana course)",
+  "type": "guide",
+  "summary": "Teaches PMs to spot and pitch AI opportunities in briefs: referencing Superside's AI capabilities, capability breakdown, project complexity, guiding principles, project acceptance questions, case studies, pitching tips, an AI FAQ sheet (incl. legal aspects) and brief exercises with a recorded pitch.",
+  "how_to_use": "Open the course and do the three brief exercises; when unsure, reach out to the AI PM team.",
+  "owners": [],
+  "teams": [
+   "PM"
+  ],
+  "tools": [
+   "Generative AI"
+  ],
+  "tags": [
+   "ai opportunities",
+   "briefs",
+   "pitching ai",
+   "project acceptance",
+   "ai faq",
+   "legal",
+   "pm training"
+  ],
+  "status": "shipped",
+  "date": "2026-01-09",
+  "updated": "2026-01-09",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/G61Y3k3fzzxU"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/G61Y3k3fzzxU"
+  }
+ },
+ {
+  "id": "sana-creative-ai-pm-quality-control",
+  "name": "Creative AI Project Management: Quality Control (Sana course)",
+  "type": "guide",
+  "summary": "QC guide for generative-AI work: 3 stages of AI integration, 15 image QC steps, 9 copy QC steps, QC tools (QC Master GPT, AI QC checklist incl. Figma component) and 20 QC exercises. A near-identical older version exists as 'AI Project Quality Control for CLs' (jgx7H819bg4p).",
+  "how_to_use": "Open the course; use the QC Master GPT and QC checklist linked inside; work through the 20 exercises.",
+  "owners": [],
+  "teams": [
+   "PM",
+   "Creative Leadership"
+  ],
+  "tools": [
+   "ChatGPT (custom GPT)",
+   "Figma"
+  ],
+  "tags": [
+   "qc",
+   "quality control",
+   "ai images",
+   "ai copy",
+   "anomalies",
+   "hands",
+   "checklist",
+   "creative lead"
+  ],
+  "status": "shipped",
+  "date": "2025-03-13",
+  "updated": "2025-03-13",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/BKmWsTQXvJ68"
+   },
+   {
+    "label": "Older CL version (2024)",
+    "url": "https://superside.sana.ai/s/jgx7H819bg4p"
+   },
+   {
+    "label": "3 stages of AI integration (Figma)",
+    "url": "https://www.figma.com/proto/IzVvnITfZIWsSdEFTtjqAG/GenAI-QCG-G1?page-id=0%3A1&node-id=1-80"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/BKmWsTQXvJ68"
+  }
+ },
+ {
+  "id": "sana-cpm-budgeting-toolkit-practice",
+  "name": "CPM budgeting toolkit practice (Sana course)",
+  "type": "guide",
+  "summary": "PM quoting practice with five briefs (incl. when to apply an AI discount and how AI can be used per brief), AI use-case examples, the Product Catalog & Quote App, and the AI PM Sidekick guide.",
+  "how_to_use": "Open the course; for AI guidance on projects ask #s-brief-ai-powered (GenAI team); quote-app feedback in #-s-support-budget-guidelines.",
+  "owners": [],
+  "teams": [
+   "PM"
+  ],
+  "tools": [
+   "AI PM Sidekick",
+   "Product Catalog & Quote App"
+  ],
+  "tags": [
+   "quoting",
+   "budgeting",
+   "ai discount",
+   "ai use cases",
+   "pm training",
+   "estimates"
+  ],
+  "status": "shipped",
+  "date": "2026-01-09",
+  "updated": "2026-01-09",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/y52ExCj6cE66"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/y52ExCj6cE66"
+  }
+ },
+ {
+  "id": "sana-creative-ai-skill-unlock",
+  "name": "Creative AI Skill Unlock (Sana course, deprecated)",
+  "type": "guide",
+  "summary": "Marked |DEPRECATED| in Sana. Creative AI upskilling module: AI Workflows Figma library, the Workflow Finder, a brief-based practice exercise and submission to unlock an AI skill.",
+  "how_to_use": "Superseded; resources still referenced: AI Workflows (Figma), Workflow Finder, Intro to Krea course, '/AI Project Support (for all)' Slack workflow.",
+  "owners": [],
+  "teams": [
+   "Creative"
+  ],
+  "tools": [
+   "Krea",
+   "ChatGPT",
+   "Figma"
+  ],
+  "tags": [
+   "ai workflows",
+   "workflow finder",
+   "upskilling",
+   "skill unlock",
+   "creative ai"
+  ],
+  "status": "deprecated",
+  "date": "2025-12-29",
+  "updated": "2025-12-29",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/ERiNsvc49dWF"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/ERiNsvc49dWF"
+  }
+ },
+ {
+  "id": "sana-ai-advanced-static-plus",
+  "name": "AI Advanced - Static+ (Sana course)",
+  "type": "guide",
+  "summary": "Advanced creative course on animating static assets: RunwayML image/text-to-video, general settings, camera motion, motion brush, extending length, super slow motion, ad types (landscape, portraits, product shots), moving designs to After Effects (AEUX, Animation Composer), RunwayML limitations, plus an assessment.",
+  "how_to_use": "Open the course and submit the assessment.",
+  "owners": [],
+  "teams": [
+   "Creative",
+   "Motion"
+  ],
+  "tools": [
+   "RunwayML",
+   "After Effects",
+   "AEUX",
+   "Stable Diffusion",
+   "Fable"
+  ],
+  "tags": [
+   "image to video",
+   "motion",
+   "runway",
+   "static to motion",
+   "ads",
+   "after effects"
+  ],
+  "status": "shipped",
+  "date": "2025-03-13",
+  "updated": "2025-03-13",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/abHutZim5nDr"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/abHutZim5nDr"
+  }
+ },
+ {
+  "id": "sana-ai-advanced-motion-plus",
+  "name": "AI Advanced - Motion+ (Sana course)",
+  "type": "guide",
+  "summary": "Advanced motion course: gen-AI tips/workarounds per step of the motion pipeline and case studies (Synthego, Patagonia, Clay claymation, AI avatar) chaining MidJourney, RunwayML, Krea, Scenario, Stable Diffusion/ComfyUI, HeyGen, PlayHT, Suno/Udio, Magnific, TensorPix/Pixop; plus an assessment (WIP).",
+  "how_to_use": "Open the course; review case studies and tool cards; submit the Motion+ assessment.",
+  "owners": [],
+  "teams": [
+   "Motion",
+   "Creative"
+  ],
+  "tools": [
+   "MidJourney",
+   "RunwayML",
+   "Krea",
+   "Scenario",
+   "Stable Diffusion",
+   "ComfyUI",
+   "HeyGen",
+   "PlayHT",
+   "Suno",
+   "Udio",
+   "Magnific"
+  ],
+  "tags": [
+   "motion",
+   "animation",
+   "ai video",
+   "case study",
+   "claymation",
+   "ai avatar",
+   "voice over",
+   "music"
+  ],
+  "status": "shipped",
+  "date": "2025-03-13",
+  "updated": "2025-03-13",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/Ptxsuu1D5hFf"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/Ptxsuu1D5hFf"
+  }
+ },
+ {
+  "id": "sana-ai-enhanced-essentials",
+  "name": "AI Enhanced Essentials program (legacy Sana courses)",
+  "type": "guide",
+  "summary": "Legacy (2024) AI Enhanced learning journey for creatives and Copy & Concept: practice projects (e.g. organising copy with the CRAFT prompt framework in ChatGPT), assessments and Midjourney/ChatGPT resource lists. Eight separate Sana courses.",
+  "how_to_use": "Open the courses listed in links; mostly superseded by Krea/Claude training.",
+  "owners": [],
+  "teams": [
+   "Creative",
+   "Copy"
+  ],
+  "tools": [
+   "ChatGPT",
+   "Midjourney"
+  ],
+  "tags": [
+   "ai enhanced",
+   "legacy",
+   "prompting",
+   "craft framework",
+   "midjourney",
+   "chatgpt",
+   "assessment"
+  ],
+  "status": "deprecated",
+  "date": "2024-11-29",
+  "updated": "2024-11-29",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/rimN23rmhpgi"
+   },
+   {
+    "label": "AI Enhanced Essentials - Assessment (Copy & Concept)",
+    "url": "https://superside.sana.ai/s/wcTXL37kg1GL"
+   },
+   {
+    "label": "AI Enhanced Essentials - Practice Project 1 (Copy & Concept)",
+    "url": "https://superside.sana.ai/s/BRu8duzsvcy5"
+   },
+   {
+    "label": "AI Enhanced Essentials - Practice Project 2 (Copy & Concept)",
+    "url": "https://superside.sana.ai/s/TGkGKe2YmTV6"
+   },
+   {
+    "label": "AI Enhanced Essentials - Practice Project 2",
+    "url": "https://superside.sana.ai/s/vjry4vTnetTS"
+   },
+   {
+    "label": "AI Enhanced Essentials - Practice Project 3",
+    "url": "https://superside.sana.ai/s/on8Jqtiuc9Du"
+   },
+   {
+    "label": "AI Enhanced - Resources",
+    "url": "https://superside.sana.ai/s/YWOzLLwk4ZAa"
+   },
+   {
+    "label": "AI Enhanced - Resources (Copy & Concept)",
+    "url": "https://superside.sana.ai/s/APp31sNY4XGu"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/rimN23rmhpgi"
+  }
+ },
+ {
+  "id": "sana-ai-enhanced-workflows-series",
+  "name": "AI Enhanced Workflows series (legacy Sana micro-courses)",
+  "type": "guide",
+  "summary": "19 short 2024-25 micro-courses, each an intro + video tutorial + Figma workflow: custom GPTs, copywriting, branding assets, proofreading, moodboards, scripts/storyboards, icon/illustration/photoreal libraries, post-production, upscaling, 3D-looking assets, and SPS (video) workflows for AI music/SFX, voice-over, VFX and image-to-video.",
+  "how_to_use": "Open the relevant micro-course from links; current versions of these workflows live in the AI Workflows Figma board.",
+  "owners": [],
+  "teams": [
+   "Creative",
+   "Copy",
+   "Motion"
+  ],
+  "tools": [
+   "ChatGPT",
+   "Custom GPTs",
+   "Midjourney",
+   "Adobe Firefly",
+   "Tinkercad"
+  ],
+  "tags": [
+   "ai workflows",
+   "custom gpt",
+   "copywriting",
+   "moodboards",
+   "storyboard",
+   "icons",
+   "illustration",
+   "photoreal",
+   "upscaling",
+   "voice over",
+   "music",
+   "sfx",
+   "image to video",
+   "legacy"
+  ],
+  "status": "deprecated",
+  "date": "2025-03-14",
+  "updated": "2025-03-14",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/VunGzrF3r2oM"
+   },
+   {
+    "label": "Custom Copywriting GPT Workflow",
+    "url": "https://superside.sana.ai/s/6DdKrBSTs92N"
+   },
+   {
+    "label": "Branding Assets Workflow",
+    "url": "https://superside.sana.ai/s/K58bHMLbpLVu"
+   },
+   {
+    "label": "Proofreading Workflow",
+    "url": "https://superside.sana.ai/s/7iXSDBnHUAz5"
+   },
+   {
+    "label": "Production Copywriting for Digital Advertising",
+    "url": "https://superside.sana.ai/s/2kkbaFoPBxCE"
+   },
+   {
+    "label": "Copywriting for Brand Building",
+    "url": "https://superside.sana.ai/s/KP95gCReNKVV"
+   },
+   {
+    "label": "Generating Moodboards",
+    "url": "https://superside.sana.ai/s/aYfPVujYZppZ"
+   },
+   {
+    "label": "Scriptwriting and Storyboarding",
+    "url": "https://superside.sana.ai/s/LF8eFoPipYvn"
+   },
+   {
+    "label": "Illustrated Icon Library",
+    "url": "https://superside.sana.ai/s/L8o5i1bSvFQv"
+   },
+   {
+    "label": "Illustration Library",
+    "url": "https://superside.sana.ai/s/8TnQ4MyVhUhB"
+   },
+   {
+    "label": "Photorealistic Library",
+    "url": "https://superside.sana.ai/s/z8TQ25HyC4aq"
+   },
+   {
+    "label": "Image Post-production",
+    "url": "https://superside.sana.ai/s/PprtnWtGVAAJ"
+   },
+   {
+    "label": "Upscaling Images",
+    "url": "https://superside.sana.ai/s/q2akusbjRmrX"
+   },
+   {
+    "label": "Creating 3D Looking Assets with AI (Tinkercad + Firefly)",
+    "url": "https://superside.sana.ai/s/QEuDKFNzz3Zy"
+   },
+   {
+    "label": "SPS: Scriptwriting and Storyboarding",
+    "url": "https://superside.sana.ai/s/ZLYrmMQMVoSF"
+   },
+   {
+    "label": "SPS: Visual Effects and Enhancements",
+    "url": "https://superside.sana.ai/s/2PfZNdjc2g4g"
+   },
+   {
+    "label": "SPS: Generating AI Music and Sound Effects",
+    "url": "https://superside.sana.ai/s/SLdbKUc4jBxA"
+   },
+   {
+    "label": "SPS: Generating AI Voice Over",
+    "url": "https://superside.sana.ai/s/UiHAAjHQReHa"
+   },
+   {
+    "label": "SPS: Image to Video",
+    "url": "https://superside.sana.ai/s/vrWTaozCp678"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/VunGzrF3r2oM"
+  }
+ },
+ {
+  "id": "sana-openai-academy",
+  "name": "OpenAI Academy (Sana pointer course)",
+  "type": "guide",
+  "summary": "Short pointer course promoting OpenAI Academy (external expert-led workshops and bite-sized AI content) as a self-learning resource.",
+  "how_to_use": "Open the course and follow the link to the OpenAI Academy website.",
+  "owners": [],
+  "teams": [
+   "All"
+  ],
+  "tools": [
+   "ChatGPT",
+   "OpenAI"
+  ],
+  "tags": [
+   "openai",
+   "chatgpt",
+   "external learning",
+   "ai literacy"
+  ],
+  "status": "shipped",
+  "date": "2025-12-29",
+  "updated": "2025-12-29",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/E3toErCWEGuf"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/E3toErCWEGuf"
+  }
+ },
+ {
+  "id": "sana-prompt-commander-game",
+  "name": "Game: Prompt Commander (Sana)",
+  "type": "guide",
+  "summary": "5-minute prompting game: play three rounds of Prompt Commander and share your score.",
+  "how_to_use": "Open the course and click 'Click here to play'.",
+  "owners": [],
+  "teams": [
+   "All"
+  ],
+  "tools": [
+   "Generative AI"
+  ],
+  "tags": [
+   "prompting",
+   "game",
+   "gamified",
+   "ai literacy"
+  ],
+  "status": "shipped",
+  "date": "2025-04-16",
+  "updated": "2025-04-16",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/Hd9cnohzVPxj"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/Hd9cnohzVPxj"
+  }
+ },
+ {
+  "id": "sana-ai-powered-juice",
+  "name": "AI-Powered Juice (YouTube channel, Sana pointer)",
+  "type": "guide",
+  "summary": "Pointer to Superside's 'AI-Powered Juice' YouTube channel with AI tutorials, tools and showcases for AI video and marketing/sales content.",
+  "how_to_use": "Open the course and follow the link to the YouTube channel.",
+  "owners": [],
+  "teams": [
+   "Creative",
+   "Marketing",
+   "Sales"
+  ],
+  "tools": [
+   "YouTube"
+  ],
+  "tags": [
+   "video tutorials",
+   "ai tips",
+   "showcase"
+  ],
+  "status": "shipped",
+  "date": "2025-05-30",
+  "updated": "2025-05-30",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/nMdETAhJdZZZ"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/nMdETAhJdZZZ"
+  }
+ },
+ {
+  "id": "sana-figma-buzz",
+  "name": "Figma Buzz (Sana course)",
+  "type": "guide",
+  "summary": "Automation training: Figma Buzz turns one design into hundreds of data-driven variants (CSV/Excel); covers suitable projects, Buzz services (full-service vs self-serve), file prep, syncing, QA, Buzz's built-in AI tools / 'Make an Image', and an assessment.",
+  "how_to_use": "Open the course; reach out to the automation team (Anthony Higgins) for Buzz services.",
+  "owners": [
+   "Anthony Higgins"
+  ],
+  "teams": [
+   "Creative",
+   "PM"
+  ],
+  "tools": [
+   "Figma Buzz",
+   "Figma AI"
+  ],
+  "tags": [
+   "automation",
+   "variants",
+   "resizing",
+   "data-driven",
+   "figma buzz",
+   "templates",
+   "make an image"
+  ],
+  "status": "shipped",
+  "date": "2026-02-24",
+  "updated": "2026-02-24",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/ztGpvgxsHY86"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/ztGpvgxsHY86"
+  }
+ },
+ {
+  "id": "sana-cpm-customer-research-chatgpt",
+  "name": "CPM Creative Development - Researching your Customer (Sana course)",
+  "type": "guide",
+  "summary": "PM course on customer research (Google Alerts, LinkedIn, research questions) with a card on using ChatGPT for faster, deeper customer research.",
+  "how_to_use": "Open the course; see the 'ChatGPT' card.",
+  "owners": [],
+  "teams": [
+   "PM"
+  ],
+  "tools": [
+   "ChatGPT"
+  ],
+  "tags": [
+   "customer research",
+   "chatgpt",
+   "account research",
+   "pm"
+  ],
+  "status": "shipped",
+  "date": "2024-11-29",
+  "updated": "2024-11-29",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/UcEzc3gvdtsL"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/UcEzc3gvdtsL"
+  }
+ },
+ {
+  "id": "sana-upgrade-your-workday-with-ai",
+  "name": "Upgrade Your Workday With AI (Sana course)",
+  "type": "guide",
+  "summary": "Six-chapter gamified AI-literacy course ('Jemma the Workmate'): AI personality types, AI as career boost and time saver, common AI concerns and a Safe AI Usage Guide, an AI adoption model. Appears to be a Workday-branded template (refers to 'Workday's AI', Salesforce Insights Widget) rather than Superside-specific guidance; contains placeholder case studies.",
+  "how_to_use": "Optional; prefer Claude Cowork 101 and the AI Acceptable Use Policy for Superside guidance.",
+  "owners": [],
+  "teams": [
+   "All"
+  ],
+  "tools": [
+   "Workday AI"
+  ],
+  "tags": [
+   "ai literacy",
+   "ai concerns",
+   "safe ai usage",
+   "template"
+  ],
+  "status": "unknown",
+  "date": "2025-05-12",
+  "updated": "2025-05-12",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/7b3qd3aqh8CB"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/7b3qd3aqh8CB"
+  }
+ },
+ {
+  "id": "sana-sar-resources-people-guru",
+  "name": "SAR Resources (live manager session) - People Guru plugin",
+  "type": "guide",
+  "summary": "Live manager-enablement session on SAR (performance review); its resources card points managers to the Manager Guide to SAR, 'How to use the SAR Review Guru' (Notion) and the People Guru Claude plugin, which supports review writing in walkthrough or reflection-partner mode.",
+  "how_to_use": "Install steps are not in the course; presumably via Claude > Customize > Plugins > Your Org (same as other org plugins). See Notion 'How to use the SAR Review Guru'.",
+  "owners": [],
+  "teams": [
+   "People",
+   "Managers"
+  ],
+  "tools": [
+   "Claude",
+   "People Guru plugin"
+  ],
+  "tags": [
+   "sar",
+   "performance review",
+   "people guru",
+   "manager",
+   "review writing"
+  ],
+  "status": "shipped",
+  "date": "2026-10-15",
+  "updated": "2026-10-15",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/course/hNmifgHzAQuu"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/course/hNmifgHzAQuu"
+  }
+ },
+ {
+  "id": "project-management-plugin",
+  "name": "Claude Project Management (PM) plugin",
+  "type": "plugin",
+  "summary": "Org Claude plugin that connects Claude to live Superspace data (projects, briefs, quotes, accounts, client chat) via the Superside Internal MCP. ~80 tools in toolsets (Projects, Briefs, Assets, Quoting, Accounts, Memory, Staffing) plus 9 skills: /morning-briefing, /project-status, /compose-chat-message, /quoting, /create-and-submit-project, /logging-management-hours, /new-project (brief triage), /publish-project-plan, /close-project, and the always-on using-project-management skill. Works within your existing permissions; action skills wait for explicit confirmation.",
+  "how_to_use": "1) Claude app > Customize > Connectors > install 'Superside Internal MCP'. 2) Customize > Plugins > Browse > 'Your Org' tab > install the PM plugin. 3) Connect Asana, Slack and Notion connectors. Run skills with the slash command or plain language; schedule the morning briefing to Slack DM with /schedule in Cowork. Sandbox: Superspace account '104597 - INTERNAL - 4.3 ANNUAL'. Full tool catalog: Notion 'Claude Project Management plugin'.",
+  "owners": [],
+  "teams": [
+   "PM"
+  ],
+  "tools": [
+   "Claude",
+   "Cowork",
+   "Superside Internal MCP",
+   "Superspace",
+   "Asana",
+   "Slack",
+   "Notion"
+  ],
+  "tags": [
+   "pm plugin",
+   "project management",
+   "superspace",
+   "morning briefing",
+   "project status",
+   "quoting",
+   "client reply",
+   "hours",
+   "close project",
+   "brief triage",
+   "project plan",
+   "skills"
+  ],
+  "status": "shipped",
+  "date": "2026-09-14",
+  "updated": "2026-09-14",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/fJxAbSndvGpf"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/fJxAbSndvGpf"
+  }
+ },
+ {
+  "id": "superside-internal-mcp",
+  "name": "Superside Internal MCP (connector)",
+  "type": "mcp",
+  "summary": "Org connector giving Claude access to Superspace data; prerequisite for the PM plugin (and other Superside role plugins).",
+  "how_to_use": "Claude app > Customize > Connectors > find 'Superside Internal MCP' > install.",
+  "owners": [],
+  "teams": [
+   "PM",
+   "AM",
+   "Creative"
+  ],
+  "tools": [
+   "Claude",
+   "Superspace"
+  ],
+  "tags": [
+   "mcp",
+   "connector",
+   "superspace",
+   "setup"
+  ],
+  "status": "shipped",
+  "date": "2026-09-14",
+  "updated": "2026-09-14",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/fJxAbSndvGpf"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/fJxAbSndvGpf"
+  }
+ },
+ {
+  "id": "people-guru-plugin",
+  "name": "People Guru Claude plugin",
+  "type": "plugin",
+  "summary": "Claude plugin for people managers; the SAR resources recommend it to support review writing in walkthrough mode or reflection-partner mode (alongside the Notion 'SAR Review Guru' guide).",
+  "how_to_use": "Install steps are not in the course; presumably via Claude > Customize > Plugins > Your Org (same as other org plugins). See Notion 'How to use the SAR Review Guru'.",
+  "owners": [],
+  "teams": [
+   "People",
+   "Managers"
+  ],
+  "tools": [
+   "Claude"
+  ],
+  "tags": [
+   "people guru",
+   "sar",
+   "performance review",
+   "manager",
+   "hr"
+  ],
+  "status": "shipped",
+  "date": "2026-10-15",
+  "updated": "2026-10-15",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/course/hNmifgHzAQuu"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/course/hNmifgHzAQuu"
+  }
+ },
+ {
+  "id": "cowork-about-me-setup",
+  "name": "Cowork 'About Me' folder setup (Claude 101 method)",
+  "type": "workflow",
+  "summary": "Standard Superside setup for Claude Cowork: a 'Claude Cowork' folder with ABOUT ME / OUTPUTS / TEMPLATES, interview-generated about-me.md, my-company.md and avoid-ai-writing.md (installed via a Cowork skill), and global instructions telling Claude to read ABOUT ME before every task and save deliverables to OUTPUTS/<project>.",
+  "how_to_use": "Prompt Cowork: 'I want to create my about-me.md file - ask me questions to build it.' Repeat for my-company.md and avoid-ai-writing.md. Add global instructions under Settings > General > Instructions for Claude. Connect the parent folder (not a subfolder) and star it. Keep ABOUT ME lean (~1,500-2,000 words).",
+  "owners": [],
+  "teams": [
+   "All"
+  ],
+  "tools": [
+   "Claude",
+   "Cowork"
+  ],
+  "tags": [
+   "cowork",
+   "about me",
+   "context",
+   "setup",
+   "avoid ai writing",
+   "instructions"
+  ],
+  "status": "shipped",
+  "date": "2026-08-06",
+  "updated": "2026-08-06",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/CK6LYT2APkKg"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/CK6LYT2APkKg"
+  }
+ },
+ {
+  "id": "ai-acceptable-use-policy",
+  "name": "Superside AI Acceptable Use Policy (+ responsible-use rules)",
+  "type": "guide",
+  "summary": "Company AI policy linked from Claude Cowork 101. Course guidance: Superside uses Claude's enterprise tier (conversation content not used for training), admins may see usage data for compliance, Cowork only sees folders you select, review every output before it reaches a client, you are responsible for what you send, and if you wouldn't send it to a personal email don't paste it into Claude. Only install Skills from trusted sources and read the .md files first.",
+  "how_to_use": "Read the policy via the 'Responsible use' card in Claude Cowork 101 (also links Anthropic's usage policy).",
+  "owners": [
+   "Responsible AI team"
+  ],
+  "teams": [
+   "All"
+  ],
+  "tools": [
+   "Claude"
+  ],
+  "tags": [
+   "ai policy",
+   "acceptable use",
+   "responsible ai",
+   "compliance",
+   "privacy",
+   "data",
+   "security",
+   "skills safety"
+  ],
+  "status": "shipped",
+  "date": "2026-08-06",
+  "updated": "2026-08-06",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/CK6LYT2APkKg"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/CK6LYT2APkKg"
+  }
+ },
+ {
+  "id": "approved-creative-ai-tools",
+  "name": "Approved creative & AI tool stack (and how to request seats)",
+  "type": "guide",
+  "summary": "From 'Creative tools at Superside': day one - Claude, Shutterstock/Artlist/Stocksy (SSO), Figma view. On request via #s-creative-tool-licensing-credit-requests - Figma edit (all Creatives), Krea (all Creatives; main AI generation platform), Flora (AI/video Creatives & AI bootcamp), Canva (PMs/Creatives per project), Bannerify (floating seats), Weave (limited, GM approval). Self-bought - Adobe CC, MS Office. AI tools are centrally managed so privacy/model-training settings meet customer and legal requirements.",
+  "how_to_use": "Request in #s-creative-tool-licensing-credit-requests (stock: #s-stock-approval-requests; Figma/Canva teams: #s-figma-canva-team-set-up). Live list: Notion 'Creative Tooling at Superside'.",
+  "owners": [
+   "Creative Ops"
+  ],
+  "teams": [
+   "Creative",
+   "PM",
+   "Ops"
+  ],
+  "tools": [
+   "Claude",
+   "Krea",
+   "Flora",
+   "Figma",
+   "Canva",
+   "Bannerify",
+   "Weave"
+  ],
+  "tags": [
+   "approved tools",
+   "tool list",
+   "seats",
+   "licenses",
+   "credits",
+   "krea seat",
+   "flora",
+   "weave",
+   "creative ops"
+  ],
+  "status": "shipped",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/pzwai1YXhrFj"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/pzwai1YXhrFj"
+  }
+ },
+ {
+  "id": "ai-tools-not-approved",
+  "name": "AI tools not approved for delivery (Kling, ByteDance, CapCut direct)",
+  "type": "guide",
+  "summary": "Legal-reviewed guardrail: Kling, ByteDance tools and CapCut must not be used directly for Superside delivery. Those models are fine inside Superside-managed platforms (e.g. Krea, Flora) because licensing/data terms sit with the platform. Also: use Superside (not personal) AI accounts, no personal AI subscriptions for customer work, no mid-project vendor onboarding for centrally managed tools; check with the Risk team when unsure.",
+  "how_to_use": "Check the live list in Notion 'Creative Tooling at Superside' or ask the Risk team before using a new tool.",
+  "owners": [
+   "Legal",
+   "Risk team"
+  ],
+  "teams": [
+   "All"
+  ],
+  "tools": [
+   "Kling",
+   "CapCut",
+   "Krea",
+   "Flora"
+  ],
+  "tags": [
+   "not approved",
+   "banned tools",
+   "kling",
+   "bytedance",
+   "seedance",
+   "capcut",
+   "legal",
+   "compliance",
+   "risk",
+   "personal accounts"
+  ],
+  "status": "shipped",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/pzwai1YXhrFj"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/pzwai1YXhrFj"
+  }
+ },
+ {
+  "id": "superside-brand-models",
+  "name": "Superside Brand Models (Figma/FigJam plugin)",
+  "type": "plugin",
+  "summary": "Superside's contextual image-model system: 5-50 images + description per model (no training; prompt is matched to the most relevant dataset images), combine up to 3 models, base models like Nano Banana Pro/2 and GPT Image 2, up to 4K, image inputs/editing. Available via the internal Figma plugin and the Superspace Omnibox; models are shared company-wide and can be published to customer accounts.",
+  "how_to_use": "Figma: Manage plugins > Superside Brand Models (internal version) > log in. Publish: assign model to an account, then toggle Published on the account's Brand Models tab in internal.superside.com. Support #brand-models-support.",
+  "owners": [],
+  "teams": [
+   "Creative",
+   "AM",
+   "PM"
+  ],
+  "tools": [
+   "Superside Brand Models",
+   "Figma",
+   "Superspace",
+   "Brand Brain"
+  ],
+  "tags": [
+   "brand models",
+   "on-brand images",
+   "figma plugin",
+   "superspace",
+   "publish to customer"
+  ],
+  "status": "shipped",
+  "date": "2026-05-25",
+  "updated": "2026-05-25",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/ewy1GcEdXsCy"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/ewy1GcEdXsCy"
+  }
+ },
+ {
+  "id": "qc-master-gpt",
+  "name": "GenAI QC Master GPT + AI image QC checklist",
+  "type": "tool",
+  "summary": "Custom GPT tuned for strict QC of generative-AI images (physical anomalies, textures/backgrounds, text/bias, realism); scores out of 10 and requires >8 to pass. Paired with an AI image QC checklist (also a Figma component) covering hands, eyes, teeth, hair, shadows, perspective, copyrighted content and bias.",
+  "how_to_use": "Links inside the 'QC Tools' cards of Creative AI Project Management: Quality Control; upload an image and ask it to rate it.",
+  "owners": [],
+  "teams": [
+   "PM",
+   "Creative Leadership",
+   "Creative"
+  ],
+  "tools": [
+   "ChatGPT (custom GPT)",
+   "Figma"
+  ],
+  "tags": [
+   "qc",
+   "ai image qc",
+   "gpt",
+   "checklist",
+   "anomalies",
+   "quality"
+  ],
+  "status": "shipped",
+  "date": "2025-03-13",
+  "updated": "2025-03-13",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/BKmWsTQXvJ68"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/BKmWsTQXvJ68"
+  }
+ },
+ {
+  "id": "ai-pm-sidekick",
+  "name": "AI PM Sidekick (guide)",
+  "type": "guide",
+  "summary": "Guide for PMs showing, per service and workflow step, how and where AI can be applied, with considerations, real examples and copy-pasteable text for client briefs and internal scopes.",
+  "how_to_use": "Linked from the 'AI PM Sidekick' module of CPM budgeting toolkit practice; questions in #s-brief-ai-powered.",
+  "owners": [],
+  "teams": [
+   "PM"
+  ],
+  "tools": [
+   "Generative AI"
+  ],
+  "tags": [
+   "ai scoping",
+   "briefs",
+   "scopes",
+   "quoting",
+   "pm"
+  ],
+  "status": "shipped",
+  "date": "2026-01-09",
+  "updated": "2026-01-09",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/y52ExCj6cE66"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/y52ExCj6cE66"
+  }
+ },
+ {
+  "id": "workflow-finder-gpt",
+  "name": "Workflow Finder GPT",
+  "type": "agent",
+  "summary": "ChatGPT-based assistant: paste a project brief, it summarises it and recommends matching AI Workflows and tutorials from the AI Workflows Figma board.",
+  "how_to_use": "Linked from Intro to Krea (Sources of support) and Creative AI Skill Unlock; paste the brief and follow the suggested workflows.",
+  "owners": [],
+  "teams": [
+   "Creative"
+  ],
+  "tools": [
+   "ChatGPT"
+  ],
+  "tags": [
+   "workflow finder",
+   "ai workflows",
+   "brief",
+   "recommendation"
+  ],
+  "status": "shipped",
+  "date": "2025-12-29",
+  "updated": "2025-12-29",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/ERiNsvc49dWF"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/ERiNsvc49dWF"
+  }
+ },
+ {
+  "id": "ai-workflows-figma-board",
+  "name": "AI Workflows library (Figma board, R&D team)",
+  "type": "workflow",
+  "summary": "R&D team's library of step-by-step AI workflows (photoreal visuals, copy, custom image model training, Krea workflows, etc.) with tool tips and principles.",
+  "how_to_use": "Open via the 'AI Workflows' card in Creative AI Skill Unlock or 'Sources of support' in Intro to Krea; get help in #-s-support-ai-powered or via the '/AI Project Support (for all)' Slack workflow.",
+  "owners": [
+   "R&D team"
+  ],
+  "teams": [
+   "Creative"
+  ],
+  "tools": [
+   "Krea",
+   "Figma"
+  ],
+  "tags": [
+   "ai workflows",
+   "how-to",
+   "krea",
+   "library",
+   "tutorials"
+  ],
+  "status": "shipped",
+  "date": "2025-12-29",
+  "updated": "2025-12-29",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/ERiNsvc49dWF"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/ERiNsvc49dWF"
+  }
+ },
+ {
+  "id": "ai-academy-essentials-workshops",
+  "name": "Superside Consulting AI Academy (Essentials workshops)",
+  "type": "announcement",
+  "summary": "AI Consulting's upskilling offer. Sana hosts AI Academy Essentials workshop recordings/slides (Oct 2026): Creating AI Video Ads from Scratch 1-4, How to Build Claude Artifacts, Creating Ads with Canva AI 2.0, GEO vs SEO, Product Photography 102.",
+  "how_to_use": "Browse the workshop courses in Sana (search 'workshop' / 'Creating AI Video Ads').",
+  "owners": [
+   "Bianca Piertse"
+  ],
+  "teams": [
+   "AI Consulting",
+   "Creative"
+  ],
+  "tools": [
+   "Claude",
+   "ChatGPT",
+   "Gemini",
+   "Firefly",
+   "Canva AI"
+  ],
+  "tags": [
+   "ai academy",
+   "workshops",
+   "upskilling",
+   "client training"
+  ],
+  "status": "shipped",
+  "date": "2026-10-27",
+  "updated": "2026-10-27",
+  "links": [
+   {
+    "label": "Sana course",
+    "url": "https://superside.sana.ai/s/zXG6E45CnWAv"
+   },
+   {
+    "label": "Claude Artifacts workshop",
+    "url": "https://superside.sana.ai/s/hraZQNkq6VBy"
+   },
+   {
+    "label": "Canva AI 2.0",
+    "url": "https://superside.sana.ai/s/H3A9bz8xNowC"
+   },
+   {
+    "label": "GEO vs SEO",
+    "url": "https://superside.sana.ai/s/cPpsK2v4ga7C"
+   },
+   {
+    "label": "Product Photography 102",
+    "url": "https://superside.sana.ai/s/wGLJ9kficZjc"
+   }
+  ],
+  "source": {
+   "kind": "sana",
+   "channel": "Sana Learn",
+   "permalink": "https://superside.sana.ai/s/zXG6E45CnWAv"
+  }
+ }
+]
