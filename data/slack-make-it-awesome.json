@@ -1,0 +1,92 @@
+[
+  {
+    "id": "make-it-awesome-ai-showcase",
+    "name": "#make-it-awesome AI experiments showcase (call recording + transcript)",
+    "type": "announcement",
+    "summary": "Channel and recorded call (2026-11-11) where studios showcased AI 'mad-scientist experiments' (Motion DNA, Motion Maxxing, Supernova, etc.) to connect initiatives toward becoming the leading AI creative operation. Recording and transcript linked; owners asked to post install guides and tools there.",
+    "how_to_use": "Watch the recording / read the transcript; join #make-it-awesome and post experiments, links and resources.",
+    "owners": [
+      "Margot Dumon"
+    ],
+    "teams": [
+      "Creative",
+      "Motion"
+    ],
+    "tools": [
+      "Claude",
+      "After Effects"
+    ],
+    "tags": [
+      "showcase",
+      "ai experiments",
+      "community",
+      "motion",
+      "knowledge sharing",
+      "recording",
+      "transcript"
+    ],
+    "status": "shipped",
+    "date": "2026-11-11",
+    "updated": "2026-11-12",
+    "links": [
+      {
+        "label": "#make-it-awesome showcase recording",
+        "url": "https://drive.google.com/file/d/1Gjx-wMQOFKIspmYCvBeRVXeZmv-r9Zpt/view?usp=sharing"
+      },
+      {
+        "label": "#make-it-awesome showcase transcript",
+        "url": "https://docs.google.com/document/d/1BAvOEiOpFJl9rJOZEoPoWYCDc-S_PM1aqPyLr57vEE8/edit?usp=sharing"
+      },
+      {
+        "label": "Kick-off note in #motion_dna_mcp_testing",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1794472551027969"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#make-it-awesome",
+      "permalink": "https://konsus.slack.com/archives/C0CGDPJA0S3/p1794412618959459"
+    }
+  },
+  {
+    "id": "supernova",
+    "name": "Supernova",
+    "type": "tool",
+    "summary": "AI tool/experiment showcased on the 2026-11-11 #make-it-awesome call (Margot Dumon asked Paulo Asano / Igor Nascimento to post it; exact owner unconfirmed). No description posted in Slack yet; see the call recording/transcript.",
+    "how_to_use": "Not yet posted; see recording/transcript.",
+    "owners": [
+      "Paulo Asano",
+      "Igor Nascimento"
+    ],
+    "teams": [
+      "Solar"
+    ],
+    "tools": [],
+    "tags": [
+      "showcase",
+      "solar team"
+    ],
+    "status": "unknown",
+    "date": "2026-11-11",
+    "updated": null,
+    "links": [
+      {
+        "label": "#make-it-awesome showcase recording",
+        "url": "https://drive.google.com/file/d/1Gjx-wMQOFKIspmYCvBeRVXeZmv-r9Zpt/view?usp=sharing"
+      },
+      {
+        "label": "#make-it-awesome showcase transcript",
+        "url": "https://docs.google.com/document/d/1BAvOEiOpFJl9rJOZEoPoWYCDc-S_PM1aqPyLr57vEE8/edit?usp=sharing"
+      },
+      {
+        "label": "#make-it-awesome kick-off",
+        "url": "https://konsus.slack.com/archives/C0CGDPJA0S3/p1794412618959459"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#motion_dna_mcp_testing",
+      "permalink": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1794472551027969"
+    }
+  }
+]

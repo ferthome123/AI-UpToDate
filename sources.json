@@ -1,16 +1,47 @@
 {
   "slack_workspace": "konsus.slack.com",
   "slack_channels": [
-    {"name": "#everyone-can-build",     "id": "C0BDGFE5QTE", "data": "data/slack-everyone-can-build.json",     "digest": "sources/slack/everyone-can-build.md",     "last_ts": null},
-    {"name": "#tribe-generative-ai",    "id": "C04CC8FSDHP", "data": "data/slack-tribe-generative-ai.json",    "digest": "sources/slack/tribe-generative-ai.md",    "last_ts": null},
-    {"name": "#motion_dna_mcp_testing", "id": "C0CAJ42DDS8", "data": "data/slack-motion-dna-mcp-testing.json", "digest": "sources/slack/motion-dna-mcp-testing.md", "last_ts": null},
-    {"name": "#make-it-awesome",        "id": "C0CGDPJA0S3", "data": "data/slack-make-it-awesome.json",        "digest": "sources/slack/make-it-awesome.md",        "last_ts": null}
+    {
+      "name": "#everyone-can-build",
+      "id": "C0BDGFE5QTE",
+      "data": "data/slack-everyone-can-build.json",
+      "digest": "sources/slack/everyone-can-build.md",
+      "last_ts": null
+    },
+    {
+      "name": "#tribe-generative-ai",
+      "id": "C04CC8FSDHP",
+      "data": "data/slack-tribe-generative-ai.json",
+      "digest": "sources/slack/tribe-generative-ai.md",
+      "last_ts": null
+    },
+    {
+      "name": "#motion_dna_mcp_testing",
+      "id": "C0CAJ42DDS8",
+      "data": "data/slack-motion-dna-mcp-testing.json",
+      "digest": "sources/slack/motion-dna-mcp-testing.md",
+      "last_ts": "1794472551.027969"
+    },
+    {
+      "name": "#make-it-awesome",
+      "id": "C0CGDPJA0S3",
+      "data": "data/slack-make-it-awesome.json",
+      "digest": "sources/slack/make-it-awesome.md",
+      "last_ts": "1794490519.511659"
+    }
   ],
   "meetings": [
-    {"name": "AI Briefly (weekly)", "data": "data/meetings-ai-briefly.json", "digest": "sources/meetings/ai-briefly.md",
-     "where": "Announced in #tribe-generative-ai; notes/recordings via Google Calendar + Drive"}
+    {
+      "name": "AI Briefly (weekly)",
+      "data": "data/meetings-ai-briefly.json",
+      "digest": "sources/meetings/ai-briefly.md",
+      "where": "Announced in #tribe-generative-ai; notes/recordings via Google Calendar + Drive"
+    }
   ],
   "pending_sources": [
-    {"name": "Sana Learn (superside.sana.ai)", "status": "no connector available — needs export or an API/MCP connection"}
+    {
+      "name": "Sana Learn (superside.sana.ai)",
+      "status": "no connector available \u2014 needs export or an API/MCP connection"
+    }
   ]
 }

@@ -1,0 +1,464 @@
+[
+  {
+    "id": "motion-dna",
+    "name": "Motion DNA (After Effects plugin + MCP)",
+    "type": "plugin",
+    "summary": "After Effects panel + MCP that lets Claude (or Codex) animate directly in AE with editable layers: turns Figma storyboards into motion using a curated library of presets, curves, transitions, techniques, styles and brand profiles, with a built-in Agent chat. Connects to Figma, Krea, Flora, Blender (3D), pixel-art characters with lip-sync, and SFX. Personal R&D by Gian Orsi and Aaron Amortegui, presented at AI Briefly on 2026-10-28.",
+    "how_to_use": "Install: in Claude desktop > Code > New session, send 'Install Motion DNA from https://github.com/aaronamortegui-glitch/Motion_library'; in AE tick Preferences > Scripting & Expressions > Allow Scripts to Write Files and Access Network; restart AE > Window > Extensions > Motion DNA; Agent > Connect (Claude, Figma, optional Krea/Flora). Use: select layers and ask the Agent (e.g. 'Animate the selected title with Land'), paste a Figma storyboard link in Full mode, or ask for a style ('elegant, editorial, modern'). Update: Agent > Setup > Update (or Project > Connect > Update) then Reload panel / restart AE, or ask Claude 'update Motion DNA'.",
+    "owners": [
+      "Gian Orsi",
+      "Aaron Amortegui"
+    ],
+    "teams": [
+      "Motion",
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Claude Code",
+      "After Effects",
+      "Figma MCP",
+      "Krea",
+      "Flora",
+      "Blender",
+      "Codex",
+      "ffmpeg"
+    ],
+    "tags": [
+      "motion",
+      "animation",
+      "after effects",
+      "ae mcp",
+      "storyboard to animation",
+      "figma to ae",
+      "motion graphics",
+      "presets",
+      "easing curves",
+      "transitions",
+      "brand guidelines",
+      "brand profiles",
+      "lip-sync",
+      "pixel art characters",
+      "3d",
+      "sfx",
+      "video reference",
+      "codex",
+      "resizes",
+      "ai native studio"
+    ],
+    "status": "beta",
+    "date": "2026-10-19",
+    "updated": "2026-11-04",
+    "links": [
+      {
+        "label": "Repo / install",
+        "url": "https://github.com/aaronamortegui-glitch/Motion_library"
+      },
+      {
+        "label": "Quick install PDF + video",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792430635040219"
+      },
+      {
+        "label": "Update: library suggestion skill, pixel-art characters, library contents",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792681078539359"
+      },
+      {
+        "label": "Update: video references in Agent chat (Mac needs ffmpeg)",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792790913394699"
+      },
+      {
+        "label": "Update: absorbed Stageshow + claude-animation-skills repos",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1793810534389019"
+      },
+      {
+        "label": "Motion Maxxing logic merged into backend",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1793722236174029"
+      },
+      {
+        "label": "Follow-up channel #make-it-awesome",
+        "url": "https://konsus.slack.com/archives/C0CGDPJA0S3/p1794412618959459"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#motion_dna_mcp_testing",
+      "permalink": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792430099332629"
+    }
+  },
+  {
+    "id": "motion-dna-quick-install-guide",
+    "name": "Motion DNA Quick Install guide (PDF + video)",
+    "type": "guide",
+    "summary": "7-step, ~5-minute install guide for Motion DNA: Claude Code clones the repo and runs setup (signed panel, fonts, Claude link), then two one-time AE steps and connecting apps. Includes manual install, update and uninstall commands.",
+    "how_to_use": "1) Claude desktop > Code. 2) + New session in any projects folder (not the AE folder). 3) Send 'Install Motion DNA from https://github.com/aaronamortegui-glitch/Motion_library'. 4) AE > Preferences > Scripting & Expressions > Allow Scripts to Write Files and Access Network. 5) Restart AE > Window > Extensions > Motion DNA, dock it. 6) Agent > Connect: Claude, Figma (optional), Flora/Krea via claude.ai Settings > Connectors (optional). 7) Select a layer and ask. Manual: git clone + python tools/setup.py (docs/quick-install/MANUAL.md). Uninstall: python tools/setup.py --uninstall.",
+    "owners": [
+      "Aaron Amortegui",
+      "Gian Orsi"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "Claude Code",
+      "After Effects",
+      "GitHub"
+    ],
+    "tags": [
+      "install guide",
+      "setup",
+      "motion dna install",
+      "after effects plugin",
+      "onboarding",
+      "uninstall"
+    ],
+    "status": "shipped",
+    "date": "2026-10-19",
+    "updated": "2026-11-10",
+    "links": [
+      {
+        "label": "Repo",
+        "url": "https://github.com/aaronamortegui-glitch/Motion_library"
+      },
+      {
+        "label": "Re-shared as 'Installation guide'",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1793202675861309"
+      },
+      {
+        "label": "Shared again for Olivia Malba (2026-11-10)",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1794324495921079"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#motion_dna_mcp_testing",
+      "permalink": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792430635040219"
+    }
+  },
+  {
+    "id": "motion-dna-video-tutorials",
+    "name": "Motion DNA video tutorial series (T02-T10)",
+    "type": "guide",
+    "summary": "Short screen-recorded tutorials for Motion DNA: panel tour, connecting apps, behaviours & curves, brands, the Agent, Figma/Flora-to-AE example, more Agent examples, prompt library. Note: UI has since changed; tutorials to be updated.",
+    "how_to_use": "Watch in channel order: T02 panel tour, T03 connect, T05 behaviours/curves, T06 brands, T07 agent, T08 Figma to AE, T09 more to ask, T10 prompt library.",
+    "owners": [
+      "Gian Orsi"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "After Effects",
+      "Claude",
+      "Figma",
+      "Flora"
+    ],
+    "tags": [
+      "tutorial",
+      "video tutorial",
+      "training",
+      "motion dna",
+      "prompt library",
+      "brand guidelines",
+      "onboarding"
+    ],
+    "status": "shipped",
+    "date": "2026-10-20",
+    "updated": "2026-10-28",
+    "links": [
+      {
+        "label": "T02 panel tour",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792517942975409"
+      },
+      {
+        "label": "T03 connecting apps",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792521714726519"
+      },
+      {
+        "label": "T05 behaviours & curves",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792528306125719"
+      },
+      {
+        "label": "T06 brands",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792533976781799"
+      },
+      {
+        "label": "T07 the Agent",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792703934714979"
+      },
+      {
+        "label": "T08 Figma/Flora to AE",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792703966683099"
+      },
+      {
+        "label": "T09 more to ask",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792716180385669"
+      },
+      {
+        "label": "T10 prompt library",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792719392122739"
+      },
+      {
+        "label": "Note: UI differs from tutorials",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1793202767722679"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#motion_dna_mcp_testing",
+      "permalink": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792517942975409"
+    }
+  },
+  {
+    "id": "motion-dna-library-guide",
+    "name": "Motion DNA Library guide (HTML)",
+    "type": "guide",
+    "summary": "Preliminary interactive HTML guide (~49 MB) to everything under the hood of Motion DNA: presets, kit pieces, transitions, techniques, character pixel art and lip-sync. Recommended starting point: pixel-art character creation + lip sync.",
+    "how_to_use": "Download Motion_DNA_Library.html from the Slack post and open in a browser.",
+    "owners": [
+      "Aaron Amortegui"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "After Effects",
+      "Claude"
+    ],
+    "tags": [
+      "library",
+      "reference",
+      "presets",
+      "pixel art",
+      "lip-sync",
+      "documentation"
+    ],
+    "status": "beta",
+    "date": "2026-10-28",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#motion_dna_mcp_testing",
+      "permalink": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1793203652981329"
+    }
+  },
+  {
+    "id": "figma-mcp-avast-https-fix",
+    "name": "Fix: Figma MCP disconnects (Avast HTTPS scanning)",
+    "type": "guide",
+    "summary": "Workaround for 'Failed to connect: InvalidHTTPResponse fetching mcp.figma.com' when importing Figma storyboards into Motion DNA/Claude on Windows: Avast Web Shield HTTPS scanning breaks the Figma MCP connection. Preferred fix is a targeted exception for mcp.figma.com or claude.exe (ideally set by IT) rather than disabling scanning.",
+    "how_to_use": "Avast > Menu > Settings > Protection > Core Shields > Web Shield: turn off 'Enable HTTPS scanning' briefly; in PowerShell run claude mcp login \"plugin:figma:figma\"; sign in and Allow; re-enable Avast; then add an exception for mcp.figma.com or claude.exe under Settings > General > Exceptions.",
+    "owners": [
+      "Cristina Corat"
+    ],
+    "teams": [
+      "Motion",
+      "Creative"
+    ],
+    "tools": [
+      "Claude Code",
+      "Figma MCP",
+      "Avast"
+    ],
+    "tags": [
+      "figma mcp",
+      "connection error",
+      "InvalidHTTPResponse",
+      "antivirus",
+      "avast",
+      "https scanning",
+      "troubleshooting",
+      "windows",
+      "security"
+    ],
+    "status": "shipped",
+    "date": "2026-10-29",
+    "updated": "2026-10-29",
+    "links": [
+      {
+        "label": "Security concern (Axel Torres) + exception recommendation",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1793308461282469"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#motion_dna_mcp_testing",
+      "permalink": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1793307033755239"
+    }
+  },
+  {
+    "id": "motion-dna-codex-for-claude-restricted-clients",
+    "name": "Motion DNA with ChatGPT Codex (for clients that disallow Claude, e.g. Reddit)",
+    "type": "workflow",
+    "summary": "Motion DNA can connect ChatGPT Codex to After Effects instead of Claude, so motion work can run for accounts like Reddit that don't allow Claude. Tested successfully by Fariel Minozzo; a brand profile + Codex-only mode was being added.",
+    "how_to_use": "Connect Codex in the Motion DNA panel; create the client brand profile and select Codex (shutting off the Claude connection). Suggested: animate master ads with the brand profile, then do resizes.",
+    "owners": [
+      "Fariel Minozzo",
+      "Gian Orsi"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "Codex",
+      "ChatGPT",
+      "After Effects",
+      "Motion DNA"
+    ],
+    "tags": [
+      "codex",
+      "chatgpt",
+      "client restrictions",
+      "no claude",
+      "reddit",
+      "brand profile",
+      "resizes",
+      "master ads"
+    ],
+    "status": "beta",
+    "date": "2026-10-30",
+    "updated": "2026-10-30",
+    "links": [
+      {
+        "label": "Confirmed working",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1793387284359939"
+      },
+      {
+        "label": "Brand profile suggestion",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1793387752072329"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#motion_dna_mcp_testing",
+      "permalink": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1793384581064889"
+    }
+  },
+  {
+    "id": "motion-maxxing",
+    "name": "Motion Maxxing",
+    "type": "plugin",
+    "summary": "After Effects add-on built by the Solar team (Andres Mariño, Igor Nascimento) using Claude API keys, with the same goal as Motion DNA: plans the video and builds the storyboard in Figma before executing motion, deeper editing understanding (SFX, pacing), connects to 3D, and 2D character animation with lip-sync. Showcased in the 2026-11-11 call; its logic was later folded into Motion DNA's backend.",
+    "how_to_use": "Not yet posted; Igor Nascimento was asked to share it in #make-it-awesome.",
+    "owners": [
+      "Andres Mariño",
+      "Igor Nascimento"
+    ],
+    "teams": [
+      "Motion",
+      "Solar"
+    ],
+    "tools": [
+      "Claude API",
+      "After Effects",
+      "Figma"
+    ],
+    "tags": [
+      "motion",
+      "after effects",
+      "storyboard",
+      "figma storyboard",
+      "sfx",
+      "pacing",
+      "3d",
+      "lip-sync",
+      "character animation",
+      "video planning"
+    ],
+    "status": "wip",
+    "date": "2026-11-03",
+    "updated": "2026-11-12",
+    "links": [
+      {
+        "label": "#make-it-awesome showcase recording",
+        "url": "https://drive.google.com/file/d/1Gjx-wMQOFKIspmYCvBeRVXeZmv-r9Zpt/view?usp=sharing"
+      },
+      {
+        "label": "#make-it-awesome showcase transcript",
+        "url": "https://docs.google.com/document/d/1BAvOEiOpFJl9rJOZEoPoWYCDc-S_PM1aqPyLr57vEE8/edit?usp=sharing"
+      },
+      {
+        "label": "Motion DNA team on integrating it",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1793722106980209"
+      },
+      {
+        "label": "Request to post in #make-it-awesome",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1794472551027969"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#motion_dna_mcp_testing",
+      "permalink": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1793716742997749"
+    }
+  },
+  {
+    "id": "claude-motion-without-after-effects",
+    "name": "Claude motion bypassing After Effects (Axel Torres)",
+    "type": "experiment",
+    "summary": "Mentioned experiment by Axel Torres creating motion with Claude without going through After Effects (seen in the Gen AI tribe channel). No details posted.",
+    "how_to_use": "Ask Axel Torres; details possibly in the Gen AI tribe channel.",
+    "owners": [
+      "Axel Torres"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "motion",
+      "animation",
+      "no after effects",
+      "code animation"
+    ],
+    "status": "unknown",
+    "date": "2026-11-03",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#motion_dna_mcp_testing",
+      "permalink": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1793718981348349"
+    }
+  },
+  {
+    "id": "higgsfield-ae-mcp",
+    "name": "Higgsfield After Effects MCP",
+    "type": "tool",
+    "summary": "Third-party After Effects MCP Gian Orsi used before Motion DNA; both can coexist. Motion DNA installs separately and won't overwrite an existing AE MCP; tell Claude 'use Motion DNA' to pick it, and avoid running both on the same comp at once.",
+    "how_to_use": "Keep alongside Motion DNA; specify which MCP to use in the prompt.",
+    "owners": [
+      "Gian Orsi"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "Higgsfield",
+      "After Effects",
+      "Claude"
+    ],
+    "tags": [
+      "after effects mcp",
+      "ae mcp",
+      "higgsfield",
+      "coexistence"
+    ],
+    "status": "unknown",
+    "date": "2026-10-20",
+    "updated": null,
+    "links": [
+      {
+        "label": "Coexistence answer",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792515039964839"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#motion_dna_mcp_testing",
+      "permalink": "https://konsus.slack.com/archives/C0CAJ42DDS8/p1792513533163999"
+    }
+  }
+]
