@@ -1,0 +1,4401 @@
+[
+  {
+    "id": "figma-design-to-client-deck",
+    "name": "Figma design to client deck (EXT file builder)",
+    "type": "skill",
+    "summary": "Takes a Superspace project + Figma frames and builds a correctly named customer-facing Figma file (EXT_<Project Number>_<Account>_<Project>) with cover, filled-in brief, per-option rationale, updated header/footer and placed PNGs.",
+    "how_to_use": "In Cowork say 'make EXT file' or 'customer-facing deck'; paste Superspace link + Figma frames link; give draft number (defaults to Draft 1); afterwards right-click Cover > Set as thumbnail manually. Review rationale/stats before sending.",
+    "owners": [
+      "Anush Babayan"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork",
+      "Figma",
+      "Superspace MCP"
+    ],
+    "tags": [
+      "client deck",
+      "EXT file",
+      "presentation",
+      "draft delivery",
+      "figma",
+      "naming convention",
+      "rationale"
+    ],
+    "status": "beta",
+    "date": "2026-11-12",
+    "updated": null,
+    "links": [
+      {
+        "label": "Install (plugin)",
+        "url": "https://claude.ai/customize/skills/id/plugin_01M2jYCmYgxbUmaPerLwfJ9p"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1794488120574699"
+    }
+  },
+  {
+    "id": "figma-buzz-template-prep",
+    "name": "Figma Buzz template prep",
+    "type": "skill",
+    "summary": "Prepares Figma Design frames to become Figma Buzz templates: fixes Auto Layout/images/layer names, builds template sets, adds on/off toggles, locks non-editable elements, and creates an Excel bulk-create sheet with a guide tab. Works on a copy ('Buzz prep' page). Also useful for any component-based template you want to bulk-create.",
+    "how_to_use": "Add plugin, share a Figma link with Claude and ask it to prepare the frames for Buzz.",
+    "owners": [
+      "Titi Palumbo"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Figma",
+      "Figma Buzz",
+      "Excel"
+    ],
+    "tags": [
+      "figma buzz",
+      "templates",
+      "bulk create",
+      "auto layout",
+      "template sets",
+      "self-serve assets"
+    ],
+    "status": "wip",
+    "date": "2026-11-11",
+    "updated": "2026-11-12",
+    "links": [
+      {
+        "label": "Install (plugin)",
+        "url": "https://claude.ai/customize/plugins/plugin_01C22kpjdahEtXQW7EAaJtkn"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1794408256274509"
+    }
+  },
+  {
+    "id": "am-account-growth-dashboard",
+    "name": "AM account growth-opportunities dashboard",
+    "type": "dashboard",
+    "summary": "Live artifact that loads the accounts assigned to the viewer and shows balance/expirations/usage vs plan and boosters, growth opportunities (upsell, cross-sell, client signals) and account details with pitch ideas.",
+    "how_to_use": "Open the artifact; connect Superside, Gmail, Calendar, Drive, Slack (and BigQuery) connectors. Built in the Team workspace: won't open if you're logged into the Enterprise account.",
+    "owners": [
+      "Alejandra Dulce"
+    ],
+    "teams": [
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "BigQuery",
+      "Gmail",
+      "Google Calendar",
+      "Google Drive",
+      "Slack"
+    ],
+    "tags": [
+      "account growth",
+      "upsell",
+      "cross-sell",
+      "account balance",
+      "boosters",
+      "expiring credits",
+      "AM dashboard"
+    ],
+    "status": "shipped",
+    "date": "2026-11-06",
+    "updated": "2026-11-06",
+    "links": [
+      {
+        "label": "Artifact",
+        "url": "https://claude.ai/artifact/Xj4RHREkHMeSLcwDLQgM13"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1793989320303269"
+    }
+  },
+  {
+    "id": "artifact-registry",
+    "name": "artifact-registry (personal Artifact Finder)",
+    "type": "skill",
+    "summary": "Builds a private Notion database of every artifact you built or that was shared with you, classifies them (live/static, purpose, scope, visibility, status) and publishes a private searchable Artifact Finder; optional weekday sync. Known issue: initially only available in Enterprise workspace (not Team); updated to keep one registry across workspaces. Users asked for team/company-wide registries.",
+    "how_to_use": "Add skill, then say 'set up my artifact registry'. Needs Notion connector. Each person runs their own private copy.",
+    "owners": [
+      "Andreas Drakos"
+    ],
+    "teams": [
+      "GTM",
+      "Ops"
+    ],
+    "tools": [
+      "Claude",
+      "Notion"
+    ],
+    "tags": [
+      "artifacts",
+      "find artifacts",
+      "registry",
+      "discoverability",
+      "duplicates",
+      "notion database"
+    ],
+    "status": "beta",
+    "date": "2026-11-06",
+    "updated": "2026-11-07",
+    "links": [
+      {
+        "label": "Install (skill)",
+        "url": "https://claude.ai/customize/skills/id/plugin_01DAiuD4q6HGZFjXzNwVByBM"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1793971682790579"
+    }
+  },
+  {
+    "id": "figma-to-indesign-cmyk",
+    "name": "Figma to InDesign (CMYK) converter",
+    "type": "skill",
+    "summary": "Converts a Figma report/deck/one-pager into a native editable InDesign IDML with brand CMYK swatches, template paragraph styles, precise text frames, organized Links folder, read-me and a visual QA dashboard comparing the exported PDF against Figma. Built in response to Adelle Adrian's ask (Figma report -> print-ready INDD). Known issue: org link not accessible from other team workspaces; .skill file shared in thread instead.",
+    "how_to_use": "Install; provide Figma link + pages, brand guide (CMYK values/fonts) and client InDesign template if any. Export PDF from InDesign for the QA loop.",
+    "owners": [
+      "Marcelo Pelica"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Figma",
+      "InDesign"
+    ],
+    "tags": [
+      "print",
+      "indesign",
+      "idml",
+      "cmyk",
+      "rgb to cmyk",
+      "figma to indesign",
+      "print-ready",
+      "paragraph styles"
+    ],
+    "status": "beta",
+    "date": "2026-11-05",
+    "updated": "2026-11-09",
+    "links": [
+      {
+        "label": "Install (skill)",
+        "url": "https://claude.ai/customize/skills/id/plugin_01FGqFtZszFmKicYhGuskXLf"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1793911210850819"
+    }
+  },
+  {
+    "id": "loopy-labs",
+    "name": "Loopy Labs (motion loop templates in Figma)",
+    "type": "workflow",
+    "summary": "Library of ready-to-animate loop templates powered by Claude Skills that turns a static design into an on-brand motion ad inside Figma; loops stay editable.",
+    "how_to_use": "Duplicate the Figma file and start with the 'Step by step: READ FIRST!!' page.",
+    "owners": [
+      "Bianca Beltran",
+      "Quest Team"
+    ],
+    "teams": [
+      "Creative",
+      "Motion"
+    ],
+    "tools": [
+      "Claude",
+      "Figma"
+    ],
+    "tags": [
+      "motion",
+      "animation",
+      "loops",
+      "motion ads",
+      "figma animation",
+      "no after effects"
+    ],
+    "status": "beta",
+    "date": "2026-11-02",
+    "updated": null,
+    "links": [
+      {
+        "label": "Figma file",
+        "url": "https://www.figma.com/design/AthoBjwtdOwSXYQ26BDjPS/EXT---LOOPY-LAB---By-Bian---Ele--Copy-?node-id=722-2692&t=40GFq7KlQxtSoSgr-1"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1793637957078739"
+    }
+  },
+  {
+    "id": "fancy-board",
+    "name": "Fancy Board (PM/AM task board)",
+    "type": "dashboard",
+    "summary": "Board for PMs and AMs to keep tasks organized and auto-update the calendar so deadlines/priorities stay clear. Works best for accounts with dedicated team members/CLs; Felicia Meyer has a skill to build your own.",
+    "how_to_use": "Request viewer access to the artifact (Felicia Meyer admits); ask Felicia for the build-your-own skill.",
+    "owners": [
+      "Felicia Meyer",
+      "Quest Team"
+    ],
+    "teams": [
+      "PM",
+      "AM"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "task board",
+      "calendar",
+      "deadlines",
+      "priorities",
+      "pm dashboard"
+    ],
+    "status": "beta",
+    "date": "2026-11-02",
+    "updated": "2026-11-02",
+    "links": [
+      {
+        "label": "Artifact",
+        "url": "https://claude.ai/artifact/SZ1xZwht97iDbyiR2B43YU?sk=wmHx_ooGiPtlt6_3Q3NUXA"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1793637957078739"
+    }
+  },
+  {
+    "id": "responsive-safe-zones-figma-plugin",
+    "name": "Responsive Safe Zones Figma plugin",
+    "type": "plugin",
+    "summary": "Figma plugin built from Jess Uhren's channel mockups/safe-zones file: auto-detects format/channel from frame size+name, overlays platform safe zones, checks and fixes elements outside safe areas, and drops assets into editable platform mockups.",
+    "how_to_use": "Name frames with platform + ad/organic (e.g. IG_story_ad_01). Not published: get the zip from Gabrielle, then Figma desktop > Plugins > Development > Import plugin from manifest.",
+    "owners": [
+      "Gabrielle Moura"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Figma"
+    ],
+    "tags": [
+      "safe zones",
+      "social ads",
+      "mockups",
+      "instagram",
+      "facebook",
+      "linkedin",
+      "ad formats",
+      "qc"
+    ],
+    "status": "beta",
+    "date": "2026-11-02",
+    "updated": "2026-11-02",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1793627450213159"
+    }
+  },
+  {
+    "id": "superspace-feedback-relay",
+    "name": "Superspace Feedback Relay",
+    "type": "plugin",
+    "summary": "Relays client feedback from Superspace chat into the project's internal Slack channel within the hour (tagging only who needs to act) and posts a daily cross-timezone handoff (decisions, next steps, feedback, promises from meetings). Nothing posts without approval.",
+    "how_to_use": "Add plugin; open Code tab in Claude desktop; say 'set up the Superspace feedback relay for account <ID>'. Needs Superspace, Slack, Google Drive connected and Gemini notes/transcripts on in meetings.",
+    "owners": [
+      "Rodrigo Salazar"
+    ],
+    "teams": [
+      "AM",
+      "PM"
+    ],
+    "tools": [
+      "Claude",
+      "Claude Code",
+      "Superspace MCP",
+      "Slack",
+      "Google Drive",
+      "Gemini notes"
+    ],
+    "tags": [
+      "client feedback",
+      "time zones",
+      "handoff",
+      "superspace chat",
+      "notifications",
+      "global teams"
+    ],
+    "status": "beta",
+    "date": "2026-10-30",
+    "updated": null,
+    "links": [
+      {
+        "label": "Install (plugin)",
+        "url": "https://claude.ai/customize/plugins/id/plugin_01NeAV449hjyGLcA94CRx4to"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1793392818283839"
+    }
+  },
+  {
+    "id": "superdash-am-morning-dashboard",
+    "name": "SuperDash / am-morning-dashboard",
+    "type": "dashboard",
+    "summary": "Single role-based dashboard (PM/Producer or CL/CD) showing budgets, projects, deadlines and what's being quoted, built with Claude Code for the Booking.com team and PEAK AMs; packaged later as the am-morning-dashboard skill.",
+    "how_to_use": "Open the Dash and pick your role top-right; or install am-morning-dashboard.skill from Claude's skills settings and follow the guide.",
+    "owners": [
+      "Leeroy Duke"
+    ],
+    "teams": [
+      "AM",
+      "PM",
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Claude Code"
+    ],
+    "tags": [
+      "morning dashboard",
+      "budgets",
+      "deadlines",
+      "quotes",
+      "adhd",
+      "daily overview"
+    ],
+    "status": "shipped",
+    "date": "2026-10-29",
+    "updated": "2026-11-09",
+    "links": [
+      {
+        "label": "Dashboard",
+        "url": "https://claude.ai/artifact/T42p8UpFXRZVSctzJTD7YQ?sk=pbFeBda_vUqqFNkttSm5pA"
+      },
+      {
+        "label": "How-to guide",
+        "url": "https://claude.ai/artifact/C2wEX3RkV2hzmZSd3gGxxT?sk=yPFT6XwyTddcbqoeiNkvEg"
+      },
+      {
+        "label": "Video",
+        "url": "https://claude.ai/artifact/E5eEudnzW3f2wZqptUSBx4?sk=kyWcM_eI658Rw1EpArVdfg"
+      },
+      {
+        "label": "Skill update post",
+        "url": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1794211691065479"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1793288953550979"
+    }
+  },
+  {
+    "id": "tip-search-knowledge-bases",
+    "name": "Tip: use Claude to search Notion/Slack/Superspace/Salesforce for 'how do I do X'",
+    "type": "guide",
+    "summary": "Prompt pattern to have Claude search internal knowledge bases (much better than Slack search) for already-solved problems.",
+    "how_to_use": "Prompt: 'Can you search Notion, Slack, Superspace, and Salesforce to see if we have documentation on <topic X>? Specifically, I need to know how to <objective>.' (Slack connector is Enterprise-only, not Team plan.)",
+    "owners": [
+      "Bernard Moussa"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Claude",
+      "Notion",
+      "Slack",
+      "Superspace MCP",
+      "Salesforce"
+    ],
+    "tags": [
+      "search",
+      "knowledge base",
+      "documentation",
+      "how to",
+      "prompt"
+    ],
+    "status": "shipped",
+    "date": "2026-10-23",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1792761543515899"
+    }
+  },
+  {
+    "id": "theres-a-skill-for-that-pm-am-pack",
+    "name": "#Theres-A-Skill-For-That pack (account & project skills)",
+    "type": "plugin",
+    "summary": "Benitta's collection of AM/PM skills: /account-onboarding, /account-opportunity-finder, /client-behaviour-analysis, /account-cost-dispute-pack, /next-step-generator, /adhoc-project-plan-drafter, /product-design-qc, /branding-design-qc, /scoop-scheduler, /scoop-pto. Nov update baked in Expansion 2.0, AI Strategy, margins, Legal & AI and Creative Tech Hub rules.",
+    "how_to_use": "Grab .skill files from the Drive folder/deck; in Cowork Settings > Capabilities > Skills > Upload; enable listed connectors; run /skill-name. Ask Claude to 'Update and save the skill so it always follows this process for me'.",
+    "owners": [
+      "Benitta Van Den Berg (Gerber)"
+    ],
+    "teams": [
+      "AM",
+      "PM"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork",
+      "Superspace MCP",
+      "Slack",
+      "Google Slides",
+      "Google Sheets"
+    ],
+    "tags": [
+      "account onboarding",
+      "renewals",
+      "opportunities",
+      "cost dispute",
+      "overage",
+      "project plan",
+      "product design qc",
+      "branding qc",
+      "logo lookalikes",
+      "next steps",
+      "pto"
+    ],
+    "status": "shipped",
+    "date": "2026-10-22",
+    "updated": "2026-11-04",
+    "links": [
+      {
+        "label": "Halloween deck",
+        "url": "https://docs.google.com/presentation/d/1JCjDoLHP710kJRCXHl54RX9nI9Cu4t5elq3XJjxH2dk/edit?usp=sharing"
+      },
+      {
+        "label": "Skill files folder",
+        "url": "https://drive.google.com/drive/folders/1HiHSdHqQGDADyCDrsxpmx9efJFMQXMOV?usp=drive_link"
+      },
+      {
+        "label": "Nov update post",
+        "url": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1793784422559819"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1792672354410769"
+    }
+  },
+  {
+    "id": "marketing-creative-automations",
+    "name": "Superside marketing creative automations (headshots, SEO blog headers, event asset studio)",
+    "type": "workflow",
+    "summary": "Marketing creative team automations: Figma brand model for branded headshots (88% less time), a Claude skill connected to Krea that ideates and generates SEO blog headers and resizes them (72% less), and a Claude-built Connect & Dinners event asset studio app for self-serve assets (95% less).",
+    "how_to_use": "Contact Iliada Karamintziou / Manuel Bueno / Andrea Paz y Miño. Flora support for the headers skill was being added.",
+    "owners": [
+      "Iliada Karamintziou",
+      "Manuel Bueno",
+      "Andrea Paz y Miño"
+    ],
+    "teams": [
+      "Marketing",
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Figma",
+      "Krea",
+      "Canva"
+    ],
+    "tags": [
+      "headshots",
+      "seo blog headers",
+      "event assets",
+      "self-serve",
+      "brand model",
+      "resizing",
+      "marketing"
+    ],
+    "status": "shipped",
+    "date": "2026-10-22",
+    "updated": "2026-10-23",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1792659697122939"
+    }
+  },
+  {
+    "id": "brand-intake",
+    "name": "brand-intake (brand guideline analysis + shared brand library)",
+    "type": "plugin",
+    "summary": "Claude Code plugin that turns a zip/PDF/brand site/Figma link into a client folder with BRAND_RULES.md (logo, HEX/RGB/CMYK/PMS, type, voice, pre-flight checklist), sorted assets, file inventory, gaps list with client questions and flagged guesses. Updated into a shared library so brands only need processing once.",
+    "how_to_use": "/plugin install brand-intake@claudeai-organization-library then run /brand-intake. Library artifact requires being in the Team workspace.",
+    "owners": [
+      "Karolline Luna"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude Code",
+      "Figma"
+    ],
+    "tags": [
+      "brand guidelines",
+      "brand rules",
+      "version 0",
+      "draft 0",
+      "brand assets",
+      "client onboarding",
+      "brand library"
+    ],
+    "status": "shipped",
+    "date": "2026-10-20",
+    "updated": "2026-10-21",
+    "links": [
+      {
+        "label": "Shared brand library",
+        "url": "https://claude.ai/artifact/NCnuTHnv49tAYXnT3LEsNZ?sk=nBfnYFWiTjWLTdlI3dUung"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1792516214338069"
+    }
+  },
+  {
+    "id": "motion-dna",
+    "name": "Motion DNA (After Effects plugin via MCP)",
+    "type": "plugin",
+    "summary": "After Effects plugin connected to Claude via MCP: motion libraries, predefined animation behaviours, brand motion profiles, Figma storyboard import animated in the AE timeline, and agent help (sound, brand alignment, color correction, transitions). Hybrid approach recommended.",
+    "how_to_use": "DM Gian Orsi to join the beta (~20 testers).",
+    "owners": [
+      "Aaron Amortegui",
+      "Gian Orsi"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "Claude",
+      "After Effects",
+      "MCP",
+      "Figma"
+    ],
+    "tags": [
+      "motion",
+      "after effects",
+      "animation",
+      "easing",
+      "motion profiles",
+      "storyboard"
+    ],
+    "status": "beta",
+    "date": "2026-10-20",
+    "updated": null,
+    "links": [
+      {
+        "label": "Original post (#C04CC8FSDHP)",
+        "url": "https://konsus.slack.com/archives/C04CC8FSDHP/p1792421092535119?thread_ts=1792421092.535119&cid=C04CC8FSDHP"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1792502855645609"
+    }
+  },
+  {
+    "id": "word-to-idml-template",
+    "name": "Word to IDML template",
+    "type": "skill",
+    "summary": "Fills an InDesign IDML template from a Word document.",
+    "how_to_use": "Install skill, upload IDML template + Word doc. Word must have styles applied first.",
+    "owners": [
+      "Anita Duhart"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "InDesign",
+      "Word"
+    ],
+    "tags": [
+      "indesign",
+      "idml",
+      "word",
+      "layout automation",
+      "print"
+    ],
+    "status": "shipped",
+    "date": "2026-10-19",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1792419133227699"
+    }
+  },
+  {
+    "id": "project-management-hub",
+    "name": "Project Management Hub",
+    "type": "dashboard",
+    "summary": "Live Superspace-data artifact for PMs: Project Burn (estimated vs logged vs booked hours), Daily Bookings with PTO/capacity warnings, and Team Calendar of creatives' weekly bookings.",
+    "how_to_use": "Open in claude.ai or desktop with Superside account and allow the Superside connector; if 'Live data unavailable', reload/allow or check Permissions. Slow first load.",
+    "owners": [
+      "Leticia Melo"
+    ],
+    "teams": [
+      "PM"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP"
+    ],
+    "tags": [
+      "project burn",
+      "bookings",
+      "capacity",
+      "pto",
+      "team calendar",
+      "hours vs estimate",
+      "pm dashboard"
+    ],
+    "status": "shipped",
+    "date": "2026-10-12",
+    "updated": null,
+    "links": [
+      {
+        "label": "Artifact",
+        "url": "https://claude.ai/artifact/V55hpxU6gPLruUBuex9Wov?sk=Ggw0z1eH-Na4h1OLMuTwRw"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1791822759873919"
+    }
+  },
+  {
+    "id": "market-growth-tracker",
+    "name": "Market & Growth Tracker artifact",
+    "type": "artifact",
+    "summary": "Artifact cross-referencing market signals, client priorities (from MSS/QBR/weekly calls), recent feedback and a proposals/opportunities brainstorm board per account.",
+    "how_to_use": "Paste the attached prompt template PDF ('How to build your own Market & Growth Tracker') into Claude.",
+    "owners": [
+      "Fernanda Amadio"
+    ],
+    "teams": [
+      "AM"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "account growth",
+      "market signals",
+      "qbr",
+      "mss",
+      "opportunities",
+      "client priorities"
+    ],
+    "status": "shipped",
+    "date": "2026-10-09",
+    "updated": null,
+    "links": [
+      {
+        "label": "Artifact",
+        "url": "https://claude.ai/artifact/Dm9KHVjG152r4fqpDipjhq?sk=n33sUIqfZ4JNejolPBZs2g"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1791574077187519"
+    }
+  },
+  {
+    "id": "print-preflight-check",
+    "name": "Print preflight check",
+    "type": "skill",
+    "summary": "Preflight for print files: bleed, resolution, color mode, outlined fonts, PMS tagging, brand color match, text past trim, inconsistent panels; ships with 'For Print' and 'For Approvals' PDF export presets for Illustrator/InDesign.",
+    "how_to_use": "Install print-preflight-check.skill and run on your print files; import the PDF presets. No connectors needed.",
+    "owners": [
+      "Luigi Di Bella"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Illustrator",
+      "InDesign"
+    ],
+    "tags": [
+      "print",
+      "preflight",
+      "bleed",
+      "cmyk",
+      "pms",
+      "vendor",
+      "qc",
+      "pdf export"
+    ],
+    "status": "shipped",
+    "date": "2026-10-02",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1790969225955139"
+    }
+  },
+  {
+    "id": "brand-lockup-system",
+    "name": "Brand Lockup System",
+    "type": "skill",
+    "summary": "Turns one hand-made lockup into a full Figma library of brand wordmarks/lockups (variant sets, consistent naming, publishable library) and exports SVG+PNG. Proven on Zoom: 48 layouts -> 900+ components -> 1,800+ files; ~40h saved per project.",
+    "how_to_use": "Install brand-lockup-system.skill (check file ends with .skill, an early download was truncated to .ski) and read the one-page guide; brief + 2 QC gates.",
+    "owners": [
+      "Agostina Alvarez"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Figma"
+    ],
+    "tags": [
+      "logo lockups",
+      "wordmarks",
+      "sub-brands",
+      "figma library",
+      "svg export",
+      "png export",
+      "naming"
+    ],
+    "status": "shipped",
+    "date": "2026-09-18",
+    "updated": "2026-09-21",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1789756178375929"
+    }
+  },
+  {
+    "id": "quiet-account-plan",
+    "name": "quiet-account-plan",
+    "type": "skill",
+    "summary": "For accounts gone dark / with unused budget / unsubmitted drafts: reads the account's Notion and Slack history, pulls real brand colors/type/voice, finds real industry events and competitors, flags expiring budget and stalled drafts, and packages an interactive client-facing plan (no pricing).",
+    "how_to_use": "Install and point it at a quiet account.",
+    "owners": [
+      "Anush Babayan"
+    ],
+    "teams": [
+      "AM",
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Notion",
+      "Slack",
+      "Superspace MCP"
+    ],
+    "tags": [
+      "quiet accounts",
+      "churn",
+      "upsell",
+      "expiring budget",
+      "account plan",
+      "pitch"
+    ],
+    "status": "beta",
+    "date": "2026-09-18",
+    "updated": null,
+    "links": [
+      {
+        "label": "Install",
+        "url": "https://claude.ai/customize/skills/discover/plugin_017Wsm6C1MJT8PGM5oXWDr9p"
+      },
+      {
+        "label": "Example (IFS Nexus Black)",
+        "url": "https://claude.ai/artifact/A8zdgA5z8kPbwxSa2hhGq5?sk=b7kJXW96N0XsZVovK9GjQA"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1789732825591959"
+    }
+  },
+  {
+    "id": "mp4-to-lottie",
+    "name": "MP4 to .lottie converter",
+    "type": "skill",
+    "summary": "Converts MP4 to .lottie (reverse-engineered from a working file) without a LottieFiles subscription.",
+    "how_to_use": "Install mp4-to-lottie.skill; check result at lottiefiles.com/preview.",
+    "owners": [
+      "Abbi Choa"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "lottie",
+      "mp4",
+      "conversion",
+      "animation export"
+    ],
+    "status": "beta",
+    "date": "2026-09-11",
+    "updated": null,
+    "links": [
+      {
+        "label": "Preview tool",
+        "url": "https://lottiefiles.com/preview"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1789121218959629"
+    }
+  },
+  {
+    "id": "no-more-loose-ends",
+    "name": "No More Loose Ends",
+    "type": "skill",
+    "summary": "Reads Slack, Gmail and Superside chats to surface what you owe people and what people owe you (unfulfilled promises, buried client questions), checking Asana first to avoid nagging about tracked items; can DM on a schedule.",
+    "how_to_use": "Install and run for a gut check, or schedule it.",
+    "owners": [
+      "Rodrigo Salazar"
+    ],
+    "teams": [
+      "AM",
+      "PM",
+      "All"
+    ],
+    "tools": [
+      "Claude",
+      "Slack",
+      "Gmail",
+      "Superspace MCP",
+      "Asana"
+    ],
+    "tags": [
+      "follow-ups",
+      "promises",
+      "open loops",
+      "todo",
+      "client questions"
+    ],
+    "status": "shipped",
+    "date": "2026-09-04",
+    "updated": null,
+    "links": [
+      {
+        "label": "Install",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_01LYx4bSV5SL1bjGN7mEFS7m"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1788542822454219"
+    }
+  },
+  {
+    "id": "minimax-h3-local-video",
+    "name": "MiniMax H3 local video generation experiment",
+    "type": "experiment",
+    "summary": "Test of running MiniMax H3 locally (own GPU) with Claude driving it to recast a character into live-action scenes; documents segmentation vs full-recreation routes.",
+    "how_to_use": "Niche: needs a decent GPU or rented GPU. See original post in #C04CC8FSDHP.",
+    "owners": [
+      "Aaron Amortegui"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "Claude",
+      "MiniMax"
+    ],
+    "tags": [
+      "video generation",
+      "local models",
+      "gpu",
+      "character recast",
+      "vfx"
+    ],
+    "status": "idea",
+    "date": "2026-09-04",
+    "updated": null,
+    "links": [
+      {
+        "label": "Original post",
+        "url": "https://konsus.slack.com/archives/C04CC8FSDHP/p1788541722052449"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1788541957969899"
+    }
+  },
+  {
+    "id": "daily-planning",
+    "name": "/daily-planning (Creative Starter Pack)",
+    "type": "skill",
+    "summary": "Daily view from Slack, Gmail, Asana, Superspace and Calendar: top 5 priorities (Make/Unblock/Decide), things you'd miss, per-project status, billable vs non-billable hours pace, meetings/deadlines, and action buttons.",
+    "how_to_use": "Claude > Customize > Browse > Your Organization > Plugins > Creative Starter Pack, then /daily-planning. Support: #creative-skills-support.",
+    "owners": [
+      "Careth Colmenarez",
+      "Michal Stangret",
+      "Matteo Rostagno"
+    ],
+    "teams": [
+      "Creative",
+      "All"
+    ],
+    "tools": [
+      "Claude",
+      "Slack",
+      "Gmail",
+      "Asana",
+      "Superspace MCP",
+      "Google Calendar"
+    ],
+    "tags": [
+      "daily planning",
+      "priorities",
+      "morning briefing",
+      "hours",
+      "todo"
+    ],
+    "status": "shipped",
+    "date": "2026-09-03",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly demo",
+        "url": "https://superside.sana.ai/s/ynT9U4VWJRZv"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1788442441569609"
+    }
+  },
+  {
+    "id": "budget-project-tracker-renewal-calendar",
+    "name": "Budget & Project Tracker + Client Renewal Calendar/Tracker",
+    "type": "artifact",
+    "summary": "AM artifacts: account budget control (consumption pace, overage/expiring-credit flags), project health vs Best/High estimates with PM, deadline and feedback ratings; client renewal calendar mapping renewal stages against MSS/QBR and relationship tracker from Notion AKPs; Oct update added a renewal stage checklist tab with auto-dated stages and progress bars.",
+    "how_to_use": "Use the Google Docs / .md instructions to have Claude build your own; configured in Portuguese for Fernanda's accounts, so change accounts/language.",
+    "owners": [
+      "Fernanda Amadio"
+    ],
+    "teams": [
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Slack",
+      "Gmail",
+      "Notion"
+    ],
+    "tags": [
+      "budget tracking",
+      "overage",
+      "expiring credits",
+      "renewals",
+      "renewal tracker",
+      "project health",
+      "client relationships"
+    ],
+    "status": "shipped",
+    "date": "2026-09-01",
+    "updated": "2026-10-02",
+    "links": [
+      {
+        "label": "Budget & Project Tracker artifact",
+        "url": "https://claude.ai/code/artifact/a047eb32-df9b-4513-a0eb-c799e816bf3c"
+      },
+      {
+        "label": "Build guide (tracker)",
+        "url": "https://docs.google.com/document/d/182xc3a-1nOT35eannjctsJ56X5v4bonPufI3xRtx9tc/edit?usp=sharing"
+      },
+      {
+        "label": "Build guide (renewal calendar)",
+        "url": "https://docs.google.com/document/d/1piYYMKIg10XMrayPGoijKR8o4351T8uQ9DyaH10TAEA/edit?usp=sharing"
+      },
+      {
+        "label": "Updated tracker with renewal tab",
+        "url": "https://claude.ai/artifact/LnwsS8cP5B7t1V842xfFzT?sk=MnQnkcKdHlDDV9C2gI86mg"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1788276865923639"
+    }
+  },
+  {
+    "id": "credit-savvy-tips",
+    "name": "Claude credit-savvy tips",
+    "type": "guide",
+    "summary": "Tips to save Claude credits: use Sonnet 5 (Med) not Opus, run scheduled tasks on Sonnet and pause unused ones, download Omni CSVs instead of crawling, enable Memory, check plugins/#everyone-can-build before building, monthly housekeeping of tasks/artifacts. Thread: change connector permissions via Customize > Connectors > app to reduce prompts (caution on delete/move).",
+    "how_to_use": "Read the post; links to Plugins knowledge hub and Hackathon directory.",
+    "owners": [
+      "Tamara Dalhuijsen"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "credits",
+      "cost",
+      "sonnet vs opus",
+      "scheduled tasks",
+      "permissions",
+      "memory"
+    ],
+    "status": "shipped",
+    "date": "2026-09-01",
+    "updated": "2026-09-02",
+    "links": [
+      {
+        "label": "Plugins knowledge hub",
+        "url": "https://app.notion.com/p/Superside-Claude-Plugins-knowledge-hub-38950ebbbec080cda536eb9cff4776a0"
+      },
+      {
+        "label": "Hackathon directory",
+        "url": "https://app.notion.com/p/Hackathon-Everyone-can-build-39f50ebbbec08010ad3cc841b46f575b"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1788274282629779"
+    }
+  },
+  {
+    "id": "account-management-plugin",
+    "name": "Account Management plugin (8 skills)",
+    "type": "plugin",
+    "summary": "Official AM plugin: Morning Radar, Account Command Center, Account Meeting Prep, Account News Hub, Account Growth Radar, Client Account Overview, project-cost-overrun, am-team-close-reminder; designed to stack (e.g. radar -> command-center; cost-overrun -> close-reminder -> client-overview).",
+    "how_to_use": "Claude > Customize > Plugins > Browse > add Account Management; connect Calendar, Slack, superside-mcp-internal, Omni, Notion. Issues -> #support-claude. Training sessions Sep 2026 (rescheduled due to town hall).",
+    "owners": [
+      "Tamara Dalhuijsen"
+    ],
+    "teams": [
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Omni",
+      "Notion",
+      "Slack",
+      "Google Calendar"
+    ],
+    "tags": [
+      "account management",
+      "account health",
+      "renewals",
+      "mss prep",
+      "meeting prep",
+      "news",
+      "upsell",
+      "cost overrun",
+      "month-end close"
+    ],
+    "status": "shipped",
+    "date": "2026-09-01",
+    "updated": "2026-09-09",
+    "links": [
+      {
+        "label": "Plugins knowledge hub",
+        "url": "https://app.notion.com/p/Superside-Claude-Plugins-knowledge-hub-38950ebbbec080cda536eb9cff4776a0%7CSuperside"
+      },
+      {
+        "label": "AM Plugin kick-off recording",
+        "url": "https://drive.google.com/file/d/1BVXL17ck6eHjwwjlwDY63laHGjUgbdKr/view?usp=sharing"
+      },
+      {
+        "label": "Kick-off transcript/notes",
+        "url": "https://docs.google.com/document/d/1cwTHWsLHZkzxxUJbiUDWWjUja-aQp16grd1b_13LwbE/edit?usp=sharing"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1788272178211309"
+    }
+  },
+  {
+    "id": "reference-collector",
+    "name": "Reference Collector (macOS app)",
+    "type": "tool",
+    "summary": "Local Pinterest-like macOS app for saving visual references via drag/paste/URL/menu-bar capture, auto-tagging, color palettes and search; on-device analysis with optional LM Studio/ChatGPT/Claude.",
+    "how_to_use": "Ask Craig Wright for a build.",
+    "owners": [
+      "Craig Wright"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "LM Studio"
+    ],
+    "tags": [
+      "moodboard",
+      "inspiration",
+      "references",
+      "pinterest",
+      "visual library"
+    ],
+    "status": "beta",
+    "date": "2026-08-27",
+    "updated": "2026-09-17",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1787820745873159"
+    }
+  },
+  {
+    "id": "krea-design-agent",
+    "name": "Krea design agent (unlimited access)",
+    "type": "tool",
+    "summary": "Superside has unlimited access to Krea's design agent in the Krea web app; teams asked to run real work through it and share feedback.",
+    "how_to_use": "Go to krea.ai/agent. Unclear whether 'unlimited' covers expensive video models like Seedance.",
+    "owners": [
+      "Manuel Berbin"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Krea"
+    ],
+    "tags": [
+      "image generation",
+      "video generation",
+      "design agent",
+      "krea"
+    ],
+    "status": "shipped",
+    "date": "2026-08-25",
+    "updated": null,
+    "links": [
+      {
+        "label": "Krea agent",
+        "url": "https://www.krea.ai/agent"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1787673994000259"
+    }
+  },
+  {
+    "id": "hackathon-winners-sky-unit",
+    "name": "Claude hackathon winners (Sky Unit highlights)",
+    "type": "announcement",
+    "summary": "Hackathon highlights: Team Cloud's next-project recommender (with receptiveness check), sKILL BILL (project memory/context), The Performance LOOP, Sonnet Syndicate (Krea+Claude), ShantAI You Stay (generated brand photography), Macy's Darlings. 90+ submissions overall.",
+    "how_to_use": "Browse decks and the hackathon Notion database.",
+    "owners": [
+      "Kae Neskovic"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Claude",
+      "Krea"
+    ],
+    "tags": [
+      "hackathon",
+      "next project",
+      "project memory",
+      "performance creative",
+      "ai photography"
+    ],
+    "status": "shipped",
+    "date": "2026-08-17",
+    "updated": null,
+    "links": [
+      {
+        "label": "Team Cloud deck",
+        "url": "https://docs.google.com/presentation/d/17RRjCRxGO4w3IIDV_afP5nVfT8idgT0chnNl1t7plKo/edit?usp=sharing"
+      },
+      {
+        "label": "sKILL BILL deck",
+        "url": "https://docs.google.com/presentation/d/1tv7XlbD-GHAfgWG-7P1ypVUEweoAAXymhAxZaGH0bI4/edit?usp=sharing"
+      },
+      {
+        "label": "Performance LOOP deck",
+        "url": "https://docs.google.com/presentation/d/113x1Q6526ki8ctuflGGb83OsGiwYkFi7jSoppVo75cE/edit?usp=sharing"
+      },
+      {
+        "label": "Sonnet Syndicate deck",
+        "url": "https://docs.google.com/presentation/d/1SWebNflf0A_1YNFjt_gnzojjwTI08HCZhIzIjr1meT0/edit?usp=sharing"
+      },
+      {
+        "label": "ShantAI You Stay deck",
+        "url": "https://docs.google.com/presentation/d/1puxAAWtYz5SERrXjDyleOVr0GvRZ1yx7YAvOSu2Z_Sc/edit?slide=id.g3f96c9a1b7c_0_14#slide=id.g3f96c9a1b7c_0_14"
+      },
+      {
+        "label": "Macy's Darlings deck",
+        "url": "https://docs.google.com/presentation/d/1Vsmor-zL1qvXSlj6cMbxWJWNbew9taJiyfhU7RXj9vQ/edit?usp=sharing"
+      },
+      {
+        "label": "All hackathon entries",
+        "url": "https://app.notion.com/p/39f50ebbbec080e1893af17717e8a96c?v=39f50ebbbec08053ba5c000ce4a97792"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1786982743813429"
+    }
+  },
+  {
+    "id": "custom-gpt-migration",
+    "name": "Custom GPT to Claude migration skill",
+    "type": "skill",
+    "summary": "Walks you step by step through rebuilding custom GPTs in Claude. Thread: Superside ChatGPT account expires early October 2026; Krea plugin suggested for image gen; accounts with Claude restrictions (e.g. Reddit) still use ChatGPT, BrandBrain MCP is exposed to GPT.",
+    "how_to_use": "Install custom-gpt-migration.md as a skill and follow the steps.",
+    "owners": [
+      "Tamara Dalhuijsen"
+    ],
+    "teams": [
+      "PM",
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "Krea"
+    ],
+    "tags": [
+      "chatgpt migration",
+      "custom gpt",
+      "switch to claude",
+      "image generation"
+    ],
+    "status": "shipped",
+    "date": "2026-08-13",
+    "updated": "2026-08-24",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1786631054009759"
+    }
+  },
+  {
+    "id": "milestone-calendar-sync",
+    "name": "milestone-calendar-sync (Asana CR/IR deadlines to Google Calendar)",
+    "type": "skill",
+    "summary": "Pulls CR/IR and review-type milestones from your own Asana tasks into your Google Calendar, color-coded per client with 1h reminders; checks Superside staffing first to avoid syncing projects you're not on; can run daily.",
+    "how_to_use": "Download .skill, Save skill, ask 'add my Asana CR/IR deadlines to my calendar'. False-positive milestones bug fixed in thread (use updated file).",
+    "owners": [
+      "Taryn Selvan"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Asana",
+      "Google Calendar",
+      "Superspace MCP"
+    ],
+    "tags": [
+      "deadlines",
+      "calendar",
+      "asana",
+      "milestones",
+      "reminders",
+      "ir",
+      "cr"
+    ],
+    "status": "shipped",
+    "date": "2026-08-12",
+    "updated": "2026-08-13",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1786542063871619"
+    }
+  },
+  {
+    "id": "pm-pto-handover",
+    "name": "PM PTO handover (Notion)",
+    "type": "skill",
+    "summary": "Builds a live, shareable Notion page with a filterable database of all your projects with key info from Superside, Slack and Asana for PTO coverage. Caution: refreshing can overwrite manual edits.",
+    "how_to_use": "Install pm-pto-handover.skill, say 'I'm going on PTO, build me a handover in Notion.'",
+    "owners": [
+      "Nicolas Gattoni"
+    ],
+    "teams": [
+      "PM"
+    ],
+    "tools": [
+      "Claude",
+      "Notion",
+      "Superspace MCP",
+      "Slack",
+      "Asana"
+    ],
+    "tags": [
+      "pto",
+      "handover",
+      "coverage",
+      "out of office"
+    ],
+    "status": "shipped",
+    "date": "2026-08-12",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1786539424498399"
+    }
+  },
+  {
+    "id": "creative-plugins-suite",
+    "name": "Creative plugins suite (Starter Pack, Quality Delivery, Video & Motion, Presentations, Digital Assets, Superside Internal)",
+    "type": "plugin",
+    "summary": "Org plugins: Creative Starter Pack (/skill-gallery, /logging-time, /creative-kick-off, /daily-planning), Creative Quality Delivery (/brand-voice-check, /text-check, /exact-copy-check, /platform-character-check, /write-like-a-human), Video & Motion (/performance-ad-storyboard, /storyboard-to-weavy, /video-prompt-director, /visual-style-guide), Presentations (/figma-to-pptx, /gif-for-slides), Digital Assets (/flora-icon-generator, /image-style-dna-decoder), Superside Internal (/superside-brand-copy, /superside-brand-system).",
+    "how_to_use": "Claude > Customize > Browse > Your Organization > Plugins. Feedback: #creative-skills-support.",
+    "owners": [
+      "Matteo Rostagno"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Figma",
+      "Weavy",
+      "Flora",
+      "Krea"
+    ],
+    "tags": [
+      "creative skills",
+      "qc",
+      "copy check",
+      "storyboard",
+      "video prompts",
+      "presentations",
+      "gifs",
+      "icons",
+      "style dna",
+      "brand voice"
+    ],
+    "status": "shipped",
+    "date": "2026-08-11",
+    "updated": "2026-11-04",
+    "links": [
+      {
+        "label": "Creative Starter Pack",
+        "url": "https://claude.ai/directory/plugins/creative-starter-pack%40Superside%2Finternal-claude-plugins"
+      },
+      {
+        "label": "Creative Quality Delivery",
+        "url": "https://claude.ai/directory/plugins/creative-quality-delivery%40Superside%2Finternal-claude-plugins"
+      },
+      {
+        "label": "Video & Motion",
+        "url": "https://claude.ai/directory/plugins/video-motion%40Superside%2Finternal-claude-plugins"
+      },
+      {
+        "label": "Presentations",
+        "url": "https://claude.ai/directory/plugins/presentations%40Superside%2Finternal-claude-plugins"
+      },
+      {
+        "label": "Digital Assets",
+        "url": "https://claude.ai/directory/plugins/digital-assets%40Superside%2Finternal-claude-plugins"
+      },
+      {
+        "label": "Superside Internal",
+        "url": "https://claude.ai/directory/plugins/superside-internal%40Superside%2Finternal-claude-plugins"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1786462556818209"
+    }
+  },
+  {
+    "id": "brief-debrief",
+    "name": "brief-debrief",
+    "type": "skill",
+    "summary": "Translates a Superside project brief into plain language: what the brand does, what's asked, web-researched terms/acronyms, past project history, Slack context, inconsistencies, all links, questions to ask, and the account AI policy (red alert if AI opt-out). Outputs a branded digest artifact in the user's language; can also process your DRAFT/PREPARE queue.",
+    "how_to_use": "Install brief-debrief.skill; ask e.g. 'what is this client asking for' with a project ID/link/brief text, or 'what projects do I have to review?' (EN/PT/ES).",
+    "owners": [
+      "Flavio Treiger"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Slack",
+      "Web search"
+    ],
+    "tags": [
+      "brief",
+      "brief explanation",
+      "jargon",
+      "acronyms",
+      "ai policy",
+      "pharma",
+      "regulated industries",
+      "onboarding to project"
+    ],
+    "status": "shipped",
+    "date": "2026-08-11",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1786462454358529"
+    }
+  },
+  {
+    "id": "flowdesk-staffing-copilot",
+    "name": "FlowDesk staffing co-pilot",
+    "type": "artifact",
+    "summary": "Hackathon-winning staffing co-pilot; HTML + handover file to rebuild in Claude Cowork.",
+    "how_to_use": "Download from the Drive folder and build in Cowork.",
+    "owners": [
+      "Flavio Treiger",
+      "Lucas Matsumura",
+      "Gabriel Deda",
+      "Esteban Mora",
+      "Ryan Macatulad",
+      "Lindsay Romano",
+      "Anneke King"
+    ],
+    "teams": [
+      "Ops",
+      "PM"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork"
+    ],
+    "tags": [
+      "staffing",
+      "resourcing",
+      "capacity",
+      "hackathon"
+    ],
+    "status": "shipped",
+    "date": "2026-08-11",
+    "updated": null,
+    "links": [
+      {
+        "label": "Drive folder",
+        "url": "https://drive.google.com/drive/folders/1-L_0IvzcBRM1Mq2a9tzbJeHUosluVkSi?usp=drive_link"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1786460674569999"
+    }
+  },
+  {
+    "id": "supertracker",
+    "name": "Supertracker (Everything Everywhere All At Once hub)",
+    "type": "artifact",
+    "summary": "Cowork shared artifact hub aggregating Slack, Asana and Google Calendar.",
+    "how_to_use": "Open the shared artifact in Cowork with Slack, Asana and Calendar connected.",
+    "owners": [
+      "Bianca Takahashi"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork",
+      "Slack",
+      "Asana",
+      "Google Calendar"
+    ],
+    "tags": [
+      "tracker",
+      "daily overview",
+      "tasks",
+      "deadlines"
+    ],
+    "status": "shipped",
+    "date": "2026-08-11",
+    "updated": null,
+    "links": [
+      {
+        "label": "Cowork artifact",
+        "url": "claude://cowork/shared-artifact?uuid=019fa5e1-4273-76bb-9bb0-5adf28d49bfa"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1786459914901949"
+    }
+  },
+  {
+    "id": "next-project-recommender",
+    "name": "/next-project-recommender",
+    "type": "skill",
+    "summary": "Hackathon-winning (Team Cloud) recommender that reads account usage, news, calls and Brand Brain and returns next-project ideas written as GTBs, with a receptiveness check that stops if the account is swamped.",
+    "how_to_use": "Install from link; feedback welcome.",
+    "owners": [
+      "Rodrigo Salazar",
+      "Tilbe Cakar",
+      "Carmen Zita",
+      "Daniela Riveros",
+      "Vivianna Ramirez",
+      "Rodrigo Cruz",
+      "Vitor Borragine"
+    ],
+    "teams": [
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "BrandBrain",
+      "Superspace MCP"
+    ],
+    "tags": [
+      "next project",
+      "upsell",
+      "account growth",
+      "project ideas",
+      "gtb"
+    ],
+    "status": "shipped",
+    "date": "2026-08-11",
+    "updated": null,
+    "links": [
+      {
+        "label": "Install",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_012k99ZzSuF15mMzp6wGDjrk"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1786459359476109"
+    }
+  },
+  {
+    "id": "client-onboarding-plan",
+    "name": "client-onboarding-plan",
+    "type": "skill",
+    "summary": "Pulls new-client intel from Salesforce, Jiminny and Slack into a Word onboarding plan (account/customer info, next steps, WoW details from sales); leaves onboarding dates as '[AM to add date]'. Laura Santos built an AM onboarding journey checklist artifact on top.",
+    "how_to_use": "Install client-onboarding-plan.skill.",
+    "owners": [
+      "Olivia Tornelli"
+    ],
+    "teams": [
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Salesforce",
+      "Jiminny",
+      "Slack",
+      "Word"
+    ],
+    "tags": [
+      "client onboarding",
+      "new client",
+      "sales handover",
+      "onboarding plan"
+    ],
+    "status": "shipped",
+    "date": "2026-08-10",
+    "updated": "2026-09-15",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1786382512543039"
+    }
+  },
+  {
+    "id": "gif-optimizer",
+    "name": "GIF optimizer artifact",
+    "type": "artifact",
+    "summary": "Cowork artifact to shrink huge AI-generated GIFs; pixel-dropping dimension bug fixed.",
+    "how_to_use": "Find it under Artifacts in Claude (shared Cowork link). Alternative noted: Gifski CLI.",
+    "owners": [
+      "Craig Wright"
+    ],
+    "teams": [
+      "Creative",
+      "Motion"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork"
+    ],
+    "tags": [
+      "gif",
+      "compression",
+      "file size",
+      "optimization"
+    ],
+    "status": "shipped",
+    "date": "2026-08-10",
+    "updated": "2026-08-11",
+    "links": [
+      {
+        "label": "Cowork artifact",
+        "url": "claude://cowork/shared-artifact?uuid=019feb7f-ad3f-739a-82fa-5de3a27c8ea7"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1786362960344309"
+    }
+  },
+  {
+    "id": "creative-qc-check",
+    "name": "creative-qc-check",
+    "type": "skill",
+    "summary": "Creative QC from a job number: technical handoff (missing/duplicate assets, drafts, layer names, broken refs, zips), brief compliance, copy (grammar + verbatim vs client copy), brand check against guidelines; drafts a Slack reply. Overlaps with the official Creative Quality Delivery plugin (Matteo aligning).",
+    "how_to_use": "Install (directory or file) and ask 'QC 260471' or 'QC this project'.",
+    "owners": [
+      "Bruna Correia Gonzalez"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Slack"
+    ],
+    "tags": [
+      "qc",
+      "quality check",
+      "handoff",
+      "brand check",
+      "copy check",
+      "brief compliance"
+    ],
+    "status": "shipped",
+    "date": "2026-08-06",
+    "updated": "2026-11-04",
+    "links": [
+      {
+        "label": "Install",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_01BMozatmtZSD4j2o3fHkUz4"
+      },
+      {
+        "label": "Loom",
+        "url": "https://www.loom.com/share/3c240f7cb97e48c9824c9da439b02d4d"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1786007714458719"
+    }
+  },
+  {
+    "id": "pm-plugin-sandbox-and-training",
+    "name": "PM plugin sandbox account + Plugged In training",
+    "type": "guide",
+    "summary": "All PMs/Producers added to internal account 104597 (INTERNAL 4.3 ANNUAL) as a safe space to test the Project Management plugin; Plugged In sessions (Claude Basics, Meet the Skills, Full PM Lifecycle) with recordings.",
+    "how_to_use": "Claude > Customize > Plugins > Browse > Project Management plugin > Add. Watch recordings. Omni data available via superside-mcp-internal.",
+    "owners": [
+      "Tamara Dalhuijsen",
+      "Indre Lukauskaite"
+    ],
+    "teams": [
+      "PM"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP"
+    ],
+    "tags": [
+      "training",
+      "onboarding",
+      "pm plugin",
+      "sandbox",
+      "recordings"
+    ],
+    "status": "shipped",
+    "date": "2026-08-03",
+    "updated": "2026-08-25",
+    "links": [
+      {
+        "label": "Sandbox account 104597",
+        "url": "https://internal.superside.com/accounts/104597"
+      },
+      {
+        "label": "Session 1 recording",
+        "url": "https://drive.google.com/file/d/1_VeE7F2Mn32ZmF2rWQo9Le6_-zchD6lY/view?usp=sharing"
+      },
+      {
+        "label": "Session 2 recording",
+        "url": "https://drive.google.com/file/d/1XFrPt3e657geVSmdAlJP5IzZ5kyNuuyF/view?usp=sharing"
+      },
+      {
+        "label": "Session 3 recording",
+        "url": "https://drive.google.com/file/d/1d75Rm0IcihLYrlrTP854huJwMZtgmqZ6/view?usp=sharing"
+      },
+      {
+        "label": "Plugged In sign-up form",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfICukrrLdVVK74OwXdLLZlbsWQ79Kc7JhBdGe2B_e2SoiKFw/viewform?usp=dialog"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1787228706147919"
+    }
+  },
+  {
+    "id": "brandbrain-mcp",
+    "name": "BrandBrainMCP (in Superside Internal MCP)",
+    "type": "mcp",
+    "summary": "Brief generation powered by BrandBrain and a BrandBrain query tool (account knowledge now; previous projects/assets later).",
+    "how_to_use": "See Notion 'Using BrandBrain MCP as Staff'. Bugs/feedback: #product-team-brand-brain.",
+    "owners": [
+      "Alexandre Jacinto",
+      "Bogdan Sbiera"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Superspace MCP",
+      "BrandBrain"
+    ],
+    "tags": [
+      "brand brain",
+      "briefs",
+      "account knowledge",
+      "mcp"
+    ],
+    "status": "shipped",
+    "date": "2026-08-03",
+    "updated": null,
+    "links": [
+      {
+        "label": "How to use",
+        "url": "https://app.notion.com/p/Using-BrandBrain-MCP-as-Staff-3b150ebbbec08015b478f25351d8cf97"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1785774262379949"
+    }
+  },
+  {
+    "id": "superside-claude-wrapped",
+    "name": "Superside x Claude Wrapped",
+    "type": "artifact",
+    "summary": "Spotify-Wrapped-style artifact summarizing your July Claude usage (enterprise org accounts only).",
+    "how_to_use": "Open the Cowork shared artifact.",
+    "owners": [
+      "Louis Svugr"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork"
+    ],
+    "tags": [
+      "usage stats",
+      "wrapped",
+      "fun"
+    ],
+    "status": "shipped",
+    "date": "2026-08-03",
+    "updated": null,
+    "links": [
+      {
+        "label": "Cowork artifact",
+        "url": "claude://cowork/shared-artifact?uuid=019fbdcc-bd0a-70e6-b187-cf89dbf6feb4"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1785740611723189"
+    }
+  },
+  {
+    "id": "project-hours-health",
+    "name": "project-hours-health",
+    "type": "skill",
+    "summary": "Scheduled Slack DM for PMs/Producers: for each ONGOING project, bars of PM&CL, Creative and total hours vs Best Estimate, deadline/days left, red flags when over, sorted by burn rate.",
+    "how_to_use": "Get the skill (link or .md), ask Claude to set it up with time/timezone/days.",
+    "owners": [
+      "Gabriela Maragni"
+    ],
+    "teams": [
+      "PM"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Slack"
+    ],
+    "tags": [
+      "hours",
+      "burn",
+      "best estimate",
+      "overrun",
+      "project health",
+      "pm"
+    ],
+    "status": "shipped",
+    "date": "2026-07-31",
+    "updated": "2026-08-04",
+    "links": [
+      {
+        "label": "Install",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_01Fky4LHhiXb7eAaojTuxSN6"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1785522377575129"
+    }
+  },
+  {
+    "id": "clari-renewal-notes",
+    "name": "clari-renewal-notes",
+    "type": "skill",
+    "summary": "Every Friday drafts Clari renewal notes (Inspection summary + Forecast by quarter, plus opt-out accounts) from Salesforce, Notion, Jiminny and Slack; defaults to flat renewal unless evidence.",
+    "how_to_use": "Install clari-renewal-notes.skill and schedule Friday mornings.",
+    "owners": [
+      "Olivia Tornelli"
+    ],
+    "teams": [
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Salesforce",
+      "Notion",
+      "Jiminny",
+      "Slack",
+      "Clari"
+    ],
+    "tags": [
+      "clari",
+      "renewals",
+      "forecast",
+      "salesforce"
+    ],
+    "status": "shipped",
+    "date": "2026-07-31",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1785515849657849"
+    }
+  },
+  {
+    "id": "cl-weekly-account-news",
+    "name": "cl-weekly-account-news",
+    "type": "skill",
+    "summary": "Weekly Monday DM for CLs combining client company + industry news (with sources) and an internal Superside snapshot (projects, deadlines, sentiment); urgent summary on top, detail in thread.",
+    "how_to_use": "Install and set your account list.",
+    "owners": [
+      "Anita Duhart"
+    ],
+    "teams": [
+      "Creative",
+      "CL"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Slack",
+      "Web search"
+    ],
+    "tags": [
+      "account news",
+      "weekly sync",
+      "industry news",
+      "cl"
+    ],
+    "status": "shipped",
+    "date": "2026-07-31",
+    "updated": null,
+    "links": [
+      {
+        "label": "Install",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_01EbiYDxRKEez1Kv5uBjhP1X"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1785511826112249"
+    }
+  },
+  {
+    "id": "feedback-and-timeline-untangler",
+    "name": "Feedback & Timeline Untangler",
+    "type": "skill",
+    "summary": "Untangles confusing customer feedback by researching full history across Slack, Superspace and support/account channels: real timeline of promised vs delivered, next steps, whether it was answered; also feedback-timeline audit and billing/duration explainer. Nov update: billing rules built in.",
+    "how_to_use": "Install .skill; needs Superside internal gateway MCP + Slack. Tweak by telling Claude your role and 'Update and save the skill'.",
+    "owners": [
+      "Benitta Van Den Berg (Gerber)"
+    ],
+    "teams": [
+      "PM",
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Slack"
+    ],
+    "tags": [
+      "client feedback",
+      "escalation",
+      "timeline",
+      "billing explanation",
+      "account history"
+    ],
+    "status": "shipped",
+    "date": "2026-07-30",
+    "updated": "2026-11-04",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1785417294948829"
+    }
+  },
+  {
+    "id": "task-buddy",
+    "name": "Task Buddy",
+    "type": "artifact",
+    "summary": "Neurodivergent-friendly daily assistant for creatives (hackathon) that reads Slack, Asana, Superspace, Gmail and Calendar and answers 'what needs me, where to start, what can wait'; builds a profile of your people/accounts/rhythm on first load.",
+    "how_to_use": "Open the Cowork shared artifact; first load takes a few minutes. Updates posted in #tribe-neurodivergence.",
+    "owners": [
+      "Paola Flores",
+      "Caro Verawilcke"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork",
+      "Slack",
+      "Asana",
+      "Superspace MCP",
+      "Gmail",
+      "Google Calendar"
+    ],
+    "tags": [
+      "adhd",
+      "neurodivergent",
+      "daily planning",
+      "prioritization",
+      "notifications"
+    ],
+    "status": "shipped",
+    "date": "2026-07-29",
+    "updated": "2026-08-11",
+    "links": [
+      {
+        "label": "Cowork artifact",
+        "url": "claude://cowork/shared-artifact?uuid=019fab41-4293-72f3-bf8f-4172a4b6f058"
+      },
+      {
+        "label": "Hackathon post",
+        "url": "https://konsus.slack.com/archives/C0BHZM4M6NT/p1785215099893409?thread_ts=1785215099.893409&cid=C0BHZM4M6NT"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1786459571394019"
+    }
+  },
+  {
+    "id": "connector-checker",
+    "name": "Connector Checker",
+    "type": "skill",
+    "summary": "Health check of every connected tool in Cowork (Slack, Notion, Drive, Gmail, Calendar, Asana, Figma, Canva, Omni...) plus your scheduled tasks; drops results into a Cowork page with reconnect links.",
+    "how_to_use": "Install and schedule weekday mornings. No connectors needed.",
+    "owners": [
+      "Benitta Van Den Berg (Gerber)"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork"
+    ],
+    "tags": [
+      "connectors",
+      "scheduled tasks",
+      "automation health",
+      "broken login"
+    ],
+    "status": "shipped",
+    "date": "2026-07-28",
+    "updated": null,
+    "links": [
+      {
+        "label": "Original post in #support-claude",
+        "url": "https://konsus.slack.com/archives/C0BD5A5V3KK/p1785253891640309?thread_ts=1785249033.571049&cid=C0BD5A5V3KK"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1785253939077699"
+    }
+  },
+  {
+    "id": "render-inspection-qc",
+    "name": "Render Inspection (AI image QC)",
+    "type": "tool",
+    "summary": "Web app that flags AI-image defects (warped hands/feet, plastic skin, hair, physics-defying clothing, non-photoreal look) with on-image markers and severity; checklist to fix. Built with Claude, FAL.AI, GitHub, Vercel; reworked for accuracy.",
+    "how_to_use": "Test at the Vercel link (free tier may cap usage).",
+    "owners": [
+      "Craig Wright"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "FAL.AI",
+      "Vercel"
+    ],
+    "tags": [
+      "ai image qc",
+      "hands",
+      "artifacts",
+      "photorealism",
+      "quality"
+    ],
+    "status": "beta",
+    "date": "2026-07-28",
+    "updated": "2026-07-29",
+    "links": [
+      {
+        "label": "App",
+        "url": "https://qc-assistant-five.vercel.app"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1785236367438969"
+    }
+  },
+  {
+    "id": "external-weekly-status",
+    "name": "external-weekly-status",
+    "type": "skill",
+    "summary": "Client-facing weekly status: pulls credits consumed/total/remaining/expiring boosters from Superspace, cross-checks the account Slack channel, fixed template (credit consumption + key project updates), two approvals before sending.",
+    "how_to_use": "Install external-weekly-status.skill.",
+    "owners": [
+      "Fernanda Amadio"
+    ],
+    "teams": [
+      "AM",
+      "PM"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Slack"
+    ],
+    "tags": [
+      "weekly status",
+      "client update",
+      "credits",
+      "boosters"
+    ],
+    "status": "shipped",
+    "date": "2026-07-27",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1785200823020399"
+    }
+  },
+  {
+    "id": "weekly-billable-checkin",
+    "name": "weekly-billable-checkin",
+    "type": "skill",
+    "summary": "Scheduled DM with week/MTD logged hours vs day target, PTO-adjusted, billable vs non-billable shortfall, Budget Watch (75%+ of your allocation; for PM/AM/GAD the whole project budget). Note: AI-off accounts are invisible to Claude, so totals may differ.",
+    "how_to_use": "Enable skill; first run asks day target and utilization target; set day/time.",
+    "owners": [
+      "Rute Sofia Gomes"
+    ],
+    "teams": [
+      "Creative",
+      "PM",
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Google Calendar",
+      "Slack"
+    ],
+    "tags": [
+      "utilization",
+      "billable hours",
+      "timesheets",
+      "pto",
+      "budget watch"
+    ],
+    "status": "shipped",
+    "date": "2026-07-27",
+    "updated": "2026-07-29",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1785155996610029"
+    }
+  },
+  {
+    "id": "scoop-catchup",
+    "name": "Scoop Catch Up",
+    "type": "skill",
+    "summary": "Account catch-up variant of The Scoop for anyone (leadership, PTO handover, jumping in cold): researches Superspace/Slack/Notion/Drive/web and returns one locked HTML newspaper, never published.",
+    "how_to_use": "Upload scoop-catchup.skill in Cowork; prompt 'Run a scoop catchup for [Account], covering [date range]'. Needs Cowork (code execution).",
+    "owners": [
+      "Benitta Van Den Berg (Gerber)"
+    ],
+    "teams": [
+      "AM",
+      "PM",
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork",
+      "Superspace MCP",
+      "Slack",
+      "Notion",
+      "Google Drive"
+    ],
+    "tags": [
+      "account catch-up",
+      "handover",
+      "account summary",
+      "pto"
+    ],
+    "status": "shipped",
+    "date": "2026-07-24",
+    "updated": "2026-11-04",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784886685636439"
+    }
+  },
+  {
+    "id": "billable-hours-calculator",
+    "name": "Billable utilization calculator",
+    "type": "artifact",
+    "summary": "HTML calculator breaking hours into project/account billable/account non-billable/admin and adjusting targets for PTO, sick leave and AI bootcamp days; builds on Axel Trujillo's original.",
+    "how_to_use": "Open the attached HTML.",
+    "owners": [
+      "Mariana Caro",
+      "Axel Trujillo"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "utilization",
+      "billable hours",
+      "calculator",
+      "pto"
+    ],
+    "status": "shipped",
+    "date": "2026-07-23",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784822967072029"
+    }
+  },
+  {
+    "id": "superside-log-hours-task",
+    "name": "superside-log-hours scheduled task",
+    "type": "automation",
+    "summary": "Cowork task that estimates daily worked hours from Google Calendar and Slack activity (project-ID channels, account channels), shows a justification table and logs to Superside only after approval.",
+    "how_to_use": "Copy the template doc, replace name/email, create an on-demand scheduled task in Cowork; needs Slack, Calendar, Superside connectors (Asana/Omni optional).",
+    "owners": [
+      "Flavio Treiger"
+    ],
+    "teams": [
+      "Creative",
+      "All"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork",
+      "Superspace MCP",
+      "Slack",
+      "Google Calendar"
+    ],
+    "tags": [
+      "time logging",
+      "timesheets",
+      "hours",
+      "automation"
+    ],
+    "status": "shipped",
+    "date": "2026-07-23",
+    "updated": null,
+    "links": [
+      {
+        "label": "Template",
+        "url": "https://docs.google.com/document/d/1OuNOzw1AOAxD_JlCIFUr3wysLPI7shKeU60-SO82u5Y/edit?usp=sharing"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784816066564029"
+    }
+  },
+  {
+    "id": "pm-plugin-quoting-skill-feedback",
+    "name": "PM plugin quoting skill (/quote-project) - user feedback",
+    "type": "announcement",
+    "summary": "Call for feedback on the quoting skill ahead of sunsetting the quote calculator. Users: accurate on well-defined work (PDFs, presentations), saves time, auto-creates components/plan/Asana; misses components on complex work, under-quotes slide counts, off for Figma Buzz; can't quote without a Superspace project+brief (open ask).",
+    "how_to_use": "Use /quote-project in PM plugin; double-check vs calculator.",
+    "owners": [
+      "Louis Svugr"
+    ],
+    "teams": [
+      "PM",
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP"
+    ],
+    "tags": [
+      "quoting",
+      "estimates",
+      "quote calculator",
+      "pricing"
+    ],
+    "status": "shipped",
+    "date": "2026-07-23",
+    "updated": "2026-07-23",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784810328832889"
+    }
+  },
+  {
+    "id": "honter",
+    "name": "Honter (client review platform, side project)",
+    "type": "tool",
+    "summary": "Personal side project: client review/feedback tool (Markup + Asana) showing work in native format (decks, sites, social mockups), pinned feedback, six AI reviewer lenses, Iris dashboard assistant, Figma plugin.",
+    "how_to_use": "honter.io; DM Axel for a free Pro account.",
+    "owners": [
+      "Axel Trujillo"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "client feedback",
+      "review",
+      "proofing",
+      "side project"
+    ],
+    "status": "shipped",
+    "date": "2026-07-22",
+    "updated": null,
+    "links": [
+      {
+        "label": "Site",
+        "url": "http://honter.io"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784767941611119"
+    }
+  },
+  {
+    "id": "cowork-credits-reminder",
+    "name": "Reminder: $1000 credits valid only in Cowork and Code",
+    "type": "guide",
+    "summary": "Each account had $1000 credits valid only in Cowork and Code (until September); Chat costs real credits, so use Cowork.",
+    "how_to_use": "Chat in Cowork; Sana module and Bianca Pieterse's Cowork session.",
+    "owners": [
+      "Aki Friedrich"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork"
+    ],
+    "tags": [
+      "credits",
+      "cowork",
+      "cost"
+    ],
+    "status": "shipped",
+    "date": "2026-07-22",
+    "updated": null,
+    "links": [
+      {
+        "label": "Sana module",
+        "url": "https://superside.sana.ai/s/CK6LYT2APkKg"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784750435545729"
+    }
+  },
+  {
+    "id": "start-copy",
+    "name": "/start copy (copywriter pre-flight readiness)",
+    "type": "skill",
+    "summary": "Copywriter pre-flight: gathers project context from Superside, deadlines/deliverables from Asana (filtered to copy work), TOV/brand guidelines from Superspace/Drive/Slack; builds a live HTML artifact for follow-ups, uploads to Drive and DMs a readiness record. Doesn't write copy.",
+    "how_to_use": "Select /start copy and paste job number + project name.",
+    "owners": [
+      "Ashleigh Robyn"
+    ],
+    "teams": [
+      "Copy",
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Asana",
+      "Google Drive",
+      "Slack"
+    ],
+    "tags": [
+      "copywriting",
+      "tone of voice",
+      "deliverables",
+      "readiness",
+      "brief"
+    ],
+    "status": "shipped",
+    "date": "2026-07-22",
+    "updated": null,
+    "links": [
+      {
+        "label": "Install",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_01TBrZkuqUgPyt643a7PFyRy"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784725309278339"
+    }
+  },
+  {
+    "id": "account-knowledge-sync",
+    "name": "Account Notion Sync / account-knowledge-sync",
+    "type": "skill",
+    "summary": "Reads an account's Slack channel, files durable info (stakeholders, brand guardrails, strategy, wins, risks) into the account's Notion page and DMs a weekly digest. v2.0 (Andreea Gheorghe) also checks Google Meet call recordings, tags CL/SP/AM in Slack with the Notion link, runs weekly.",
+    "how_to_use": "Install, edit the 'Account registry' rows (Slack channel + Notion page). v2: in Cowork say 'Run /account-knowledge skill every Monday, 9AM UTC for Accounts A, B, C'. Caution raised about confidential info reaching Brand Brain via Notion.",
+    "owners": [
+      "Alexa Rosenbrock",
+      "Andreea Gheorghe"
+    ],
+    "teams": [
+      "AM",
+      "PM"
+    ],
+    "tools": [
+      "Claude",
+      "Slack",
+      "Notion",
+      "Google Meet"
+    ],
+    "tags": [
+      "notion",
+      "account knowledge",
+      "akp",
+      "slack to notion",
+      "sync",
+      "stakeholders"
+    ],
+    "status": "shipped",
+    "date": "2026-07-21",
+    "updated": "2026-08-12",
+    "links": [
+      {
+        "label": "v2.0 post",
+        "url": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1786566459372269"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784656421125659"
+    }
+  },
+  {
+    "id": "video-prompt-creator",
+    "name": "Video prompt creator (model-specific)",
+    "type": "skill",
+    "summary": "Turns a rough idea into a structured, model-ready AI video prompt (subject, shot, camera, environment, style), single or multi-shot, adapting to Kling/Veo; optional technical/negative constraints.",
+    "how_to_use": "Install video-prompt-creator-skill.md. Similar official skill: /video-prompt-director.",
+    "owners": [
+      "Craig Wright"
+    ],
+    "teams": [
+      "Motion",
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Kling",
+      "Veo"
+    ],
+    "tags": [
+      "video prompts",
+      "ai video",
+      "shot list",
+      "camera movement"
+    ],
+    "status": "shipped",
+    "date": "2026-07-21",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784664900254489"
+    }
+  },
+  {
+    "id": "skills-catalogue-notion",
+    "name": "Creative Skills Catalogue / AI GTM registry (Notion)",
+    "type": "guide",
+    "summary": "Central Notion catalogues of shared skills: Creative Skills Catalogue (Matteo Rostagno logs channel skills as candidates by pillar) and AI GTM registry; prompted by request to collect builds from this channel.",
+    "how_to_use": "Browse the Notion pages.",
+    "owners": [
+      "Matteo Rostagno",
+      "Andreas Drakos"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Notion"
+    ],
+    "tags": [
+      "skill catalogue",
+      "registry",
+      "discoverability",
+      "find skills"
+    ],
+    "status": "shipped",
+    "date": "2026-07-19",
+    "updated": "2026-07-20",
+    "links": [
+      {
+        "label": "Creative Skills Catalogue",
+        "url": "https://app.notion.com/p/Creative-Skills-Catalogue-WIP-39050ebbbec0818ca231f0abf9c3d127?source=copy_link"
+      },
+      {
+        "label": "AI GTM registry",
+        "url": "https://app.notion.com/p/90c7d765e03043b8a6ec9fb66a222f53?v=a1d6d19c938a41269606eca28c275eb4"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784451992413609"
+    }
+  },
+  {
+    "id": "concept-to-storyboard",
+    "name": "concept-to-storyboard",
+    "type": "skill",
+    "summary": "Turns a story overview + character reference into a 15-panel timestamped storyboard sheet with shot descriptions; the sheet can be fed straight into Seedance 2.0 to generate motion.",
+    "how_to_use": "Install concept-to-storyboard.skill; give story + character ref; drop result into Seedance.",
+    "owners": [
+      "Leonardo Rica"
+    ],
+    "teams": [
+      "Motion",
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Seedance"
+    ],
+    "tags": [
+      "storyboard",
+      "concepting",
+      "ai video",
+      "seedance",
+      "shot list"
+    ],
+    "status": "shipped",
+    "date": "2026-07-17",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784299138540449"
+    }
+  },
+  {
+    "id": "the-scoop",
+    "name": "The Scoop (biweekly account report) + companion skills",
+    "type": "skill",
+    "summary": "Biweekly account newspaper researched from Superspace, Slack, Calendar, Gmail, Notion and client socials, sentiment-aware, reviewed/signed off by PM and posted to Slack (with Schmoon easter eggs). Bundle also includes About-me/AI-writing/company file updaters, Skills library audit (monitors this channel), Daily Notion To-Do, pm-daily-account-briefing, and New Project Plan Drafter (now also grabbed-but-not-progressed projects). Leaner updates in Oct/Nov.",
+    "how_to_use": "Save the-scoop.skill; one Cowork project per account; upload TSSP.zip; prompt 'Run The Scoop for [Account], ID [ID], [start] to [end]'; then schedule.",
+    "owners": [
+      "Benitta Van Den Berg (Gerber)"
+    ],
+    "teams": [
+      "PM",
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork",
+      "Superspace MCP",
+      "Slack",
+      "Gmail",
+      "Notion",
+      "Google Calendar"
+    ],
+    "tags": [
+      "account update",
+      "biweekly report",
+      "project plan",
+      "briefs",
+      "todo",
+      "skills audit",
+      "handover"
+    ],
+    "status": "shipped",
+    "date": "2026-07-17",
+    "updated": "2026-11-04",
+    "links": [
+      {
+        "label": "Setup deck",
+        "url": "https://docs.google.com/presentation/d/12YuMJk5jBRmLgh57JAZohpbR3dvDHyBOc6mg5Bs7VJk/edit?usp=sharing"
+      },
+      {
+        "label": "Video walkthrough",
+        "url": "https://drive.google.com/file/d/1rvSr2nqW1wmBeOw70oVWxtmZ_yrkihOY/view?usp=sharing"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784296694273409"
+    }
+  },
+  {
+    "id": "branding-audit",
+    "name": "Brand Audit / Branding-Audit skill",
+    "type": "skill",
+    "summary": "Collaborative 4-stage brand audit (Business & Industry, Communication, Visual Identity, strategic wrap-up) where Claude researches and cites evidence and the user locks insights per stage; outputs an HTML report in Superside look and feel (PDF-exportable). v2 adds guided steps, native-language input with English output, a dossier.md of raw research and a Code cross-check.",
+    "how_to_use": "Install; at setup give website URL and optionally brand docs (used as self-claims baseline). Lock each stage before moving on; tip: pressure-test findings in a separate chat.",
+    "owners": [
+      "Anita Duhart"
+    ],
+    "teams": [
+      "Creative",
+      "Strategy"
+    ],
+    "tools": [
+      "Claude",
+      "Claude Code"
+    ],
+    "tags": [
+      "brand audit",
+      "brand research",
+      "competitors",
+      "branding strategy",
+      "new client onboarding",
+      "brand discovery"
+    ],
+    "status": "shipped",
+    "date": "2026-07-16",
+    "updated": "2026-11-05",
+    "links": [
+      {
+        "label": "Skill v1",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_01XqN4f9KGxDTA36tkaZMg1Z"
+      },
+      {
+        "label": "Skill v2 /Branding-Audit",
+        "url": "https://claude.ai/customize/skills/id/plugin_01Uw7um3ueQ4dnbM8XcM4hNE"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784209931212239"
+    }
+  },
+  {
+    "id": "claude-in-chrome-block-use-connectors",
+    "name": "Claude-in-Chrome blocked for Notion/Slack/Omni/Superside: use MCP connectors",
+    "type": "announcement",
+    "summary": "Policy: Claude-in-Chrome access blocked for notion.com, slack.com, omniapp.com, superside.com (google.com removed) in favor of MCP connectors; Chrome still OK for tools without connectors (e.g. Lever; or build API-key skill). Omni access via Chrome later restored due to pickModel permission issue. Gap logged: project timeline/overview data missing from Superside MCP (Linear AGI-126).",
+    "how_to_use": "Customize > Connectors > Browse; update skills that used Chrome.",
+    "owners": [
+      "Louis Svugr",
+      "Aki Friedrich"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Claude",
+      "Claude in Chrome",
+      "Superspace MCP",
+      "Omni"
+    ],
+    "tags": [
+      "chrome extension",
+      "connectors",
+      "mcp",
+      "omni",
+      "permissions",
+      "policy"
+    ],
+    "status": "shipped",
+    "date": "2026-07-16",
+    "updated": "2026-07-27",
+    "links": [
+      {
+        "label": "Linear AGI-126",
+        "url": "https://linear.app/superside/issue/AGI-126/request-to-add-project-timeline-data-to-superside-mcp"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784194821981809"
+    }
+  },
+  {
+    "id": "gif-library",
+    "name": "gif-library",
+    "type": "skill",
+    "summary": "Finds and inserts approved GIFs from a cataloged library into slides by tone/meaning/category; also callable in Claude design. Evolved into /gif-for-slides in the Presentations plugin.",
+    "how_to_use": "Enable gif-library skill; ask for a GIF or run /gif-library.",
+    "owners": [
+      "Aaron Amortegui"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "gifs",
+      "slides",
+      "presentations",
+      "decks"
+    ],
+    "status": "shipped",
+    "date": "2026-07-16",
+    "updated": "2026-07-17",
+    "links": [
+      {
+        "label": "Install",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_01MKGghYubdFeYkmjuk33yB7"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784256645172469"
+    }
+  },
+  {
+    "id": "superside-tov-guidelines",
+    "name": "How Superside Speaks (TOV copy guidelines)",
+    "type": "guide",
+    "summary": "Reference doc for anything built with Superside tone of voice.",
+    "how_to_use": "Reference in skills/prompts.",
+    "owners": [
+      "Josh Mendelsohn"
+    ],
+    "teams": [
+      "Marketing"
+    ],
+    "tools": [
+      "Notion"
+    ],
+    "tags": [
+      "tone of voice",
+      "copy guidelines",
+      "brand voice"
+    ],
+    "status": "shipped",
+    "date": "2026-07-16",
+    "updated": null,
+    "links": [
+      {
+        "label": "Notion",
+        "url": "https://app.notion.com/p/How-Superside-Speaks-TOV-copy-guidelines-39250ebbbec080009e89f00219ad9f5f#39250ebbbec081bb9d42d0a83a555fd4"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784246547232819"
+    }
+  },
+  {
+    "id": "superside-assistant-chrome-extension",
+    "name": "Superside Assistant (Salesforce Chrome extension)",
+    "type": "tool",
+    "summary": "Chrome extension sidebar in Salesforce with 11 Claude agents by context (Opportunity/Account/Contact): sales research, legal conflict check (vs live contracts sheet), call prep, CRM hygiene, RFP go/no-go, stage coaching, notes. Prompts in markdown; built with Claude Code. Roadmap: presales request formatting.",
+    "how_to_use": "Needs Salesforce access; see Notion guide and Loom.",
+    "owners": [
+      "Pranjalya Shukla (Bunny)",
+      "Andreas Drakos"
+    ],
+    "teams": [
+      "Sales",
+      "GTM"
+    ],
+    "tools": [
+      "Claude API",
+      "Claude Code",
+      "Salesforce",
+      "Chrome"
+    ],
+    "tags": [
+      "salesforce",
+      "sales",
+      "rfp",
+      "legal conflict",
+      "call prep",
+      "crm hygiene"
+    ],
+    "status": "shipped",
+    "date": "2026-07-16",
+    "updated": "2026-07-17",
+    "links": [
+      {
+        "label": "Demo",
+        "url": "https://www.loom.com/share/cc084afb4b5c45d7a221f69bb29f62d6"
+      },
+      {
+        "label": "Guide",
+        "url": "https://app.notion.com/p/Superside-Assistant-Chrome-Extension-Guide-39e50ebbbec081ecb469ecef774b86d1"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784237309736969"
+    }
+  },
+  {
+    "id": "ooo-account-notice",
+    "name": "OOO Account Notice",
+    "type": "skill",
+    "summary": "Drafts short OOO heads-ups to your main account channels (date, reason, ask to shift IR/CR), remembers channels and cc lists, shows draft first. Tip: draft instead of send to avoid 'Sent using Claude' label.",
+    "how_to_use": "Install, then 'personalise this skill for my accounts'; say e.g. 'I'll be OOO next Wednesday...'.",
+    "owners": [
+      "Jon Saude"
+    ],
+    "teams": [
+      "Creative",
+      "CL"
+    ],
+    "tools": [
+      "Claude",
+      "Slack"
+    ],
+    "tags": [
+      "ooo",
+      "pto",
+      "out of office",
+      "account channels"
+    ],
+    "status": "shipped",
+    "date": "2026-07-16",
+    "updated": "2026-07-17",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784227098970809"
+    }
+  },
+  {
+    "id": "account-growth-radar-sheet",
+    "name": "Account Growth Radar (Google Sheet project ideas)",
+    "type": "skill",
+    "summary": "On the 1st and 15th, gives 5 project ideas per account (one tab per account) from project history/gaps, Slack/Superspace chats, seasonal patterns, competitors and public activity. Answer to request for a next-project recommendation skill.",
+    "how_to_use": "Ask Cowork for 'account growth ideas' or 'project ideas for my accounts'.",
+    "owners": [
+      "Marina Blumgrund"
+    ],
+    "teams": [
+      "PM",
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork",
+      "Google Sheets",
+      "Superspace MCP",
+      "Slack"
+    ],
+    "tags": [
+      "project ideas",
+      "account growth",
+      "upsell",
+      "seasonal"
+    ],
+    "status": "shipped",
+    "date": "2026-07-16",
+    "updated": null,
+    "links": [
+      {
+        "label": "Example output",
+        "url": "https://docs.google.com/spreadsheets/d/1IHAqIJvt-cHYjyEvAOCIp64_bUXOqkNlOyZBYExUvbI/edit?usp=sharing"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784210255658879"
+    }
+  },
+  {
+    "id": "pm-plugin-superside-mcp-updates",
+    "name": "PM plugin & Superside MCP release notes",
+    "type": "announcement",
+    "summary": "Running updates from Louis Svugr: timeline management skill (Asana plans from brief, staffed-team assignment, timezone-aware), /quote-project currency by plan (3.x hours, 4.0 credits, 4.1+ USD), /close-project billing band, batch IDs, admin/account hour logging tool; Aug: project resources access, MCP on AI-off accounts, /project-cost-overrun for PM+AM, Omni data via Superside MCP, Co-PM assignment; connector unbundled from plugin (install Superside MCP manually). Known bugs reported: staff-utilization loggedHours=0, my-logged-hours-summary required params, my-logged-hours only CREATIVE.",
+    "how_to_use": "Install Superside MCP connector (Customize > Connectors) and PM/AM plugins; see Notion knowledge hub.",
+    "owners": [
+      "Louis Svugr"
+    ],
+    "teams": [
+      "PM",
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Asana",
+      "Omni"
+    ],
+    "tags": [
+      "pm plugin",
+      "quoting",
+      "timeline",
+      "asana",
+      "hour logging",
+      "close project",
+      "omni",
+      "release notes",
+      "bugs"
+    ],
+    "status": "shipped",
+    "date": "2026-07-15",
+    "updated": "2026-08-11",
+    "links": [
+      {
+        "label": "Superside Claude Plugins (Notion)",
+        "url": "https://app.notion.com/p/Superside-Claude-Plugins-38950ebbbec080cda536eb9cff4776a0?source=copy_link"
+      },
+      {
+        "label": "Aug 3 update",
+        "url": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1785742145897549"
+      },
+      {
+        "label": "Aug 7 update",
+        "url": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1786130362815209"
+      },
+      {
+        "label": "Connector unbundling notice",
+        "url": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784878648840079"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784113316474319"
+    }
+  },
+  {
+    "id": "project-status-board",
+    "name": "Project status kanban board",
+    "type": "skill",
+    "summary": "Builds a self-updating kanban of your active projects from Slack project channels (+ Asana cross-check): Not Started / In Progress / Waiting for Feedback / Stale, with summaries, team, last activity; optional twice-daily routine and Sync button via Cloudflare Worker. Guilherme Paulino forked it with Gantt + weekly scheduling.",
+    "how_to_use": "Install projectstatusboard.skill; say 'build my project status board'.",
+    "owners": [
+      "Vinay Pittampally"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Claude Code",
+      "Slack",
+      "Asana",
+      "Cloudflare Workers"
+    ],
+    "tags": [
+      "kanban",
+      "status board",
+      "workload",
+      "what's on my plate",
+      "manager visibility"
+    ],
+    "status": "shipped",
+    "date": "2026-07-15",
+    "updated": "2026-07-17",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784113619760619"
+    }
+  },
+  {
+    "id": "design-review-summary",
+    "name": "design-review-summary",
+    "type": "skill",
+    "summary": "Reads brief, feedback thread, milestones and Asana to produce a client-ready round update (what's in the round, feedback due in client timezone, next steps); shows draft before sending.",
+    "how_to_use": "Install design-review-summary.skill; give project ID and say a round is going out.",
+    "owners": [
+      "David Sutherland"
+    ],
+    "teams": [
+      "PM",
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Asana"
+    ],
+    "tags": [
+      "client update",
+      "review round",
+      "status update",
+      "feedback due"
+    ],
+    "status": "shipped",
+    "date": "2026-07-15",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784111696871879"
+    }
+  },
+  {
+    "id": "pm-weekly-account-snapshot",
+    "name": "PM weekly account snapshot DM",
+    "type": "skill",
+    "summary": "Monday Slack DM draft for primary PMs on subscription accounts: budget usage/overage flags, project status/blockers from Superspace chats, unresolved dissatisfaction signals, 14-day customer news; optional auto-post to account channel (off by default).",
+    "how_to_use": "Install from link.",
+    "owners": [
+      "Bradley Ford"
+    ],
+    "teams": [
+      "PM"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Slack"
+    ],
+    "tags": [
+      "weekly update",
+      "account channel",
+      "budget",
+      "risk",
+      "news"
+    ],
+    "status": "shipped",
+    "date": "2026-07-15",
+    "updated": null,
+    "links": [
+      {
+        "label": "Install",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_01N9aLcSQcNa3NDX7FuNBqzN"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784107851514429"
+    }
+  },
+  {
+    "id": "account-news-engine",
+    "name": "account-news-engine (Scoop news engine)",
+    "type": "skill",
+    "summary": "Personality-driven news engine watching an account and competitors (launches, funding, M&A, leadership, layoffs, stock); weekly recap + real-time alerts in the account's Slack channel with sources, AKP context and a fun fact. Folded into The Scoop's 'Hot off the Press'.",
+    "how_to_use": "Add skill in Settings > Capabilities; say 'set up a news engine for my account using account-news-engine'.",
+    "owners": [
+      "Rodrigo Salazar",
+      "Kae Neskovic"
+    ],
+    "teams": [
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Slack",
+      "Notion",
+      "Web search"
+    ],
+    "tags": [
+      "account news",
+      "competitors",
+      "mss prep",
+      "qbr",
+      "alerts"
+    ],
+    "status": "shipped",
+    "date": "2026-07-14",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784062901856139"
+    }
+  },
+  {
+    "id": "storyboard-to-nodes",
+    "name": "storyboard-to-nodes",
+    "type": "skill",
+    "summary": "From script/shot list/storyboard: proposes beats, asks Weavy/Krea + Kling/Seedance + aspect ratio, writes full video prompts and outputs a pasteable JSON node graph (prompts, models, image placeholders) for Weavy or Krea.",
+    "how_to_use": "Install storyboard-to-nodes.skill; no MCP needed.",
+    "owners": [
+      "Gian Orsi"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "Claude",
+      "Weavy",
+      "Krea",
+      "Kling",
+      "Seedance"
+    ],
+    "tags": [
+      "storyboard",
+      "node workflow",
+      "weavy",
+      "krea",
+      "ai video"
+    ],
+    "status": "shipped",
+    "date": "2026-07-14",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784052013827359"
+    }
+  },
+  {
+    "id": "krea-connector",
+    "name": "Krea MCP connector for Claude",
+    "type": "mcp",
+    "summary": "Krea MCP initially only addable via Claude Code (`claude mcp add --transport http krea-ai https://api.krea.ai/mcp`); now in the official org-wide Connector catalogue (Enterprise).",
+    "how_to_use": "Customize > Connectors > Krea.",
+    "owners": [
+      "Louis Svugr",
+      "Karolline Luna"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Krea"
+    ],
+    "tags": [
+      "krea",
+      "image generation",
+      "connector",
+      "mcp"
+    ],
+    "status": "shipped",
+    "date": "2026-07-14",
+    "updated": "2026-07-27",
+    "links": [
+      {
+        "label": "Krea MCP info",
+        "url": "https://www.krea.ai/mcp"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784048115810249"
+    }
+  },
+  {
+    "id": "project-review-tracker",
+    "name": "Client Feedback Timeline -> Project Review Tracker 2.0",
+    "type": "skill",
+    "summary": "v1: reads a project Slack channel and outputs a table of client feedback (date, who, deliverable, plain-English summary, links), optional Superspace cross-check. v2.0: living HTML dashboard per project with every IR+CR round per deliverable, durations, refresh on demand.",
+    "how_to_use": "Ask 'Show me the client feedback timeline for [project]' or 'track reviews for [project]'. Double-check against Slack.",
+    "owners": [
+      "Gabriela Maragni"
+    ],
+    "teams": [
+      "PM",
+      "AM",
+      "Producer"
+    ],
+    "tools": [
+      "Claude",
+      "Slack",
+      "Superspace MCP"
+    ],
+    "tags": [
+      "client feedback",
+      "review rounds",
+      "ir",
+      "cr",
+      "receipts",
+      "feedback history"
+    ],
+    "status": "shipped",
+    "date": "2026-07-13",
+    "updated": "2026-07-15",
+    "links": [
+      {
+        "label": "v2 Loom",
+        "url": "https://www.loom.com/share/97fc524b9075446794c8969a9bcb5783"
+      },
+      {
+        "label": "v2 post",
+        "url": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1784141386550359"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1783944006829769"
+    }
+  },
+  {
+    "id": "superside-timesheet-copilot",
+    "name": "superside-timesheet-copilot",
+    "type": "skill",
+    "summary": "Reconstructs your day from Calendar, Gmail, Drive/Slides and Slack, drafts a timesheet bucketed into Superspace categories and logs only after confirmation; built for AM/AD work.",
+    "how_to_use": "Install, run 'reconstruct my day'; adjust timezone.",
+    "owners": [
+      "Rodrigo Salazar"
+    ],
+    "teams": [
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork",
+      "Google Calendar",
+      "Gmail",
+      "Google Drive",
+      "Slack",
+      "Superspace MCP"
+    ],
+    "tags": [
+      "timesheets",
+      "time logging",
+      "hours"
+    ],
+    "status": "shipped",
+    "date": "2026-07-13",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1783968378401549"
+    }
+  },
+  {
+    "id": "am-daily-digest",
+    "name": "AM Daily Digest",
+    "type": "skill",
+    "summary": "Scheduled Slack DM for AMs/ADs covering all projects on their accounts: team, progress timeline, milestones, deadline/overdue flags, estimated vs logged (high-estimate flag), next steps.",
+    "how_to_use": "Install from link and schedule.",
+    "owners": [
+      "Rodrigo Cruz"
+    ],
+    "teams": [
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Slack"
+    ],
+    "tags": [
+      "daily digest",
+      "project status",
+      "overdue",
+      "hours vs estimate"
+    ],
+    "status": "shipped",
+    "date": "2026-07-13",
+    "updated": null,
+    "links": [
+      {
+        "label": "Install",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_01M3DaPXs3ZKGYZ1tp8efT8z"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1783967294672929"
+    }
+  },
+  {
+    "id": "agent-tam-pto-automations",
+    "name": "'Agent Tam' PTO automations (request tracking, capacity check)",
+    "type": "automation",
+    "summary": "Cowork automations watching #s-brief-generative-ai-and-automation for new requests, logging to Asana, asking predefined follow-up questions and tagging ANS staff; plus a capacity-check skill for studio capacity on demand.",
+    "how_to_use": "Ask Tamara Dalhuijsen / AI Native Studio.",
+    "owners": [
+      "Tamara Dalhuijsen"
+    ],
+    "teams": [
+      "AI Native Studio",
+      "Ops"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork",
+      "Asana",
+      "Slack"
+    ],
+    "tags": [
+      "intake",
+      "request tracking",
+      "capacity",
+      "pto coverage"
+    ],
+    "status": "shipped",
+    "date": "2026-07-10",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1783702789609769"
+    }
+  },
+  {
+    "id": "bin-mirror-premiere",
+    "name": "Bin Mirror (Premiere Pro plugin)",
+    "type": "plugin",
+    "summary": "Rebuilds your Premiere Project panel bin structure on disk when collecting files and optionally relinks a self-contained project copy. MVP doesn't remove unused footage (workaround: save a trimmed copy first).",
+    "how_to_use": "Install from zip + user guide.",
+    "owners": [
+      "Michelle Pienaar"
+    ],
+    "teams": [
+      "Motion",
+      "Video"
+    ],
+    "tools": [
+      "Premiere Pro"
+    ],
+    "tags": [
+      "premiere",
+      "file handoff",
+      "collect files",
+      "project organization"
+    ],
+    "status": "beta",
+    "date": "2026-07-10",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1783691575516119"
+    }
+  },
+  {
+    "id": "pto-handover-dashboard",
+    "name": "PTO handover dashboard (CL)",
+    "type": "skill",
+    "summary": "One-page handover of every project you're CL on: eagle-view table, 'Start here' day-by-day list, timeline, per-project cards with people and latest Slack context; HTML file + live artifact that refreshes on open.",
+    "how_to_use": "Ask for a PTO handover with dates and cover person(s).",
+    "owners": [
+      "Alvaro Sanchez"
+    ],
+    "teams": [
+      "Creative",
+      "CL"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Slack"
+    ],
+    "tags": [
+      "pto",
+      "handover",
+      "coverage",
+      "dashboard"
+    ],
+    "status": "shipped",
+    "date": "2026-07-09",
+    "updated": null,
+    "links": [
+      {
+        "label": "Install",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_019pQewh81KhAD12Gy69dPwP"
+      },
+      {
+        "label": "Loom",
+        "url": "https://www.loom.com/share/19f0dd967a0c4d108222e4b2a90c89d9"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1783613053027899"
+    }
+  },
+  {
+    "id": "hydration-break-nudge",
+    "name": "Water/stretch break nudge",
+    "type": "skill",
+    "summary": "Nudges you to drink water and stretch after 50 minutes of sustained Claude work, with a 10-minute break.",
+    "how_to_use": "Install from link.",
+    "owners": [
+      "Danny Alva"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "wellbeing",
+      "breaks",
+      "health"
+    ],
+    "status": "shipped",
+    "date": "2026-07-08",
+    "updated": null,
+    "links": [
+      {
+        "label": "Install",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_01QQfudztB2GUo5aKqF5LvT2"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1783549225668609"
+    }
+  },
+  {
+    "id": "ae-project-auditor",
+    "name": "AE Project Auditor",
+    "type": "skill",
+    "summary": "Audits After Effects .aep or Collect Files .zip without AE: missing/duplicate assets, draft vs delivery comps, generic names, stacked effects, zip completeness; scored health report. Ask to extend to Premiere/DaVinci.",
+    "how_to_use": "Install skill; drop .aep/.zip and ask 'audit this project'.",
+    "owners": [
+      "Fabiano Cavalheiro"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "Claude",
+      "After Effects"
+    ],
+    "tags": [
+      "after effects",
+      "handoff",
+      "working files",
+      "qc",
+      "archive"
+    ],
+    "status": "beta",
+    "date": "2026-07-08",
+    "updated": null,
+    "links": [
+      {
+        "label": "Install",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_01MNwwo9AQp1Zenxrto9iv3f"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1783547382658329"
+    }
+  },
+  {
+    "id": "account-momentum-tracker",
+    "name": "account-momentum-tracker",
+    "type": "skill",
+    "summary": "Flags accounts going quiet (no new projects, unused budget, cadence gaps, seasonal work last year), drafts internal summary + client-ready proposal; updated to use superside-mcp-internal + Omni credit/MRR trends and suggest 2-3 next projects. Thread tip (Andreas Drakos): share via Claude's native sharing rather than .skill files (auto-updates; .skill files are a security risk).",
+    "how_to_use": "Install via Claude sharing link; '/account-momentum-tracker [account]'. Needs superside-mcp-internal.",
+    "owners": [
+      "Carlos Garcia"
+    ],
+    "teams": [
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Superspace MCP",
+      "Omni"
+    ],
+    "tags": [
+      "churn",
+      "quiet accounts",
+      "champion loss",
+      "mrr",
+      "usage"
+    ],
+    "status": "shipped",
+    "date": "2026-07-07",
+    "updated": "2026-07-31",
+    "links": [
+      {
+        "label": "Install",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_01S41ZnsRb3NaUGPyPYq9ixp"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1783440916815609"
+    }
+  },
+  {
+    "id": "brand-skill-sop",
+    "name": "Brand skill SOP (reference-library method)",
+    "type": "guide",
+    "summary": "SOP for building richer client brand skills with folders for brand docs, voice examples, visual examples, channel formats and anti-examples; used for McAfee.",
+    "how_to_use": "Follow the external SOP.",
+    "owners": [
+      "Vince Shuley"
+    ],
+    "teams": [
+      "Copy",
+      "Creative"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "brand skill",
+      "brand voice",
+      "copywriting",
+      "client brand"
+    ],
+    "status": "shipped",
+    "date": "2026-07-07",
+    "updated": null,
+    "links": [
+      {
+        "label": "SOP",
+        "url": "https://woolen-browser-ca4.notion.site/SOP-How-to-Build-a-Brand-Skill-for-Claude-37ad989200bc807bbebdcc5706de3208"
+      },
+      {
+        "label": "Newsletter",
+        "url": "https://amazingwave.digital/ai-newsletter/"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1783440622523579"
+    }
+  },
+  {
+    "id": "portfolio-weekly-briefing",
+    "name": "portfolio-weekly-briefing",
+    "type": "skill",
+    "summary": "Monday DM of last 7-10 days of news (funding, leadership, launches, press, awards) per account with sources, skipping quiet accounts; scope from Superspace allocation or Salesforce (BU/studio leads).",
+    "how_to_use": "Add skill; in Cowork: 'Set up a weekly briefing on my accounts using the portfolio-weekly-briefing skill.'",
+    "owners": [
+      "Richard Swain"
+    ],
+    "teams": [
+      "AM",
+      "Leadership"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork",
+      "Salesforce",
+      "Superspace MCP",
+      "Web search"
+    ],
+    "tags": [
+      "account news",
+      "customer briefing",
+      "funding",
+      "leadership changes"
+    ],
+    "status": "shipped",
+    "date": "2026-07-06",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1783342815962099"
+    }
+  },
+  {
+    "id": "budget-review",
+    "name": "budget-review",
+    "type": "skill",
+    "summary": "Budget review of projects where you're PM/AM: estimate vs logged hours by risk status. Broke when Chrome access to Superspace was blocked; author migrating to Superside MCP.",
+    "how_to_use": "Save .skill in Cowork; 'do budget review'.",
+    "owners": [
+      "Gabriel Tosi"
+    ],
+    "teams": [
+      "PM",
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Claude in Chrome",
+      "Superspace"
+    ],
+    "tags": [
+      "budget",
+      "overrun",
+      "estimates",
+      "logged hours"
+    ],
+    "status": "deprecated",
+    "date": "2026-07-06",
+    "updated": "2026-07-22",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1783337113666679"
+    }
+  },
+  {
+    "id": "ai-soundbite-generator",
+    "name": "AI Soundbite Generator",
+    "type": "tool",
+    "summary": "Generates soundbites/quotes from a year of Superside marketing content (webinars, guides, reports) linked to the source.",
+    "how_to_use": "Web version at Vercel.",
+    "owners": [
+      "Kae Neskovic"
+    ],
+    "teams": [
+      "Marketing"
+    ],
+    "tools": [
+      "Claude",
+      "Vercel"
+    ],
+    "tags": [
+      "quotes",
+      "content",
+      "social",
+      "marketing"
+    ],
+    "status": "shipped",
+    "date": "2026-07-03",
+    "updated": null,
+    "links": [
+      {
+        "label": "App",
+        "url": "https://s-soundbite-generator.vercel.app/"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1783081118217949"
+    }
+  },
+  {
+    "id": "meet-transcript-search",
+    "name": "Meet Transcript Search",
+    "type": "skill",
+    "summary": "Answers questions about past meetings by searching your Google Meet Recordings folder (Gemini summaries, next steps, transcripts) in Drive.",
+    "how_to_use": "Upload skill with the setup prompt so Claude fills <FOLDER_ID>, <FOLDER_NAME>, <OWNER_EMAIL>. Needs Google Drive connector.",
+    "owners": [
+      "Aki Friedrich"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Claude",
+      "Google Drive",
+      "Google Meet"
+    ],
+    "tags": [
+      "meeting transcripts",
+      "search",
+      "meeting notes"
+    ],
+    "status": "shipped",
+    "date": "2026-07-02",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1783014038806759"
+    }
+  },
+  {
+    "id": "gtm-cowork-skills-library",
+    "name": "Superside Cowork Skills - Marketing & GTM Library",
+    "type": "guide",
+    "summary": "Notion library of GTM and personal Cowork skills by Josh Mendelsohn; flash-card/quiz system for value props in progress.",
+    "how_to_use": "Browse the Notion library.",
+    "owners": [
+      "Josh Mendelsohn"
+    ],
+    "teams": [
+      "Marketing",
+      "GTM"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork",
+      "Notion"
+    ],
+    "tags": [
+      "gtm",
+      "marketing",
+      "skills library"
+    ],
+    "status": "shipped",
+    "date": "2026-07-02",
+    "updated": null,
+    "links": [
+      {
+        "label": "Notion",
+        "url": "https://app.notion.com/p/Superside-Cowork-Skills-Marketing-GTM-Library-38f50ebbbec081108e46f270bf546d74"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782999124222589"
+    }
+  },
+  {
+    "id": "hours-utilization-dashboard",
+    "name": "Hours & utilization dashboard (Personio + Superspace)",
+    "type": "skill",
+    "summary": "Cowork skill reading PTO from Personio and logged hours from Superspace via Chrome to show utilization/billable pace. Post struck through: author moving to Omni. Data team asked outputs to match Omni Utilization dashboard (source of truth); bug missed account billable hours.",
+    "how_to_use": "Superseded; use Omni / official MCP tools.",
+    "owners": [
+      "Marie Gimenez"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Claude in Chrome",
+      "Personio",
+      "Superspace"
+    ],
+    "tags": [
+      "utilization",
+      "hours",
+      "pto",
+      "billable"
+    ],
+    "status": "deprecated",
+    "date": "2026-07-01",
+    "updated": "2026-07-09",
+    "links": [
+      {
+        "label": "Omni Utilization dashboard",
+        "url": "https://superside.omniapp.co/dashboards/8151bede?f--i0j6wjaT=%7B%22values%22%3A%5B%22marie.gimenez%22%5D%2C%22appliedLabels%22%3A%7B%7D%7D&f--cYqJFU5W=%7B%22right_side%22%3A%221+months+from+now%22%7D"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782937570027759"
+    }
+  },
+  {
+    "id": "figma-comments-summary",
+    "name": "Summarize Figma client comments with Claude",
+    "type": "workflow",
+    "summary": "Use Claude for Chrome on a browser Figma file to read all comments and produce structured summaries. Figma MCP can't read comments; Figma Console MCP and Figma's native agent can.",
+    "how_to_use": "Open Figma in Chrome, paste URL to Claude, ask it to read comments and summarize.",
+    "owners": [
+      "Emilio De Juan"
+    ],
+    "teams": [
+      "Creative",
+      "PM"
+    ],
+    "tools": [
+      "Claude",
+      "Claude in Chrome",
+      "Figma",
+      "Figma Console MCP"
+    ],
+    "tags": [
+      "figma comments",
+      "client feedback",
+      "summary"
+    ],
+    "status": "shipped",
+    "date": "2026-07-01",
+    "updated": "2026-07-15",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782926372229849"
+    }
+  },
+  {
+    "id": "personal-voice-builder",
+    "name": "personal-voice-builder",
+    "type": "skill",
+    "summary": "Analyzes your Slack messages to learn your writing gears, register by audience and fingerprints, then outputs an installable voice skill, reference file and analysis report.",
+    "how_to_use": "Type /personal-voice-builder.",
+    "owners": [
+      "Phillip Maggs"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Claude",
+      "Slack"
+    ],
+    "tags": [
+      "writing style",
+      "tone of voice",
+      "drafting",
+      "personal voice"
+    ],
+    "status": "shipped",
+    "date": "2026-07-01",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782918682622749"
+    }
+  },
+  {
+    "id": "morning-pulse-weekly-summary",
+    "name": "Morning Pulse + Weekly summary artifacts",
+    "type": "artifact",
+    "summary": "Morning Pulse summarizes billable hours logged per project per studio the previous day (Bloom team, 26 countries); scheduled Friday weekly summary in her voice.",
+    "how_to_use": "Ask Soumya Ramakrishnan.",
+    "owners": [
+      "Soumya Ramakrishnan"
+    ],
+    "teams": [
+      "Leadership",
+      "Ops"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "billable hours",
+      "studio",
+      "weekly summary"
+    ],
+    "status": "wip",
+    "date": "2026-07-01",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782913584029639"
+    }
+  },
+  {
+    "id": "superside-residence-culture-map",
+    "name": "Superside residence & Culture Map dashboard",
+    "type": "dashboard",
+    "summary": "HTML dashboard of where Supersiders live (filters by department/studio/level) with a Culture Map country comparison; uses Superside brand skill; data from Personio.",
+    "how_to_use": "HTML attached in Slack.",
+    "owners": [
+      "Joaquin Migliore"
+    ],
+    "teams": [
+      "People"
+    ],
+    "tools": [
+      "Claude",
+      "Personio"
+    ],
+    "tags": [
+      "people data",
+      "culture map",
+      "locations",
+      "dashboard"
+    ],
+    "status": "shipped",
+    "date": "2026-07-01",
+    "updated": null,
+    "links": [
+      {
+        "label": "Culture Map book",
+        "url": "https://www.goodreads.com/en/book/show/22085568-the-culture-map"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782902424192059"
+    }
+  },
+  {
+    "id": "ai-native-daily-workflows-jing",
+    "name": "Jing's Claude workflows (daily briefing, overnight work, weekly bug agent)",
+    "type": "workflow",
+    "summary": "Examples: contact-finding + email drafting from Calendar, form filling, daily briefing, Claude mobile + dispatch, overnight work queue, weekly bug agent (Superads), self-serve data analytics.",
+    "how_to_use": "Inspiration post.",
+    "owners": [
+      "Jing Venås Kjeldsen"
+    ],
+    "teams": [
+      "Tech",
+      "Leadership"
+    ],
+    "tools": [
+      "Claude",
+      "Gmail",
+      "Google Calendar"
+    ],
+    "tags": [
+      "daily briefing",
+      "bug triage",
+      "overnight agents",
+      "analytics"
+    ],
+    "status": "shipped",
+    "date": "2026-07-01",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782907291942549"
+    }
+  },
+  {
+    "id": "leeroy-am-skills",
+    "name": "Meeting Notes -> To-Do Hub, Success Session Deck, Mac cleanup skills",
+    "type": "skill",
+    "summary": "Three AM skills: meeting transcripts -> colour-coded Notion to-do hub per account (3x/day); success-session deck builder (8-12 slides .pptx from live account data, speaker notes, renewal and growth sections); Mac cleanup/declutter with approval before deletes. Based on his earlier Slack triage DM workflow.",
+    "how_to_use": "Install each; tell Claude 'personalise this skill for my accounts' (built for Booking.com).",
+    "owners": [
+      "Leeroy Duke"
+    ],
+    "teams": [
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork",
+      "Notion",
+      "Superspace MCP",
+      "Omni"
+    ],
+    "tags": [
+      "meeting notes",
+      "todo",
+      "mss deck",
+      "success session",
+      "mac cleanup",
+      "adhd"
+    ],
+    "status": "shipped",
+    "date": "2026-06-30",
+    "updated": "2026-07-10",
+    "links": [
+      {
+        "label": "Meeting Notes -> To-Do Hub",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_01GSiTSK3xUH347uMokvPG7F"
+      },
+      {
+        "label": "Success Session Deck",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_019fPD5z52xdo5EhtQcYVFDb"
+      },
+      {
+        "label": "Mac cleanup",
+        "url": "https://claude.ai/customize/skills?selectedId=skill_013HCs3mBXPfaqqfnV1sd7kk"
+      },
+      {
+        "label": "To-Do Hub Loom",
+        "url": "https://www.loom.com/share/9c235dcce40044adad22601f79201152"
+      },
+      {
+        "label": "Deck Loom pt1",
+        "url": "https://www.loom.com/share/6a9c3d5b814048cfb602269733b3535d"
+      },
+      {
+        "label": "Deck Loom pt2",
+        "url": "https://www.loom.com/share/fd050938f7fc41f685fe26836ba95fc4"
+      },
+      {
+        "label": "Original workflow post",
+        "url": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782806648722689"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1783698161026749"
+    }
+  },
+  {
+    "id": "slack-triage-dm",
+    "name": "Slack triage DM 3x/day + MSS deck pinned chat",
+    "type": "workflow",
+    "summary": "Scheduled skill scanning Slack mentions, client emails, DMs and channels to DM a triage (burning now / this week / FYI) 3x a day; Notion to-do hub; desktop cleanup; pinned chat with Omni/Notion/Slack Connect context that builds monthly MSS decks.",
+    "how_to_use": "See Leeroy's later skills post. Olga Lombard/Wayde Davy built the base; Asana sync in progress.",
+    "owners": [
+      "Leeroy Duke",
+      "Olga Lombard",
+      "Wayde Davy"
+    ],
+    "teams": [
+      "AM"
+    ],
+    "tools": [
+      "Claude",
+      "Slack",
+      "Gmail",
+      "Notion",
+      "Omni"
+    ],
+    "tags": [
+      "triage",
+      "adhd",
+      "notifications",
+      "mss deck"
+    ],
+    "status": "shipped",
+    "date": "2026-06-30",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782806648722689"
+    }
+  },
+  {
+    "id": "apollo-multithreading-emails",
+    "name": "Churn-save multithreading emails (Apollo + Gmail)",
+    "type": "workflow",
+    "summary": "Gave Claude Apollo stakeholder list + context; it wrote 13 personalized emails and scheduled them from Gmail in <30 min. RevOps: keep <10 emails/domain/day, route customer-facing outreach via RevOps; Apollo MCP coming.",
+    "how_to_use": "Contact list + account context + objective.",
+    "owners": [
+      "Steve Blackwell"
+    ],
+    "teams": [
+      "AM",
+      "Sales"
+    ],
+    "tools": [
+      "Claude",
+      "Gmail",
+      "Apollo"
+    ],
+    "tags": [
+      "churn",
+      "multithreading",
+      "outreach",
+      "email"
+    ],
+    "status": "shipped",
+    "date": "2026-06-29",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782760193223749"
+    }
+  },
+  {
+    "id": "daily-task-briefing",
+    "name": "daily-task-briefing",
+    "type": "skill",
+    "summary": "Morning Slack message with everything due today/this week from Superside Phases and Tasks for creatives. Scheduling must be set up in Cowork.",
+    "how_to_use": "Install, run /daily-task-briefing in Cowork.",
+    "owners": [
+      "Marie Gimenez"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Cowork",
+      "Slack",
+      "Superspace"
+    ],
+    "tags": [
+      "deadlines",
+      "daily briefing",
+      "tasks"
+    ],
+    "status": "shipped",
+    "date": "2026-06-29",
+    "updated": "2026-06-30",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782748175968669"
+    }
+  },
+  {
+    "id": "brand-toolkit-builder",
+    "name": "Brand Toolkit builder (Figma Console MCP)",
+    "type": "skill",
+    "summary": "Populates Superside's Figma Toolkit template from a client brand guidelines file: component sets, color variables, text styles, assets, library; preflight check.",
+    "how_to_use": "Ask Gabrielle Moura to test.",
+    "owners": [
+      "Gabrielle Moura"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Figma",
+      "Figma Console MCP"
+    ],
+    "tags": [
+      "brand toolkit",
+      "figma library",
+      "design system",
+      "variables"
+    ],
+    "status": "wip",
+    "date": "2026-06-29",
+    "updated": null,
+    "links": [
+      {
+        "label": "Figma Toolkits walkthrough",
+        "url": "https://app.notion.com/p/Figma-Toolkits-36b50ebbbec0805b93ced8a148056d26"
+      },
+      {
+        "label": "Figma Console MCP",
+        "url": "https://github.com/southleft/figma-console-mcp"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782741725962719"
+    }
+  },
+  {
+    "id": "ezgif-after-effects",
+    "name": "EzGIF (After Effects GIF exporter)",
+    "type": "plugin",
+    "summary": "AE plugin to export comps or videos/image sequences to GIF in one click or batch, with target file size. Needs a PNG sequence export template.",
+    "how_to_use": "DM Fernando Thome for the .zxp installer. Internal only (beta).",
+    "owners": [
+      "Fernando Thome"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "After Effects"
+    ],
+    "tags": [
+      "gif",
+      "after effects",
+      "export",
+      "file size"
+    ],
+    "status": "beta",
+    "date": "2026-06-29",
+    "updated": "2026-07-02",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782739059653389"
+    }
+  },
+  {
+    "id": "executive-coach-agent",
+    "name": "Executive Coach scheduled task",
+    "type": "automation",
+    "summary": "Daily task reading call transcripts and Slack messages and suggesting improvements; built by asking Claude to interview you. Thread: Slack project-update DM agent, file-renaming skill, stock footage search via Chrome (Artlist).",
+    "how_to_use": "Ask Claude: 'help me build an Executive Coach agent'.",
+    "owners": [
+      "Fredrik Thomassen"
+    ],
+    "teams": [
+      "Leadership"
+    ],
+    "tools": [
+      "Claude",
+      "Slack"
+    ],
+    "tags": [
+      "coaching",
+      "personal development",
+      "transcripts",
+      "stock footage"
+    ],
+    "status": "shipped",
+    "date": "2026-06-29",
+    "updated": "2026-06-30",
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782729355574359"
+    }
+  },
+  {
+    "id": "creative-brainstorm-bouncer",
+    "name": "Creative Brainstorm Bouncer",
+    "type": "skill",
+    "summary": "Pressure-tests concepts with an award-trained CD persona and a target-audience persona, scoring 10 dimensions with fixes.",
+    "how_to_use": "Install creative-brainstorm-bouncer.skill; feed idea, brief, audience.",
+    "owners": [
+      "Matteo Rostagno"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "concepting",
+      "creative feedback",
+      "ideas",
+      "audience"
+    ],
+    "status": "shipped",
+    "date": "2026-06-26",
+    "updated": "2026-06-29",
+    "links": [
+      {
+        "label": "Loom",
+        "url": "https://www.loom.com/share/862254baef7a44178b19b25273ddba47"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782490199436059"
+    }
+  },
+  {
+    "id": "admin-grinch",
+    "name": "Admin Grinch",
+    "type": "skill",
+    "summary": "Writes Dr Seuss-style rhyming reminders for admin tasks (timesheets, trainings).",
+    "how_to_use": "Customize > Skills > + > Upload file.",
+    "owners": [
+      "Tamara Dalhuijsen"
+    ],
+    "teams": [
+      "AI Native Studio"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "reminders",
+      "timesheets",
+      "fun"
+    ],
+    "status": "shipped",
+    "date": "2026-06-26",
+    "updated": null,
+    "links": [],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782479186201939"
+    }
+  },
+  {
+    "id": "superside-brand-system",
+    "name": "Superside Brand System",
+    "type": "skill",
+    "summary": "Applies Superside brand identity to internal deliverables; modular. Now in Superside Internal plugin. Update manually when brand changes.",
+    "how_to_use": "Install or use /superside-brand-system.",
+    "owners": [
+      "Aki Friedrich"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "brand",
+      "decks",
+      "superside brand"
+    ],
+    "status": "shipped",
+    "date": "2026-06-26",
+    "updated": "2026-07-01",
+    "links": [
+      {
+        "label": "Loom",
+        "url": "https://www.loom.com/share/e6186ae3b5b448be9730310257cc5f27"
+      }
+    ],
+    "source": {
+      "kind": "slack",
+      "channel": "#everyone-can-build",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782468725367109"
+    }
+  }
+]
