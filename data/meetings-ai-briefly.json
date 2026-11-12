@@ -1,0 +1,1892 @@
+[
+  {
+    "id": "creative-superskills-plugin",
+    "name": "Creative Superskills (Claude plugin)",
+    "type": "plugin",
+    "summary": "Creative Factories' Claude plugin: First Draft (brief to 3 on-brand Figma proposals), AdGen (finished static ads), Ad Resizer, Figma Transcreation, and deck builders for Figma Slides, Google Slides and PowerPoint. Hard launch + live demo was scheduled for AI Briefly 2026-11-11 (that session was cancelled).",
+    "how_to_use": "Claude > Customize > Plugins > Browse > 'Your organisation' > Creative Superskills > Install. Enablement sessions 18 Nov (EMEA) and 25 Nov (LATAM).",
+    "owners": [
+      "Júlio Aymoré"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Figma",
+      "Figma Slides",
+      "Google Slides",
+      "PowerPoint"
+    ],
+    "tags": [
+      "first drafts",
+      "static ads",
+      "resizing",
+      "transcreation",
+      "localization",
+      "decks",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-11-04",
+    "updated": "2026-11-11",
+    "links": [
+      {
+        "label": "Install (Claude plugin)",
+        "url": "https://claude.ai/customize/plugins/id/plugin_01QGxLBftbcLLmVCmFWsZnjk"
+      },
+      {
+        "label": "Feedback (Notion)",
+        "url": "https://app.notion.com/p/fd431b6a118c44aa8c1c4c053d43d351?pvs=106"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/C038Z1Y0TE3/p1793812193788889"
+    }
+  },
+  {
+    "id": "ai-built-design-system-jon-saude",
+    "name": "AI-built visual system (images, video, vibe-coding)",
+    "type": "workflow",
+    "summary": "Jon Saude walked through building a full visual system with AI end to end: image generation, video generation and vibe-coding.",
+    "how_to_use": "",
+    "owners": [
+      "Jon Saude"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Image generation",
+      "Video generation",
+      "Vibe coding"
+    ],
+    "tags": [
+      "design system",
+      "brand system",
+      "vibe coding",
+      "video",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-11-04",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1793800806380399"
+    }
+  },
+  {
+    "id": "motion-dna",
+    "name": "Motion DNA (After Effects plugin + Claude MCP)",
+    "type": "mcp",
+    "summary": "After Effects plugin connected to Claude through MCP: motion library, predefined animation behaviours, easing control and tools across the motion process. Presented at AI Briefly 2026-10-28.",
+    "how_to_use": "",
+    "owners": [
+      "Gian Orsi",
+      "Aaron Amortegui"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "Claude",
+      "MCP",
+      "After Effects"
+    ],
+    "tags": [
+      "motion",
+      "animation",
+      "easing",
+      "mograph",
+      "ai-briefly"
+    ],
+    "status": "beta",
+    "date": "2026-10-28",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Sana)",
+        "url": "https://superside.sana.ai/create/s/VqQ8rhDqnuN7/file%3As4Pf6GhpH3qw"
+      },
+      {
+        "label": "Testing channel #motion_dna_mcp_testing",
+        "url": "https://konsus.slack.com/archives/C0CAJ42DDS8"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1793196030233339"
+    }
+  },
+  {
+    "id": "higgsfield-motion",
+    "name": "Higgsfield: From Zero to Motion",
+    "type": "guide",
+    "summary": "Higgsfield seen through a motion creative's lens: tools, tips and tricks to make generation easier, preparing creatives for a first practice project.",
+    "how_to_use": "",
+    "owners": [
+      "Tomi Foldes"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "Higgsfield"
+    ],
+    "tags": [
+      "video generation",
+      "motion",
+      "ai video",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-10-21",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Sana, likely this session)",
+        "url": "https://superside.sana.ai/s/xdGacXaDAAzD"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1792591239903119"
+    }
+  },
+  {
+    "id": "claude-code-for-design",
+    "name": "Claude Code for Design",
+    "type": "workflow",
+    "summary": "A new way of producing creative work driven by Claude Code, accessible to everyone, with big efficiency gains for production work (Tor Egil, #64). Follow-up 'Dr. Stragentlove' session by Manuel Berbin shared a backbone/cheatsheet for working with agent models.",
+    "how_to_use": "",
+    "owners": [
+      "Tor Egil Fusdahl",
+      "Manuel Berbin"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude Code"
+    ],
+    "tags": [
+      "production",
+      "agents",
+      "automation",
+      "cheatsheet",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-10-07",
+    "updated": "2026-10-15",
+    "links": [
+      {
+        "label": "#64 recording (Sana)",
+        "url": "https://superside.sana.ai/s/cw2gramUXL4k"
+      },
+      {
+        "label": "Part 2 'Dr. Stragentlove' recording (Sana)",
+        "url": "https://superside.sana.ai/s/4MzCbEV7rQ9B"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1791381615223439"
+    }
+  },
+  {
+    "id": "before-after-ai-lauren",
+    "name": "Before. After. This. That.",
+    "type": "experiment",
+    "summary": "Playful look at how AI blurs the line between before, after, reference and result.",
+    "how_to_use": "",
+    "owners": [
+      "Lauren Coetzee"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "references",
+      "transformation",
+      "hallucination",
+      "ai-briefly"
+    ],
+    "status": "unknown",
+    "date": "2026-09-30",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1790776806244279"
+    }
+  },
+  {
+    "id": "ai-video-production-workflow-charry",
+    "name": "AI video production workflow",
+    "type": "workflow",
+    "summary": "Full AI video workflow from pre-production and visual consistency to animation and delivery, with techniques for controlling shots, adapting across formats and using visual references.",
+    "how_to_use": "",
+    "owners": [
+      "Juan Esteban Charry"
+    ],
+    "teams": [
+      "Creative",
+      "Video"
+    ],
+    "tools": [
+      "AI video"
+    ],
+    "tags": [
+      "video",
+      "consistency",
+      "formats",
+      "pre-production",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-09-09",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1788962409248429"
+    }
+  },
+  {
+    "id": "hybrid-workflows-consistent-character",
+    "name": "Hybrid workflows: consistent character",
+    "type": "workflow",
+    "summary": "The real journey of creating a consistent AI character, mixing AI with traditional craft (sessions 2026-07-29 and 2026-09-16).",
+    "how_to_use": "",
+    "owners": [
+      "Marie Gimenez"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "character consistency",
+      "hybrid",
+      "illustration",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-07-29",
+    "updated": "2026-09-16",
+    "links": [
+      {
+        "label": "Recording 2026-07-29 (Drive)",
+        "url": "https://drive.google.com/file/d/15J19XFzukMOF88ETdvVaukNHOy5mg3N7/view?usp=drive_web"
+      },
+      {
+        "label": "Notes by Gemini 2026-07-29",
+        "url": "https://docs.google.com/document/d/1GFLBRfqeNaekmPOB8uiib_v3h8GdkFa8GqvOG3rGBG0/edit?usp=meet_tnfm_calendar"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1785333606339039"
+    }
+  },
+  {
+    "id": "daily-planning-skill",
+    "name": "/daily-planning skill",
+    "type": "skill",
+    "summary": "Claude skill giving one view of what needs you today from Slack, Gmail, Asana, Superspace and Calendar: top-5 priorities, missed threads, project status, hours vs target, meetings and action buttons. Demoed at AI Briefly 2026-09-02 ('Daily Habit').",
+    "how_to_use": "Claude > Customize > Browse > Your Organization > Plugins > Creative Starter Pack; run /daily-planning",
+    "owners": [
+      "Careth Colmenarez",
+      "Matteo Rostagno",
+      "Michal Stangret"
+    ],
+    "teams": [
+      "Creative",
+      "All"
+    ],
+    "tools": [
+      "Claude",
+      "Slack",
+      "Gmail",
+      "Asana",
+      "Superspace",
+      "Google Calendar"
+    ],
+    "tags": [
+      "planning",
+      "priorities",
+      "hours",
+      "inbox",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-09-02",
+    "updated": null,
+    "links": [
+      {
+        "label": "Demo recording (Sana)",
+        "url": "https://superside.sana.ai/s/ynT9U4VWJRZv"
+      },
+      {
+        "label": "Support #creative-skills-support",
+        "url": "https://konsus.slack.com/archives/C0BNRR8LS6L"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/C038Z1Y0TE3/p1788442415256419"
+    }
+  },
+  {
+    "id": "ai-bootcamp-workflows",
+    "name": "AI Bootcamp production workflows",
+    "type": "guide",
+    "summary": "Behind-the-scenes of the AI Bootcamp: designing scalable creative workflows from brief to post-production and achieving consistent, impactful visuals (Natasha Prinsloo 2026-02-25; Vitória Borba 2026-08-19; Karolina Razuri 2026-08-26).",
+    "how_to_use": "",
+    "owners": [
+      "Natasha Prinsloo",
+      "Vitória Borba",
+      "Karolina Razuri"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "bootcamp",
+      "training",
+      "consistency",
+      "upskilling",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-02-25",
+    "updated": "2026-08-26",
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1773171277620869"
+    }
+  },
+  {
+    "id": "color-correction-script",
+    "name": "Keeping Color True (NB2 batch color-correction script)",
+    "type": "tool",
+    "summary": "Fixes colour drift in batches of Nano Banana 2 generations; shows the ComfyUI custom-node solution plus a script anyone can use, with measured per-generation colour variation (#56).",
+    "how_to_use": "",
+    "owners": [
+      "Aaron Amortegui"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Nano Banana 2",
+      "ComfyUI",
+      "Python"
+    ],
+    "tags": [
+      "color correction",
+      "batch",
+      "color drift",
+      "ecommerce",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-08-12",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Sana)",
+        "url": "https://superside.sana.ai/s/6JjUYAAgC4T5"
+      },
+      {
+        "label": "Color_script (Drive)",
+        "url": "https://drive.google.com/drive/u/3/folders/1I8EucdUAfBuMTUQPJUhvezyZ19hQdUQh"
+      },
+      {
+        "label": "Notes by Gemini 2026-08-12",
+        "url": "https://docs.google.com/document/d/1OFp9pG9p9SD8FBymNaTzVKjrMN51KBum92WSZk_jtoM/edit?usp=meet_tnfm_calendar"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1786627801940399"
+    }
+  },
+  {
+    "id": "skill-drop-matteo",
+    "name": "The Skill Drop",
+    "type": "announcement",
+    "summary": "Matteo Rostagno's session on new Claude skills for creatives (precursor to the Creative Starter Pack / daily-planning launch). Content details not captured in reachable notes.",
+    "how_to_use": "",
+    "owners": [
+      "Matteo Rostagno"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "skills",
+      "claude",
+      "ai-briefly"
+    ],
+    "status": "unknown",
+    "date": "2026-08-05",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Drive)",
+        "url": "https://drive.google.com/file/d/1HxRG_jHztmnuzDbsceRr6e3Z3bFxiyg4/view?usp=drive_web"
+      },
+      {
+        "label": "Notes by Gemini",
+        "url": "https://docs.google.com/document/d/1-epohYfpT26AB8esQGEsqiAMzQi6m8ALWsNkTEhIrW0/edit?usp=meet_tnfm_calendar"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1785938406311789"
+    }
+  },
+  {
+    "id": "claude-figma-ai-better-together",
+    "name": "Claude + Figma AI: Better Together",
+    "type": "workflow",
+    "summary": "Combining Claude with Figma AI features for design production.",
+    "how_to_use": "",
+    "owners": [
+      "Guilherme Fidélio"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Figma AI"
+    ],
+    "tags": [
+      "figma",
+      "design production",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-07-22",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1784728805624079"
+    }
+  },
+  {
+    "id": "superside-brand-models",
+    "name": "Superside Brand Models (Figma/FigJam plugin)",
+    "type": "plugin",
+    "summary": "Brand-trained image models brought into Figma and FigJam via the Superside Brand Models plugin (introduced 2025-10-01); new Brand Model setup shown with Brand Brain (2026-03-25); 'What's new' (#46, 2026-06-03) and 'Brand Model Updates and Skillpilled' (#52, 2026-07-15).",
+    "how_to_use": "",
+    "owners": [
+      "Manuel Berbin",
+      "Pedro Brasil"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Figma",
+      "FigJam",
+      "Brand Models"
+    ],
+    "tags": [
+      "brand",
+      "on-brand imagery",
+      "custom models",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2025-10-01",
+    "updated": "2026-07-15",
+    "links": [
+      {
+        "label": "#46 What's new (Sana)",
+        "url": "https://superside.sana.ai/s/Hnm76ykArTiz"
+      },
+      {
+        "label": "Brand Brain & New Brand Models (Sana)",
+        "url": "https://superside.sana.ai/s/PHX6WpzsTvxP/next"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1759853211992199"
+    }
+  },
+  {
+    "id": "brand-brain-superspace-2",
+    "name": "Brand Brain & Superspace 2.0",
+    "type": "announcement",
+    "summary": "Special edition: Phillip Maggs live-demoed Superspace 2.0 and the Superside Brand Brain; Manuel Berbin walked through the new Brand Model setup.",
+    "how_to_use": "",
+    "owners": [
+      "Phillip Maggs",
+      "Manuel Berbin"
+    ],
+    "teams": [
+      "Creative",
+      "Product"
+    ],
+    "tools": [
+      "Superspace",
+      "Brand Brain"
+    ],
+    "tags": [
+      "brand",
+      "brand kits",
+      "platform",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-03-25",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Sana)",
+        "url": "https://superside.sana.ai/s/PHX6WpzsTvxP/next"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1774428275910919"
+    }
+  },
+  {
+    "id": "marqeta-blender-3d-icon-automation",
+    "name": "Marqeta 3D icon render automation (vibe-coded Blender add-on + Blender MCP)",
+    "type": "automation",
+    "summary": "Vibe-coded Blender add-on that turns SVG icons into controlled, repeatable, client-adjustable 3D renders; Claude/Cursor + Blender MCP used to build it. Argues for using AI to automate the right specialist tool rather than generating final images.",
+    "how_to_use": "",
+    "owners": [
+      "Javier Velazquez",
+      "Sara Popov"
+    ],
+    "teams": [
+      "3D",
+      "Immersive"
+    ],
+    "tools": [
+      "Blender",
+      "Blender MCP",
+      "Claude",
+      "Cursor"
+    ],
+    "tags": [
+      "3d",
+      "icons",
+      "svg",
+      "automation",
+      "vibe coding",
+      "immersive",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-07-08",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Sana)",
+        "url": "https://superside.sana.ai/s/Ti5MLBmh4Ngp"
+      },
+      {
+        "label": "Presentation outline (Notion)",
+        "url": "https://app.notion.com/p/b3b9e32c62da4a53b90a67a085724170"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1783519208338419"
+    }
+  },
+  {
+    "id": "personal-voice-builder",
+    "name": "personal-voice-builder skill",
+    "type": "skill",
+    "summary": "Teaches Claude to write like you: reads your real Slack messages, maps your 'gears', register by audience and writing fingerprints, then outputs an installable skill, reference file and analysis report. Presented at the #50 AI, Briefly special edition.",
+    "how_to_use": "In Claude type /personal-voice-builder; it interviews you.",
+    "owners": [
+      "Phillip Maggs"
+    ],
+    "teams": [
+      "All"
+    ],
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "writing",
+      "tone of voice",
+      "drafting",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-07-01",
+    "updated": null,
+    "links": [
+      {
+        "label": "#50 recording (Sana)",
+        "url": "https://superside.sana.ai/s/grjjp3NiLY1Q"
+      },
+      {
+        "label": "#50 Challenge (Figma)",
+        "url": "https://www.figma.com/design/bcKrfhb2enyZnV9hXXVRpR/-50---AI--Briefly-The-Challenge?node-id=5010-290"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/C0BDGFE5QTE/p1782918682622749"
+    }
+  },
+  {
+    "id": "figma-make-for-dummies",
+    "name": "Figma Make for Dummies",
+    "type": "guide",
+    "summary": "Intro to Figma Make for creatives (#49).",
+    "how_to_use": "",
+    "owners": [
+      "Gabrielle Moura"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Figma Make"
+    ],
+    "tags": [
+      "prototyping",
+      "figma",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-06-24",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Sana)",
+        "url": "https://superside.sana.ai/s/spc1yrwehPMn"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1782309610527959"
+    }
+  },
+  {
+    "id": "cult-of-notebook",
+    "name": "The Cult of Notebook",
+    "type": "guide",
+    "summary": "Session on a notebook-style AI research/knowledge workflow (likely NotebookLM; not confirmed) (#48).",
+    "how_to_use": "",
+    "owners": [
+      "Delisa Govender"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "NotebookLM (unconfirmed)"
+    ],
+    "tags": [
+      "research",
+      "knowledge",
+      "ai-briefly"
+    ],
+    "status": "unknown",
+    "date": "2026-06-17",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1781705114242099"
+    }
+  },
+  {
+    "id": "figma-agents",
+    "name": "Figma Agents",
+    "type": "guide",
+    "summary": "How to create strong work easily with Figma's agents (#47).",
+    "how_to_use": "",
+    "owners": [
+      "Rafael Costa"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Figma"
+    ],
+    "tags": [
+      "figma",
+      "agents",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-06-10",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Sana)",
+        "url": "https://superside.sana.ai/s/nCQcSirRB2my"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1781100004586409"
+    }
+  },
+  {
+    "id": "claude-to-figma-to-production",
+    "name": "Built for How We Work: From Claude to Figma to Production",
+    "type": "workflow",
+    "summary": "Careth Colmenarez's Claude-to-Figma production workflow (#45).",
+    "how_to_use": "",
+    "owners": [
+      "Careth Colmenarez"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Claude",
+      "Figma"
+    ],
+    "tags": [
+      "production",
+      "figma",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-05-27",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Sana)",
+        "url": "https://superside.sana.ai/s/7o2CHrYevknH"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1779976097004619"
+    }
+  },
+  {
+    "id": "design-systems-figma-mcp-codex",
+    "name": "Design Systems at Scale with Figma MCP + Codex",
+    "type": "workflow",
+    "summary": "Scaling design systems using the Figma MCP with Codex (#44).",
+    "how_to_use": "",
+    "owners": [
+      "Guilherme Fidélio"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Figma MCP",
+      "Codex"
+    ],
+    "tags": [
+      "design system",
+      "mcp",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-05-20",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Sana)",
+        "url": "https://superside.sana.ai/s/BDhhqxJ3zL9t"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1779369300941869"
+    }
+  },
+  {
+    "id": "flora-nodes-to-image",
+    "name": "From Nodes to Image (Flora workflow)",
+    "type": "workflow",
+    "summary": "Behind-the-scenes of a node-based image workflow in Flora; workflow file shared (#43).",
+    "how_to_use": "",
+    "owners": [
+      "Julia Calabrese"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Flora"
+    ],
+    "tags": [
+      "nodes",
+      "image generation",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-05-13",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Sana)",
+        "url": "https://superside.sana.ai/s/t6eAytudb4WK"
+      },
+      {
+        "label": "Flora workflow",
+        "url": "https://app.flora.ai/join-project/ad68349a-f214-4e0f-99da-0b8676663314"
+      },
+      {
+        "label": "Recording mp4 (Drive)",
+        "url": "https://drive.google.com/file/d/1fdtKW36vB2G06cGEf6St-yZYp_xPLiXt/view?usp=drivesdk"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1778696430729079"
+    }
+  },
+  {
+    "id": "vibecoding-figma-mcp-email",
+    "name": "Vibecoding + Figma MCP for email production",
+    "type": "workflow",
+    "summary": "Vibecoding and the Figma MCP used to produce emails (S42).",
+    "how_to_use": "",
+    "owners": [
+      "Miguel Leca"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Figma MCP",
+      "Vibe coding"
+    ],
+    "tags": [
+      "email",
+      "html",
+      "production",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-05-06",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Sana)",
+        "url": "https://superside.sana.ai/s/r91gv6YTfTxp"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1778161438997519"
+    }
+  },
+  {
+    "id": "playground-mindset-seasonal-workflows",
+    "name": "The Playground Mindset (Walter Hagen seasonal AI workflows)",
+    "type": "workflow",
+    "summary": "Seasonal AI image workflows built for Dick's Sporting Goods' Walter Hagen golf apparel; node-based systems (S41).",
+    "how_to_use": "",
+    "owners": [
+      "Flavio Treiger"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Node-based tools"
+    ],
+    "tags": [
+      "ecommerce",
+      "apparel",
+      "seasonal",
+      "nodes",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-04-29",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Sana)",
+        "url": "https://superside.sana.ai/s/28vWaio3qBKC"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1777557608705829"
+    }
+  },
+  {
+    "id": "directed-not-generated",
+    "name": "Directed, Not Generated",
+    "type": "guide",
+    "summary": "Art-directing AI output and post-production/QC workflow optimisation (S40).",
+    "how_to_use": "",
+    "owners": [
+      "Manuel Huertas"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "art direction",
+      "qc",
+      "post-production",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-04-22",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Sana)",
+        "url": "https://superside.sana.ai/s/A8tYcLUo53bF"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1777557608705829"
+    }
+  },
+  {
+    "id": "the-incredible-bulk",
+    "name": "The Incredible Bulk",
+    "type": "workflow",
+    "summary": "Bulk / at-scale AI generation workflows (S39).",
+    "how_to_use": "",
+    "owners": [
+      "Juan Dupouy"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "scale",
+      "batch",
+      "bulk generation",
+      "ai-briefly"
+    ],
+    "status": "unknown",
+    "date": "2026-04-15",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Sana)",
+        "url": "https://superside.sana.ai/s/GxPWqo4g1L8J"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1777557608705829"
+    }
+  },
+  {
+    "id": "seedance-2-launch",
+    "name": "Seedance 2.0 launch",
+    "type": "tool",
+    "summary": "Introduction of Seedance 2.0 video model for creatives (Mar-Apr 2026).",
+    "how_to_use": "",
+    "owners": [
+      "Rafael Costa"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Seedance 2.0"
+    ],
+    "tags": [
+      "ai video",
+      "video generation",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-04-01",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1775736007271349"
+    }
+  },
+  {
+    "id": "audiovisual-repository",
+    "name": "Audiovisual Repository",
+    "type": "tool",
+    "summary": "Julian Garcia's repository of audiovisual AI assets/resources (Mar-Apr 2026).",
+    "how_to_use": "",
+    "owners": [
+      "Julian Garcia"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "assets",
+      "repository",
+      "video",
+      "ai-briefly"
+    ],
+    "status": "unknown",
+    "date": "2026-04-01",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1775736007271349"
+    }
+  },
+  {
+    "id": "ultra-high-res-print",
+    "name": "Ultra-high-resolution AI images for print & brochures",
+    "type": "workflow",
+    "summary": "Producing print-ready, ultra-high-resolution AI imagery (Mar 2026).",
+    "how_to_use": "",
+    "owners": [
+      "Pedro Brasil",
+      "Helena Figueiredo"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "print",
+      "upscaling",
+      "resolution",
+      "brochures",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-03-11",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1775736007271349"
+    }
+  },
+  {
+    "id": "cinematic-ai-motion-json-prompts",
+    "name": "Cinematic AI motion (JSON prompts, shot lists, frame schematics) & AI animation",
+    "type": "workflow",
+    "summary": "Using JSON prompts, shot lists and frame schematics to direct camera, composition and character action in AI motion (2025-09-24); 'Once Upon a Time... A Story of Animation' linking animation history to modular AI workflows (2026-03-04).",
+    "how_to_use": "",
+    "owners": [
+      "Gian Orsi"
+    ],
+    "teams": [
+      "Motion"
+    ],
+    "tools": [
+      "JSON prompting",
+      "AI video"
+    ],
+    "tags": [
+      "motion",
+      "camera",
+      "shot list",
+      "character consistency",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2025-09-24",
+    "updated": "2026-03-04",
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1759263808673689"
+    }
+  },
+  {
+    "id": "merch-express-krea-nodes",
+    "name": "Merch Express x Krea Nodes",
+    "type": "workflow",
+    "summary": "Node-based Krea workflow to speed up merch mockup production without losing quality.",
+    "how_to_use": "",
+    "owners": [
+      "Emmanuel Cantón"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Krea Nodes"
+    ],
+    "tags": [
+      "merch",
+      "mockups",
+      "nodes",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-02-04",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording mp4 (Drive)",
+        "url": "https://drive.google.com/file/d/1o2S4DtBOjg1ujn0EPS87LYcYFxxwdapB/view?usp=drivesdk"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1771352129768709"
+    }
+  },
+  {
+    "id": "brands-ai-not-messing-it-up",
+    "name": "Brands, AI, and the Art of Not Messing It Up",
+    "type": "guide",
+    "summary": "Trust and brand perception when using AI; 'you can automate a lot of things, but trust isn't one of them'.",
+    "how_to_use": "",
+    "owners": [
+      "Bianca Pieterse"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "brand trust",
+      "ethics",
+      "strategy",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-02-11",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1771352129768709"
+    }
+  },
+  {
+    "id": "krea-nano-banana-elements",
+    "name": "Krea Nano Banana Elements",
+    "type": "guide",
+    "summary": "Using Krea's Nano Banana Elements to keep context for fast, loose visuals and scale consistency.",
+    "how_to_use": "",
+    "owners": [
+      "Manuel Berbin"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Krea",
+      "Nano Banana"
+    ],
+    "tags": [
+      "consistency",
+      "context",
+      "elements",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-01-28",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1770146750085399"
+    }
+  },
+  {
+    "id": "node-based-platforms-comparison",
+    "name": "Node-based platforms: Krea vs Flora vs Weavy vs ComfyUI",
+    "type": "guide",
+    "summary": "Compares node-based tools and shows company-wide shareable Krea Nodes workflows for character consistency, style exploration and multi-modal output.",
+    "how_to_use": "",
+    "owners": [
+      "Juan Dupouy"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Krea Nodes",
+      "Flora",
+      "Weavy",
+      "ComfyUI"
+    ],
+    "tags": [
+      "nodes",
+      "shared workflows",
+      "consistency",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-01-21",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1769545438801059"
+    }
+  },
+  {
+    "id": "kickoff-to-kickass",
+    "name": "Kickoff to Kickass",
+    "type": "guide",
+    "summary": "Kickoff constraints and final QC (fixing hallucinations) as the two moments that define AI project success; split complex prompts into structured steps with references.",
+    "how_to_use": "",
+    "owners": [
+      "Julian Garcia"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "qc",
+      "hallucinations",
+      "prompting",
+      "kickoff",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2026-01-14",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1768937651920059"
+    }
+  },
+  {
+    "id": "contact-sheet-cheat",
+    "name": "The Contact Sheet Cheat (AI consistency)",
+    "type": "workflow",
+    "summary": "Multi-shot character consistency in AI video treated as an iterable system (2026-01-07); earlier masterclass on visual continuity across outputs (2025-09-17).",
+    "how_to_use": "",
+    "owners": [
+      "Cristian Rojas"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "AI video"
+    ],
+    "tags": [
+      "character consistency",
+      "continuity",
+      "video",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2025-09-17",
+    "updated": "2026-01-07",
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1758653949756699"
+    }
+  },
+  {
+    "id": "ai-immersive-mcp-workflows",
+    "name": "AI in immersive work & MCPs",
+    "type": "guide",
+    "summary": "How the Immersive team integrates AI beyond image generation: adaptive workflows, context, and MCPs bridging the software stack.",
+    "how_to_use": "",
+    "owners": [
+      "Manuel Palenque"
+    ],
+    "teams": [
+      "Immersive"
+    ],
+    "tools": [
+      "MCP"
+    ],
+    "tags": [
+      "immersive",
+      "mcp",
+      "workflows",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2025-12-03",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording (Sana)",
+        "url": "https://superside.sana.ai/s/bu4zw6cujMB4/file:e13yu18M4qUi"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1765281606976579"
+    }
+  },
+  {
+    "id": "ai-briefing-tool",
+    "name": "AI-Briefing tool (Using AI to write and read a creative brief)",
+    "type": "tool",
+    "summary": "Preview of an AI-Briefing tool creating executable, personalised briefs via context engineering.",
+    "how_to_use": "",
+    "owners": [
+      "Phillip Maggs"
+    ],
+    "teams": [
+      "Product",
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "briefs",
+      "context engineering",
+      "ai-briefly"
+    ],
+    "status": "wip",
+    "date": "2025-11-26",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1764700798335289"
+    }
+  },
+  {
+    "id": "mascot-feasibility-test",
+    "name": "Brand mascot feasibility test",
+    "type": "workflow",
+    "summary": "Quick AI feasibility test to validate character viability before committing to a mascot brief (Simple Supports & Fixings).",
+    "how_to_use": "",
+    "owners": [
+      "Francisco Frigerio"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "mascot",
+      "character",
+      "feasibility",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2025-11-12",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1763479461728819"
+    }
+  },
+  {
+    "id": "photoshop-nano-banana",
+    "name": "Photoshop + Nano Banana",
+    "type": "workflow",
+    "summary": "Combining Photoshop and Nano Banana for photo-real compositions and branded consistency.",
+    "how_to_use": "",
+    "owners": [
+      "Juan Sebastián Rivera"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Photoshop",
+      "Nano Banana"
+    ],
+    "tags": [
+      "compositing",
+      "retouching",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2025-11-05",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1762873851990309"
+    }
+  },
+  {
+    "id": "ai-constraints-video-ads",
+    "name": "Turning AI constraints into creative leverage",
+    "type": "guide",
+    "summary": "Building video ad concepts around what AI can't yet do.",
+    "how_to_use": "",
+    "owners": [
+      "Piotr Smietana"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "video ads",
+      "concepting",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2025-10-22",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1761670405831459"
+    }
+  },
+  {
+    "id": "visual-to-text-prompting",
+    "name": "Visual to Text prompting",
+    "type": "guide",
+    "summary": "Translating visuals into words for clearer prompts instead of over-relying on image references.",
+    "how_to_use": "",
+    "owners": [
+      "Pedro Brasil"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "prompting",
+      "references",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2025-10-15",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1761065823492299"
+    }
+  },
+  {
+    "id": "upsampling-upkeeping",
+    "name": "Upsampling & Upkeeping (Topaz, Face Enhancer)",
+    "type": "guide",
+    "summary": "When (and when not) to upscale; Topaz and Face Enhancer to keep images sharp and artifact-free. Earlier session (2025-09-10) covered AI post-production and avoiding oversharpening.",
+    "how_to_use": "",
+    "owners": [
+      "Julian Garcia"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Topaz",
+      "Face Enhancer"
+    ],
+    "tags": [
+      "upscaling",
+      "post-production",
+      "retouching",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2025-09-10",
+    "updated": "2025-10-08",
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1760383953207339"
+    }
+  },
+  {
+    "id": "mix-tooling",
+    "name": "Mix Tooling (GPT + Sora + Nano Banana in Krea + Weavy)",
+    "type": "workflow",
+    "summary": "Chaining tools: GPT for first character draft and re-style, Sora for expressions, Nano Banana in Krea for scenarios; Weavy + GPT JSON prompt structures + Krea for scalable personas (Schneider Electric).",
+    "how_to_use": "",
+    "owners": [
+      "Juan Dupouy"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Sora",
+      "Krea",
+      "Nano Banana",
+      "Weavy",
+      "Gemini"
+    ],
+    "tags": [
+      "character",
+      "consistency",
+      "json prompts",
+      "mix tools",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2025-09-03",
+    "updated": null,
+    "links": [
+      {
+        "label": "Deck (Google Slides)",
+        "url": "https://docs.google.com/presentation/d/1HqyBoXg4rV4oJDbhJB4MIMsF05tVW6rMEYKjdLFPyJ4/edit?usp=sharing"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1757086027139689"
+    }
+  },
+  {
+    "id": "custom-image-models-cim",
+    "name": "Understanding CIM (Custom Image Models)",
+    "type": "guide",
+    "summary": "Custom image models for brand-aligned visuals via guided variations.",
+    "how_to_use": "",
+    "owners": [
+      "Jun Okida"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "custom models",
+      "brand",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2025-08-27",
+    "updated": null,
+    "links": [
+      {
+        "label": "AI Briefly recordings (Sana)",
+        "url": "https://superside.sana.ai/discover?modal=browse&s=newest&c=any-type&t=%5B%22RGBfpjCrCJkE%22%5D&a=%5B%5D"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1757086027139689"
+    }
+  },
+  {
+    "id": "ai-video-production-berbin",
+    "name": "AI video in action / end-to-end AI video production",
+    "type": "workflow",
+    "summary": "AI video demos with replicable workflows (2025-07-23 'burger') and end-to-end AI video production (2025-08-20).",
+    "how_to_use": "",
+    "owners": [
+      "Manuel Berbin"
+    ],
+    "teams": [
+      "Creative",
+      "Video"
+    ],
+    "tools": [
+      "AI video"
+    ],
+    "tags": [
+      "video",
+      "workflow",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2025-07-23",
+    "updated": "2025-08-20",
+    "links": [
+      {
+        "label": "2025-07-23 recording & deck (Sana)",
+        "url": "https://superside.sana.ai/s/b6RRX35QH63z"
+      },
+      {
+        "label": "2025-08-20 recording (Sana)",
+        "url": "https://superside.sana.ai/s/a6WWncvTGvEe"
+      },
+      {
+        "label": "2025-08-20 recording (Drive)",
+        "url": "https://drive.google.com/file/d/1xU2JIOJ5rV_90lemB3en7Ew9z8nscW1V/view"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1753456670535679"
+    }
+  },
+  {
+    "id": "ai-consistency-workflows-berbin",
+    "name": "Achieving consistency with AI",
+    "type": "workflow",
+    "summary": "Consistency techniques with two downloadable replication workflows (5th AI, Briefly).",
+    "how_to_use": "",
+    "owners": [
+      "Manuel Berbin"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "consistency",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2025-07-16",
+    "updated": null,
+    "links": [
+      {
+        "label": "Recording & deck (Sana)",
+        "url": "https://superside.sana.ai/s/6WGM6w735wZN"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1752788974398639"
+    }
+  },
+  {
+    "id": "better-prompts-meta-prompting",
+    "name": "Better prompts & Meta prompting",
+    "type": "guide",
+    "summary": "Prompting craft: 'better prompts' (2025-07-30, Manuel Berbin & Jason) and 'Meta Prompting' (2025-08-13).",
+    "how_to_use": "",
+    "owners": [
+      "Manuel Berbin"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [],
+    "tags": [
+      "prompting",
+      "meta prompting",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2025-07-30",
+    "updated": "2025-08-13",
+    "links": [
+      {
+        "label": "Better prompts (Sana)",
+        "url": "https://superside.sana.ai/s/Usb3hwxbsoVg"
+      },
+      {
+        "label": "Meta Prompting (Sana)",
+        "url": "https://superside.sana.ai/s/HFqnjHJJTiK7"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1754082277771179"
+    }
+  },
+  {
+    "id": "krea-custom-model-training",
+    "name": "Train your own Krea model (+ Italian brainrot)",
+    "type": "workflow",
+    "summary": "Júlio Aymoré's sessions: step-by-step AI workflow to train your own Krea model (2025-06-25) and a playful 'Italian brainrot' session (2025-07-09).",
+    "how_to_use": "",
+    "owners": [
+      "Júlio Aymoré"
+    ],
+    "teams": [
+      "Creative"
+    ],
+    "tools": [
+      "Krea",
+      "Midjourney"
+    ],
+    "tags": [
+      "custom model",
+      "training",
+      "lora",
+      "ai-briefly"
+    ],
+    "status": "shipped",
+    "date": "2025-06-25",
+    "updated": "2025-07-09",
+    "links": [
+      {
+        "label": "2025-06-25 recording (Sana)",
+        "url": "https://superside.sana.ai/s/ekLzYdqNdmZQ"
+      },
+      {
+        "label": "2025-07-09 recording & deck (Sana)",
+        "url": "https://superside.sana.ai/s/9ZokCJC9cr59"
+      }
+    ],
+    "source": {
+      "kind": "meeting",
+      "channel": "AI, Briefly (weekly; announced in #creatives-only / #tribe-generative-ai)",
+      "permalink": "https://konsus.slack.com/archives/G2HQYQ9GT/p1750951744723849"
+    }
+  }
+]
